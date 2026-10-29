@@ -81,6 +81,7 @@
 - [x] `P00-C011` repository hygiene auditor and Git ignore negation verified on HotSpot 64-Bit VM with exit code 0.
 - [x] **Phase 00 Capstone Integration Project:** Multi-package command-line inventory system built, disassembled via `javap`, packaged into standalone executable JAR, and executed with exit code 0.
 - [x] **Phase 00 Completion Gate:** Reconciled and marked `COMPLETE` (11/11 concepts complete, 100%).
+- [x] `P01-C001` primitive boundary visualizer and bitwise packer verified on HotSpot 64-Bit VM with exit code 0.
 
 ---
 
@@ -92,7 +93,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed Phase 00 (100% COMPLETE).
+- **Current Stop Point:** Completed `P01-C001`.
 - **Exact Next Queued Concept:**
-  - `P01-C001`: *Primitive Data Types, Bit Widths, and Numeric Ranges* (`curriculum/phase-01-java-language-fundamentals/001-primitive-data-types.md`)
   - `P01-C002`: *Floating-Point Precision, IEEE 754, and Rounding Hazards* (`curriculum/phase-01-java-language-fundamentals/002-floating-point-types-and-precision.md`)
+  - `P01-C003`: *Reference Types vs Primitive Types in Memory* (`curriculum/phase-01-java-language-fundamentals/003-reference-types-vs-primitives.md`)

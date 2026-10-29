@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 11 | 3.5% |
+| **Modules Complete (`COMPLETE`)** | 12 | 3.8% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 301 | 96.5% |
+| **Modules Not Started (`NOT_STARTED`)** | 300 | 96.2% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Phase 00 is **100% COMPLETE** (11/11 concepts complete, capstone verified).
-- **Status:** Advancing to Phase 01: Java Language Fundamentals.
-- **Exact Next Queued Concept:** `P01-C001` — *Primitive Data Types, Bit Widths, and Numeric Ranges* (`curriculum/phase-01-java-language-fundamentals/001-primitive-data-types.md`)
-- **Following Concept:** `P01-C002` — *Floating-Point Precision, IEEE 754, and Rounding Hazards* (`curriculum/phase-01-java-language-fundamentals/002-floating-point-types-and-precision.md`)
+- **Current Focus:** Completed `P01-C001` (Verified and committed).
+- **Status:** Resuming Phase 01 execution pipeline.
+- **Exact Next Queued Concept:** `P01-C002` — *Floating-Point Precision, IEEE 754, and Rounding Hazards* (`curriculum/phase-01-java-language-fundamentals/002-floating-point-types-and-precision.md`)
+- **Following Concept:** `P01-C003` — *Reference Types vs Primitive Types in Memory* (`curriculum/phase-01-java-language-fundamentals/003-reference-types-vs-primitives.md`)
 
 ---
 
@@ -32,7 +32,7 @@
 | Phase | Phase Name | Planned Concepts | Completed | In Progress | Status |
 |---|---|---|---|---|---|
 | **Phase 00** | Development Environment and Java Execution | 11 | 11 | 0 | COMPLETE |
-| **Phase 01** | Java Language Fundamentals | 15 | 0 | 0 | NOT_STARTED |
+| **Phase 01** | Java Language Fundamentals | 15 | 1 | 0 | IN_PROGRESS |
 | **Phase 02** | Object-Oriented Programming | 15 | 0 | 0 | NOT_STARTED |
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 0 | 0 | NOT_STARTED |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 0 | 0 | NOT_STARTED |

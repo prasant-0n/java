@@ -69,3 +69,6 @@ and this project adheres to strict evidence-based curriculum versioning.
   - Multi-package command-line inventory system (`com.example.inventory`) established in `curriculum/phase-00-development-environment-java-execution/capstone/`.
   - Pure CLI compilation targeting Java 21 (`javac --release 21`), bytecode disassembly (`javap -v`), packaging into executable JAR (`jar --main-class`), and headless runtime execution (`java -Djava.awt.headless=true -jar`) verified cleanly with exit code 0.
   - Phase 00 marked `COMPLETE` (11/11 modules, 100%).
+- **Twelfth Concept Module Authored & Verified (Phase 01 Launch):**
+  - `curriculum/phase-01-java-language-fundamentals/001-primitive-data-types.md`: Complete 16-section concept module covering the 8 Java primitives, physical bit widths and memory layouts, Two's Complement signed integer mathematics, unsigned 16-bit `char` and UTF-16 code units, JVM `boolean` stack implementation, literal radices and the Octal trap, the 30-day millisecond silent overflow trap, Binary Numeric Promotion (`byte + byte = int`), Java 8+ unsigned integer utility APIs, and relational database primary key exhaustion prevention (`INT` vs `BIGINT`).
+  - Subprocess binary visualizer and bitwise packer verified on OpenJDK 21 LTS (`exit code 0`).
