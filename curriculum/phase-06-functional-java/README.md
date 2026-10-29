@@ -38,7 +38,7 @@ By completing Phase 06, the learner will independently be able to:
 | Concept ID | Concept Title | File Name | Importance | Status |
 |---|---|---|---|---|
 | `P06-C001` | Functional Interfaces and the @FunctionalInterface Contract | [`001-functional-interfaces-core.md`](001-functional-interfaces-core.md) | Essential | COMPLETE |
-| `P06-C002` | Core Function Types: Predicate, Function, Consumer, Supplier, and Primitives | [`002-core-functional-interfaces.md`](002-core-functional-interfaces.md) | Essential | NOT_STARTED |
+| `P06-C002` | Core Function Types: Predicate, Function, Consumer, Supplier, and Primitives | [`002-core-functional-interfaces.md`](002-core-functional-interfaces.md) | Essential | COMPLETE |
 | `P06-C003` | Lambda Expressions: Syntax, Scope, Lexical Scoping, and Effectively Final | [`003-lambda-expressions-mechanics.md`](003-lambda-expressions-mechanics.md) | Essential | NOT_STARTED |
 | `P06-C004` | Method References: Static, Bound Instance, Unbound Instance, and Constructor | [`004-method-references.md`](004-method-references.md) | Essential | NOT_STARTED |
 | `P06-C005` | Stream API Fundamentals: Source, Intermediate, and Terminal Operations | [`005-stream-pipeline-lifecycle.md`](005-stream-pipeline-lifecycle.md) | Essential | NOT_STARTED |
@@ -106,7 +106,7 @@ Before marking Phase 06 as complete:
 
 - **Phase Status:** `IN_PROGRESS`
 - **Total Planned Concepts:** `12`
-- **Completed Concepts:** `1`
+- **Completed Concepts:** `2`
 - **In Progress:** `0`
-- **Completion Rate:** `8.3%`
+- **Completion Rate:** `16.7%`
 - **Last Verified Date:** `2026-10-30`

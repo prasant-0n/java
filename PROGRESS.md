@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 76 | 24.4% |
+| **Modules Complete (`COMPLETE`)** | 77 | 24.7% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 236 | 75.6% |
+| **Modules Not Started (`NOT_STARTED`)** | 235 | 75.3% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P06-C001` (Functional Interfaces and the @FunctionalInterface Contract). Phase 06 launch complete (1/12)!
-- **Status:** Phase 06 in progress (1/12 concepts complete).
-- **Exact Next Milestone:** `P06-C002` — *Core Function Types: Predicate, Function, Consumer, Supplier, and Primitives* (`curriculum/phase-06-functional-java/002-core-functional-interfaces.md`).
-- **Following Concept:** `P06-C003` — *Lambda Expressions: Syntax, Scope, Lexical Scoping, and Effectively Final* (`curriculum/phase-06-functional-java/003-lambda-expressions-mechanics.md`).
+- **Current Focus:** Completed `P06-C002` (Core Function Types: Predicate, Function, Consumer, Supplier, and Primitives). Phase 06 in progress (2/12)!
+- **Status:** Phase 06 in progress (2/12 concepts complete).
+- **Exact Next Milestone:** `P06-C003` — *Lambda Expressions: Syntax, Scope, Lexical Scoping, and Effectively Final* (`curriculum/phase-06-functional-java/003-lambda-expressions-mechanics.md`).
+- **Following Concept:** `P06-C004` — *Method References: Static, Bound Instance, Unbound Instance, and Constructor* (`curriculum/phase-06-functional-java/004-method-references.md`).
 
 ---
 
@@ -37,7 +37,7 @@
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 15 | 0 | COMPLETE |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 9 | 0 | COMPLETE |
 | **Phase 05** | Core Java APIs You Will Use in Production | 10 | 10 | 0 | COMPLETE |
-| **Phase 06** | Functional Java | 12 | 1 | 0 | IN_PROGRESS |
+| **Phase 06** | Functional Java | 12 | 2 | 0 | IN_PROGRESS |
 | **Phase 07** | File I/O, NIO, Configuration, and Data Formats | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 08** | JVM Internals and Memory Management | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 09** | Data Structures and Algorithms for Backend Developers | 13 | 0 | 0 | NOT_STARTED |

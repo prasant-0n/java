@@ -157,6 +157,7 @@
 - [x] **Phase 05 Capstone Integration Project:** Multi-Currency Global Billing and Invoicing Engine (`global-billing-engine`) built, regression tested (10/10 assertions passing), packaged into standalone executable JAR (`global-billing-engine-1.0.0.jar`), and executed with exit code 0.
 - [x] **Phase 05 Completion Gate:** Reconciled and marked `COMPLETE` (10/10 concepts complete + Capstone complete, 100%).
 - [x] `P06-C001` Functional interfaces and `@FunctionalInterface`: Single Abstract Method (SAM) contract (JLS §9.8), default/static methods and `java.lang.Object` public method exclusion rules, target typing and type inference (JLS §15.27.3), `LambdaMetafactory` indy bytecode linking, non-capturing singleton zero-allocation vs capturing closure heap footprint, and `ThrowingConsumer` checked exception bridging verified on HotSpot 64-Bit VM with exit code 0 (4/4 test suites passed).
+- [x] `P06-C002` Core function types (`java.util.function`): The 4 foundational archetypes (`Predicate`, `Function`, `Consumer`, `Supplier`), short-circuiting composition (`and`, `or`, `negate`, `Predicate.not`), mathematical execution ordering in `compose` vs `andThen`, thread-safe double-checked `MemoizingSupplier`, and primitive specializations (`IntUnaryOperator`, `LongConsumer`) eliminating 320MB autoboxing GC churn (14.6x speedup) verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 
 ---
 
@@ -168,7 +169,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P06-C001` (Functional Interfaces and the @FunctionalInterface Contract). Phase 06 in progress!
+- **Current Stop Point:** Completed `P06-C002` (Core Function Types: Predicate, Function, Consumer, Supplier, and Primitives). Phase 06 in progress!
 - **Exact Next Milestone:**
-  - `P06-C002`: *Core Function Types: Predicate, Function, Consumer, Supplier, and Primitives* (`curriculum/phase-06-functional-java/002-core-functional-interfaces.md`)
   - `P06-C003`: *Lambda Expressions: Syntax, Scope, Lexical Scoping, and Effectively Final* (`curriculum/phase-06-functional-java/003-lambda-expressions-mechanics.md`)
+  - `P06-C004`: *Method References: Static, Bound Instance, Unbound Instance, and Constructor* (`curriculum/phase-06-functional-java/004-method-references.md`)

@@ -141,7 +141,7 @@
 | Concept ID | Concept Title | Document Link | Status |
 |---|---|---|---|
 | `P06-C001` | Functional Interfaces and the @FunctionalInterface Contract | [`001-functional-interfaces-core.md`](curriculum/phase-06-functional-java/001-functional-interfaces-core.md) | `COMPLETE` |
-| `P06-C002` | Core Function Types: Predicate, Function, Consumer, Supplier, and Primitives | [`002-core-functional-interfaces.md`](curriculum/phase-06-functional-java/002-core-functional-interfaces.md) | `NOT_STARTED` |
+| `P06-C002` | Core Function Types: Predicate, Function, Consumer, Supplier, and Primitives | [`002-core-functional-interfaces.md`](curriculum/phase-06-functional-java/002-core-functional-interfaces.md) | `COMPLETE` |
 | `P06-C003` | Lambda Expressions: Syntax, Scope, Lexical Scoping, and Effectively Final | [`003-lambda-expressions-mechanics.md`](curriculum/phase-06-functional-java/003-lambda-expressions-mechanics.md) | `NOT_STARTED` |
 | `P06-C004` | Method References: Static, Bound Instance, Unbound Instance, and Constructor | [`004-method-references.md`](curriculum/phase-06-functional-java/004-method-references.md) | `NOT_STARTED` |
 | `P06-C005` | Stream API Fundamentals: Source, Intermediate, and Terminal Operations | [`005-stream-pipeline-lifecycle.md`](curriculum/phase-06-functional-java/005-stream-pipeline-lifecycle.md) | `NOT_STARTED` |
