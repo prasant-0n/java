@@ -94,6 +94,7 @@
 - [x] `P01-C011` method signature rules, 3-phase overload resolution hierarchy, varargs bytecode desugaring (`ACC_VARARGS`), null ambiguity resolution, and zero-allocation logging fast-path verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P01-C012` pass-by-value proofs (failed swap, nullification, primitive isolation), stack frame pointer copies vs heap mutation, and immutable defensive DTOs verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P01-C013` 4 pillars of String immutability, JEP 254 Compact Strings (Latin-1 vs UTF-16), SCP PermGen-to-Heap evolution, StringTable internals, and constant folding verified on HotSpot 64-Bit VM with exit code 0.
+- [x] `P01-C014` dynamic array growth formula ((cap*2)+2), pre-allocation benchmarking, JEP 280 indify string concatenation (`invokedynamic`), and setLength(0) reuse verified on HotSpot 64-Bit VM with exit code 0.
 
 ---
 
@@ -105,7 +106,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P01-C013`.
+- **Current Stop Point:** Completed `P01-C014`.
 - **Exact Next Queued Concept:**
-  - `P01-C014`: *StringBuilder vs StringBuffer vs String Concatenation Mechanics* (`curriculum/phase-01-java-language-fundamentals/014-stringbuilder-and-concatenation.md`)
   - `P01-C015`: *Arrays: Memory Layout, Multi-Dimensional Arrays, and Arrays Utility* (`curriculum/phase-01-java-language-fundamentals/015-arrays-memory-layout-and-utilities.md`)
+  - **Phase 01 Capstone Integration Project and Phase Gate Reconciler**

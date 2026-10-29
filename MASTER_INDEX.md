@@ -64,7 +64,7 @@
 | `P01-C011` | Methods: Signatures, Contracts, and Varargs | [`011-methods-and-varargs.md`](curriculum/phase-01-java-language-fundamentals/011-methods-and-varargs.md) | `COMPLETE` |
 | `P01-C012` | Pass-by-Value Semantics in Java (Why References Are Passed by Value) | [`012-pass-by-value-semantics.md`](curriculum/phase-01-java-language-fundamentals/012-pass-by-value-semantics.md) | `COMPLETE` |
 | `P01-C013` | String Immutability, String Pool, and Memory Optimization | [`013-string-immutability-and-pool.md`](curriculum/phase-01-java-language-fundamentals/013-string-immutability-and-pool.md) | `COMPLETE` |
-| `P01-C014` | StringBuilder vs StringBuffer vs String Concatenation Mechanics | [`014-stringbuilder-and-concatenation.md`](curriculum/phase-01-java-language-fundamentals/014-stringbuilder-and-concatenation.md) | `NOT_STARTED` |
+| `P01-C014` | StringBuilder vs StringBuffer vs String Concatenation Mechanics | [`014-stringbuilder-and-concatenation.md`](curriculum/phase-01-java-language-fundamentals/014-stringbuilder-and-concatenation.md) | `COMPLETE` |
 | `P01-C015` | Arrays: Memory Layout, Multi-Dimensional Arrays, and Arrays Utility | [`015-arrays-memory-layout-and-utilities.md`](curriculum/phase-01-java-language-fundamentals/015-arrays-memory-layout-and-utilities.md) | `NOT_STARTED` |
 
 ### [Phase 02: Object-Oriented Programming](curriculum/phase-02-object-oriented-programming/README.md)
