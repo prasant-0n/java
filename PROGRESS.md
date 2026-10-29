@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P03-C015` (Type Erasure, Bridge Methods, Heap Pollution, and Reifiable Types). All 15 concept modules for Phase 03 complete!
-- **Status:** Phase 03 concept modules 100% complete (15/15 concepts). Ready for Capstone.
-- **Exact Next Milestone:** Phase 03 Capstone Integration Project & Phase Gate (`generic-evicting-cache`).
-- **Following Concept:** `P04-C001` — *The Throwable Hierarchy: Error vs Exception and Design Philosophy* (Phase 04 Launch).
+- **Current Focus:** Phase 03 Complete! (15/15 concepts + Capstone Integration Project verified). Launching Phase 04: Exception Handling and Defensive Programming.
+- **Status:** Phase 03 COMPLETE (100%). Phase 04 ready to commence.
+- **Exact Next Milestone:** `P04-C001` — *The Throwable Hierarchy: Error vs Exception and Design Philosophy* (`curriculum/phase-04-exception-handling-defensive-programming/001-throwable-hierarchy.md`).
+- **Following Concept:** `P04-C002` — *Checked vs Unchecked Exceptions: Pragmatic Guidelines and Modern Backend Consensus*
 
 ---
 
@@ -34,7 +34,7 @@
 | **Phase 00** | Development Environment and Java Execution | 11 | 11 | 0 | COMPLETE |
 | **Phase 01** | Java Language Fundamentals | 15 | 15 | 0 | COMPLETE |
 | **Phase 02** | Object-Oriented Programming | 15 | 15 | 0 | COMPLETE |
-| **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 15 | 0 | IN_PROGRESS |
+| **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 15 | 0 | COMPLETE |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 0 | 0 | NOT_STARTED |
 | **Phase 05** | Core Java APIs You Will Use in Production | 10 | 0 | 0 | NOT_STARTED |
 | **Phase 06** | Functional Java | 12 | 0 | 0 | NOT_STARTED |

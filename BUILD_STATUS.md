@@ -130,6 +130,8 @@
 - [x] `P03-C013` Bounded type parameters, single upper bounds (`<T extends Number>`), multiple bounds syntax and semantics (`<T extends ClassBound & InterfaceBound1 & InterfaceBound2>`), the "class bound first" requirement, prohibition of multiple class inheritance, recursive type bounds (`<T extends Comparable<T>>`), erasure to first bound (`Number` vs `Object`) proven via reflection, and zero-runtime overhead dispatch verified on HotSpot 64-Bit VM with exit code 0 (15/15 assertions passed).
 - [x] `P03-C014` Wildcards and PECS (Producer Extends, Consumer Super) principle, use-site variance, upper-bounded wildcards (`? extends T`) for read-only producer collections, lower-bounded wildcards (`? super T`) for write-only consumer collections, why adding to `? extends T` is forbidden, why reading from `? super T` yields `Object`, archetypal `Collections.copy` batch transfers, unbounded wildcards (`?`), and private wildcard capture helpers verified on HotSpot 64-Bit VM with exit code 0 (14/14 assertions passed).
 - [x] `P03-C015` Type erasure mechanics, homogeneous generic translation, synthetic bridge methods (`ACC_BRIDGE` and `ACC_SYNTHETIC`) preserving polymorphism in vtables, reifiable vs non-reifiable types, heap pollution causes and delayed `ClassCastException` traps at extraction sites, safe varargs contracts (`@SafeVarargs` conforming to JLS §9.6.4.7), and unsafe varargs array leaks verified on HotSpot 64-Bit VM with exit code 0 (16/16 assertions passed).
+- [x] **Phase 03 Capstone Integration Project:** Generic In-Memory Evicting Cache with LRU eviction and TTL expiration (`generic-evicting-cache`) built, regression tested (32/32 assertions passing), packaged into standalone executable JAR (`generic-evicting-cache-1.0.0.jar`), and executed with exit code 0.
+- [x] **Phase 03 Completion Gate:** Reconciled and marked `COMPLETE` (15/15 concepts complete + Capstone complete, 100%).
 
 ---
 
@@ -141,7 +143,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P03-C015` (Type Erasure, Bridge Methods, Heap Pollution, and Reifiable Types). All 15 concept modules for Phase 03 are complete!
+- **Current Stop Point:** Completed Phase 03 Capstone Integration Project and Phase Completion Gate. Phase 03 is 100% COMPLETE!
 - **Exact Next Milestone:**
-  - Phase 03 Capstone Integration Project: *Generic In-Memory Evicting Cache* (`curriculum/phase-03-collections-framework-generics-type-safety/capstone/`)
-  - Phase 03 Completion Gate reconciliation and Phase 04 Launch (`curriculum/phase-04-exception-handling-defensive-programming/`)
+  - `P04-C001`: *The Throwable Hierarchy: Error vs Exception and Design Philosophy* (`curriculum/phase-04-exception-handling-defensive-programming/001-throwable-hierarchy.md`)
+  - `P04-C002`: *Checked vs Unchecked Exceptions: Pragmatic Guidelines and Modern Backend Consensus* (`curriculum/phase-04-exception-handling-defensive-programming/002-checked-vs-unchecked-exceptions.md`)
