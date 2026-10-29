@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 13 | 4.2% |
+| **Modules Complete (`COMPLETE`)** | 14 | 4.5% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 299 | 95.8% |
+| **Modules Not Started (`NOT_STARTED`)** | 298 | 95.5% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P01-C002` (Verified and committed).
+- **Current Focus:** Completed `P01-C003` (Verified and committed).
 - **Status:** Resuming Phase 01 execution pipeline.
-- **Exact Next Queued Concept:** `P01-C003` — *Reference Types vs Primitive Types in Memory* (`curriculum/phase-01-java-language-fundamentals/003-reference-types-vs-primitives.md`)
-- **Following Concept:** `P01-C004` — *Variable Declaration, Scope, Lifetime, and Default Values* (`curriculum/phase-01-java-language-fundamentals/004-variable-scopes-and-lifetimes.md`)
+- **Exact Next Queued Concept:** `P01-C004` — *Variable Declaration, Scope, Lifetime, and Default Values* (`curriculum/phase-01-java-language-fundamentals/004-variable-scopes-and-lifetimes.md`)
+- **Following Concept:** `P01-C005` — *Type Casting: Widening, Narrowing, and Overflow Traps* (`curriculum/phase-01-java-language-fundamentals/005-type-casting-and-overflow.md`)
 
 ---
 
@@ -32,7 +32,7 @@
 | Phase | Phase Name | Planned Concepts | Completed | In Progress | Status |
 |---|---|---|---|---|---|
 | **Phase 00** | Development Environment and Java Execution | 11 | 11 | 0 | COMPLETE |
-| **Phase 01** | Java Language Fundamentals | 15 | 2 | 0 | IN_PROGRESS |
+| **Phase 01** | Java Language Fundamentals | 15 | 3 | 0 | IN_PROGRESS |
 | **Phase 02** | Object-Oriented Programming | 15 | 0 | 0 | NOT_STARTED |
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 0 | 0 | NOT_STARTED |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 0 | 0 | NOT_STARTED |

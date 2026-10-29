@@ -83,6 +83,7 @@
 - [x] **Phase 00 Completion Gate:** Reconciled and marked `COMPLETE` (11/11 concepts complete, 100%).
 - [x] `P01-C001` primitive boundary visualizer and bitwise packer verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P01-C002` IEEE 754 bit inspector, epsilon comparison, and Banker's rounding verified on HotSpot 64-Bit VM with exit code 0.
+- [x] `P01-C003` reference aliasing demonstrator, footprint calculator, and safe DTO patcher verified on HotSpot 64-Bit VM with exit code 0.
 
 ---
 
@@ -94,7 +95,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P01-C002`.
+- **Current Stop Point:** Completed `P01-C003`.
 - **Exact Next Queued Concept:**
-  - `P01-C003`: *Reference Types vs Primitive Types in Memory* (`curriculum/phase-01-java-language-fundamentals/003-reference-types-vs-primitives.md`)
   - `P01-C004`: *Variable Declaration, Scope, Lifetime, and Default Values* (`curriculum/phase-01-java-language-fundamentals/004-variable-scopes-and-lifetimes.md`)
+  - `P01-C005`: *Type Casting: Widening, Narrowing, and Overflow Traps* (`curriculum/phase-01-java-language-fundamentals/005-type-casting-and-overflow.md`)

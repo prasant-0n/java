@@ -40,7 +40,7 @@ By completing Phase 01, the learner will independently be able to:
 |---|---|---|---|---|
 | `P01-C001` | Primitive Data Types, Bit Widths, and Numeric Ranges | [`001-primitive-data-types.md`](001-primitive-data-types.md) | Essential | COMPLETE |
 | `P01-C002` | Floating-Point Precision, IEEE 754, and Rounding Hazards | [`002-floating-point-types-and-precision.md`](002-floating-point-types-and-precision.md) | Essential | COMPLETE |
-| `P01-C003` | Reference Types vs Primitive Types in Memory | [`003-reference-types-vs-primitives.md`](003-reference-types-vs-primitives.md) | Essential | NOT_STARTED |
+| `P01-C003` | Reference Types vs Primitive Types in Memory | [`003-reference-types-vs-primitives.md`](003-reference-types-vs-primitives.md) | Essential | COMPLETE |
 | `P01-C004` | Variable Declaration, Scope, Lifetime, and Default Values | [`004-variable-scopes-and-lifetimes.md`](004-variable-scopes-and-lifetimes.md) | Essential | NOT_STARTED |
 | `P01-C005` | Type Casting: Widening, Narrowing, and Overflow Traps | [`005-type-casting-and-overflow.md`](005-type-casting-and-overflow.md) | Essential | NOT_STARTED |
 | `P01-C006` | Wrapper Classes, Autoboxing, and NullPointerExceptions | [`006-wrapper-classes-autoboxing.md`](006-wrapper-classes-autoboxing.md) | Essential | NOT_STARTED |
@@ -112,7 +112,7 @@ Before marking Phase 01 as complete:
 ## 8. Status and Progress Reconciler
 
 - **Total Planned Concepts:** `15`
-- **Completed Concepts:** `2`
+- **Completed Concepts:** `3`
 - **In Progress:** `0`
-- **Completion Rate:** `13.3%`
+- **Completion Rate:** `20.0%`
 - **Last Verified Date:** `2026-10-29`
