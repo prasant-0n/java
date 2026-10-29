@@ -41,7 +41,7 @@ By completing Phase 04, the learner will independently be able to:
 | `P04-C002` | Checked vs Unchecked Exceptions: Architectural Philosophy and Debates | [`002-checked-vs-unchecked-exceptions.md`](002-checked-vs-unchecked-exceptions.md) | Essential | COMPLETE |
 | `P04-C003` | Exception Handling Blocks: try, catch, multi-catch, and finally Semantics | [`003-try-catch-finally-semantics.md`](003-try-catch-finally-semantics.md) | Essential | COMPLETE |
 | `P04-C004` | Try-With-Resources, AutoCloseable, and Suppressed Exceptions | [`004-try-with-resources-autocloseable.md`](004-try-with-resources-autocloseable.md) | Essential | COMPLETE |
-| `P04-C005` | Custom Domain Exceptions, Error Envelopes, and Context Propagation | [`005-custom-domain-exceptions.md`](005-custom-domain-exceptions.md) | Essential | NOT_STARTED |
+| `P04-C005` | Custom Domain Exceptions, Error Envelopes, and Context Propagation | [`005-custom-domain-exceptions.md`](005-custom-domain-exceptions.md) | Essential | COMPLETE |
 | `P04-C006` | Exception Chaining, Root Causes, and Preserving Stack Traces | [`006-exception-chaining-and-causes.md`](006-exception-chaining-and-causes.md) | Essential | NOT_STARTED |
 | `P04-C007` | Defensive Programming: Preconditions, Invariants, and Fail-Fast Design | [`007-defensive-programming-fail-fast.md`](007-defensive-programming-fail-fast.md) | Essential | NOT_STARTED |
 | `P04-C008` | Anti-Patterns: Swallowed Exceptions, Catching Throwable, and Log-and-Throw | [`008-exception-anti-patterns.md`](008-exception-anti-patterns.md) | Essential | NOT_STARTED |
@@ -99,7 +99,7 @@ Before marking Phase 04 as complete:
 ## 8. Status and Progress Reconciler
 
 - **Total Planned Concepts:** `9`
-- **Completed Concepts:** `4`
+- **Completed Concepts:** `5`
 - **In Progress:** `0`
-- **Completion Rate:** `44.4%`
+- **Completion Rate:** `55.6%`
 - **Last Verified Date:** `2026-10-30`
