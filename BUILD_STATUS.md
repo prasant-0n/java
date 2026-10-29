@@ -109,6 +109,7 @@
 - [x] `P02-C009` four object relationship tiers (Dependency, Association, Aggregation, Composition), pointer reachability & GC cascades, bidirectional pointer synchronization, unmodifiable defensive isolation, and runtime warehouse reassignment verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P02-C010` enum bytecode desugaring (`java.lang.Enum<E>`), constant-specific class bodies (anonymous subclasses), Bloch enum singleton reflection immunity (`IllegalArgumentException`), FSM transition validation, `EnumSet` 64-bit hardware bitmask, and zero-allocation parsing verified on HotSpot 64-Bit VM with exit code 0 (20/20 assertions passed).
 - [x] `P02-C011` four nested class variants, synthetic `this$0` enclosing instance pointer, Java 11 nestmates (JEP 181), asynchronous callback memory leak hazards, static nested builder, member inner lifecycle dispatch, and local effectively final variable capture verified on HotSpot 64-Bit VM with exit code 0 (13/13 assertions passed).
+- [x] `P02-C012` Record semantics (JEP 395), `Record` classfile attribute, invokedynamic bootstrap methods for equals/hashCode/toString, compact constructor validation, deep immutability defensive copy (`List.copyOf`), and Java 21 Record Pattern matching (JEP 440) verified on HotSpot 64-Bit VM with exit code 0 (8/8 assertions passed).
 
 ---
 
@@ -120,7 +121,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P02-C011` (Nested, Inner, and Anonymous Classes).
+- **Current Stop Point:** Completed `P02-C012` (Records: Immutable Data Carriers, Compact Constructors, and DTOs).
 - **Exact Next Milestone:**
-  - `P02-C012`: *Records: Immutable Data Carriers, Compact Constructors, and DTOs* (`curriculum/phase-02-object-oriented-programming/012-records-and-immutable-data.md`)
   - `P02-C013`: *Sealed Classes, Sealed Interfaces, and Algebraic Data Types* (`curriculum/phase-02-object-oriented-programming/013-sealed-classes-and-interfaces.md`)
+  - `P02-C014`: *Pattern Matching for instanceof and Switch Expressions* (`curriculum/phase-02-object-oriented-programming/014-pattern-matching-oop.md`)

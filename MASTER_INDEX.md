@@ -82,7 +82,7 @@
 | `P02-C009` | Object Relationships: Association, Aggregation, and Composition | [`009-object-relationships.md`](curriculum/phase-02-object-oriented-programming/009-object-relationships.md) | `COMPLETE` |
 | `P02-C010` | Enums as Rich Domain Objects and Singleton Patterns | [`010-enums-and-domain-state.md`](curriculum/phase-02-object-oriented-programming/010-enums-and-domain-state.md) | `COMPLETE` |
 | `P02-C011` | Nested, Inner, and Anonymous Classes | [`011-nested-and-inner-classes.md`](curriculum/phase-02-object-oriented-programming/011-nested-and-inner-classes.md) | `COMPLETE` |
-| `P02-C012` | Records: Immutable Data Carriers, Compact Constructors, and DTOs | [`012-records-and-immutable-data.md`](curriculum/phase-02-object-oriented-programming/012-records-and-immutable-data.md) | `NOT_STARTED` |
+| `P02-C012` | Records: Immutable Data Carriers, Compact Constructors, and DTOs | [`012-records-and-immutable-data.md`](curriculum/phase-02-object-oriented-programming/012-records-and-immutable-data.md) | `COMPLETE` |
 | `P02-C013` | Sealed Classes, Sealed Interfaces, and Algebraic Data Types | [`013-sealed-classes-and-interfaces.md`](curriculum/phase-02-object-oriented-programming/013-sealed-classes-and-interfaces.md) | `NOT_STARTED` |
 | `P02-C014` | Pattern Matching for instanceof and Switch Expressions | [`014-pattern-matching-oop.md`](curriculum/phase-02-object-oriented-programming/014-pattern-matching-oop.md) | `NOT_STARTED` |
 | `P02-C015` | The Object Superclass Contract: equals(), hashCode(), toString(), clone() | [`015-object-class-contracts.md`](curriculum/phase-02-object-oriented-programming/015-object-class-contracts.md) | `NOT_STARTED` |
