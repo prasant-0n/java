@@ -40,7 +40,7 @@ By completing Phase 05, the learner will independently be able to:
 | `P05-C001` | Java Time Architecture: Instant, LocalDate, LocalDateTime, and ZonedDateTime | [`001-java-time-api-fundamentals.md`](001-java-time-api-fundamentals.md) | Essential | COMPLETE |
 | `P05-C002` | Time Zones, UTC Storage, Daylight Saving Hazards, and ZoneId | [`002-timezones-utc-and-dst.md`](002-timezones-utc-and-dst.md) | Essential | COMPLETE |
 | `P05-C003` | Periods, Durations, and DateTimeFormatter Parsing Patterns | [`003-periods-durations-and-formatting.md`](003-periods-durations-and-formatting.md) | Essential | COMPLETE |
-| `P05-C004` | BigDecimal and BigInteger: Precision, Scale, and Rounding Modes | [`004-bigdecimal-and-financial-math.md`](004-bigdecimal-and-financial-math.md) | Essential | NOT_STARTED |
+| `P05-C004` | BigDecimal and BigInteger: Precision, Scale, and Rounding Modes | [`004-bigdecimal-and-financial-math.md`](004-bigdecimal-and-financial-math.md) | Essential | COMPLETE |
 | `P05-C005` | Optional<T>: Purpose, Monadic Methods, and Anti-Patterns | [`005-optional-idioms-and-anti-patterns.md`](005-optional-idioms-and-anti-patterns.md) | Essential | NOT_STARTED |
 | `P05-C006` | UUID Generation, Structure, UUIDv4 vs UUIDv7, and Database Indexing | [`006-uuid-generation-and-indexing.md`](006-uuid-generation-and-indexing.md) | Essential | NOT_STARTED |
 | `P05-C007` | Objects Utility Class: Null Checks, Equality, and RequireNonNull | [`007-objects-utility-class.md`](007-objects-utility-class.md) | Essential | NOT_STARTED |
@@ -101,7 +101,7 @@ Before marking Phase 05 as complete:
 ## 8. Status and Progress Reconciler
 
 - **Total Planned Concepts:** `10`
-- **Completed Concepts:** `3`
+- **Completed Concepts:** `4`
 - **In Progress:** `0`
-- **Completion Rate:** `30.0%`
+- **Completion Rate:** `40.0%`
 - **Last Verified Date:** `2026-10-30`
