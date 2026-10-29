@@ -78,6 +78,9 @@
 - [x] `P00-C008` bytecode version inspector and --release cross-compilation verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P00-C009` headless background daemon and live jcmd/jstat CLI triage verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P00-C010` canonical Maven layout auditor and CLI packaging pipeline verified on HotSpot 64-Bit VM with exit code 0.
+- [x] `P00-C011` repository hygiene auditor and Git ignore negation verified on HotSpot 64-Bit VM with exit code 0.
+- [x] **Phase 00 Capstone Integration Project:** Multi-package command-line inventory system built, disassembled via `javap`, packaged into standalone executable JAR, and executed with exit code 0.
+- [x] **Phase 00 Completion Gate:** Reconciled and marked `COMPLETE` (11/11 concepts complete, 100%).
 
 ---
 
@@ -89,7 +92,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P00-C010`.
+- **Current Stop Point:** Completed Phase 00 (100% COMPLETE).
 - **Exact Next Queued Concept:**
-  - `P00-C011`: *Git Hygiene and .gitignore for Java/Maven Projects* (`curriculum/phase-00-development-environment-java-execution/011-git-basics-for-java-developers.md`)
-  - Phase 00 Completion Gate & Capstone Assessment
+  - `P01-C001`: *Primitive Types: byte, short, int, long* (`curriculum/phase-01-java-language-fundamentals/012-primitive-types-integers.md`)
+  - `P01-C002`: *Floating-Point Types: float, double* (`curriculum/phase-01-java-language-fundamentals/013-floating-point-types.md`)
