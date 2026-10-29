@@ -47,3 +47,6 @@ and this project adheres to strict evidence-based curriculum versioning.
 - **Fifth Concept Module Authored & Verified:**
   - `curriculum/phase-00-development-environment-java-execution/005-entry-point-main-method.md`: Complete 16-section concept module covering `public static void main` keyword-by-keyword deconstruction, native JNI bootstrap sequence, CLI argument heap allocation, thread lifecycle (daemon vs non-daemon threads), JVM shutdown hooks, process exit codes (POSIX standards), and modern Java 21–25 evolution (Instance Main Methods & Unnamed Classes via JEP 445/463/477).
   - Thread lifecycle and shutdown hook execution verified on OpenJDK 21 LTS (`exit code 0`).
+- **Sixth Concept Module Authored & Verified:**
+  - `curriculum/phase-00-development-environment-java-execution/006-single-file-source-execution.md`: Complete 16-section concept module covering JEP 330 Single-File Source-Code Execution, in-memory compilation without `.class` generation on disk, Linux executable shebang scripts (`#!/usr/bin/env -S java --source 21`), the "First-Class" Rule, CLI argument demarcation (`--`), external JAR classpath resolution (`-cp`), and replacing fragile shell scripts in backend automation.
+  - Subprocess single-file execution and Linux shebang script execution verified on OpenJDK 21 LTS (`exit code 0`).

@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 5 | 1.6% |
+| **Modules Complete (`COMPLETE`)** | 6 | 1.9% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 307 | 98.4% |
+| **Modules Not Started (`NOT_STARTED`)** | 306 | 98.1% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P00-C005` (Verified and committed).
-- **Status:** Checkpoint reached.
-- **Exact Next Queued Concept:** `P00-C006` — *Single-File Source-Code Launching and Shebang Scripts* (`curriculum/phase-00-development-environment-java-execution/006-single-file-source-execution.md`)
-- **Following Concept:** `P00-C007` — *Environment Variables: JAVA_HOME and PATH in Linux/Production* (`curriculum/phase-00-development-environment-java-execution/007-environment-variables-java-home-path.md`)
+- **Current Focus:** Completed `P00-C006` (Verified and committed).
+- **Status:** Resuming execution pipeline.
+- **Exact Next Queued Concept:** `P00-C007` — *Environment Variables: JAVA_HOME and PATH in Linux/Production* (`curriculum/phase-00-development-environment-java-execution/007-environment-variables-java-home-path.md`)
+- **Following Concept:** `P00-C008` — *JDK Versions, Release Cadence, LTS, and Bytecode Compatibility* (`curriculum/phase-00-development-environment-java-execution/008-jdk-versions-lts-compatibility.md`)
 
 ---
 
@@ -31,7 +31,7 @@
 
 | Phase | Phase Name | Planned Concepts | Completed | In Progress | Status |
 |---|---|---|---|---|---|
-| **Phase 00** | Development Environment and Java Execution | 11 | 5 | 0 | IN_PROGRESS |
+| **Phase 00** | Development Environment and Java Execution | 11 | 6 | 0 | IN_PROGRESS |
 | **Phase 01** | Java Language Fundamentals | 15 | 0 | 0 | NOT_STARTED |
 | **Phase 02** | Object-Oriented Programming | 15 | 0 | 0 | NOT_STARTED |
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 0 | 0 | NOT_STARTED |
