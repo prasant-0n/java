@@ -92,6 +92,7 @@
 - [x] `P01-C009` dangling else resolution, tableswitch vs lookupswitch bytecode proof, modern arrow switch expressions, and Java 21 pattern matching with guards and sealed hierarchies verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P01-C010` loop desugaring (arrays vs iterators), labeled break/continue in multi-batch matrix search, second-to-last element CME anomaly, and exponential backoff retry verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P01-C011` method signature rules, 3-phase overload resolution hierarchy, varargs bytecode desugaring (`ACC_VARARGS`), null ambiguity resolution, and zero-allocation logging fast-path verified on HotSpot 64-Bit VM with exit code 0.
+- [x] `P01-C012` pass-by-value proofs (failed swap, nullification, primitive isolation), stack frame pointer copies vs heap mutation, and immutable defensive DTOs verified on HotSpot 64-Bit VM with exit code 0.
 
 ---
 
@@ -103,7 +104,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P01-C011`.
+- **Current Stop Point:** Completed `P01-C012`.
 - **Exact Next Queued Concept:**
-  - `P01-C012`: *Pass-by-Value Semantics in Java (Why References Are Passed by Value)* (`curriculum/phase-01-java-language-fundamentals/012-pass-by-value-semantics.md`)
   - `P01-C013`: *String Immutability, String Pool, and Memory Optimization* (`curriculum/phase-01-java-language-fundamentals/013-string-immutability-and-pool.md`)
+  - `P01-C014`: *StringBuilder vs StringBuffer vs String Concatenation Mechanics* (`curriculum/phase-01-java-language-fundamentals/014-stringbuilder-and-concatenation.md`)

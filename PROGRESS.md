@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 22 | 7.1% |
+| **Modules Complete (`COMPLETE`)** | 23 | 7.4% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 290 | 92.9% |
+| **Modules Not Started (`NOT_STARTED`)** | 289 | 92.6% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P01-C011` (Verified and committed).
+- **Current Focus:** Completed `P01-C012` (Verified and committed).
 - **Status:** Resuming Phase 01 execution pipeline.
-- **Exact Next Queued Concept:** `P01-C012` — *Pass-by-Value Semantics in Java (Why References Are Passed by Value)* (`curriculum/phase-01-java-language-fundamentals/012-pass-by-value-semantics.md`)
-- **Following Concept:** `P01-C013` — *String Immutability, String Pool, and Memory Optimization* (`curriculum/phase-01-java-language-fundamentals/013-string-immutability-and-pool.md`)
+- **Exact Next Queued Concept:** `P01-C013` — *String Immutability, String Pool, and Memory Optimization* (`curriculum/phase-01-java-language-fundamentals/013-string-immutability-and-pool.md`)
+- **Following Concept:** `P01-C014` — *StringBuilder vs StringBuffer vs String Concatenation Mechanics* (`curriculum/phase-01-java-language-fundamentals/014-stringbuilder-and-concatenation.md`)
 
 ---
 
@@ -32,7 +32,7 @@
 | Phase | Phase Name | Planned Concepts | Completed | In Progress | Status |
 |---|---|---|---|---|---|
 | **Phase 00** | Development Environment and Java Execution | 11 | 11 | 0 | COMPLETE |
-| **Phase 01** | Java Language Fundamentals | 15 | 11 | 0 | IN_PROGRESS |
+| **Phase 01** | Java Language Fundamentals | 15 | 12 | 0 | IN_PROGRESS |
 | **Phase 02** | Object-Oriented Programming | 15 | 0 | 0 | NOT_STARTED |
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 0 | 0 | NOT_STARTED |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 0 | 0 | NOT_STARTED |
@@ -56,4 +56,4 @@
 | **Phase 22** | Performance, Scalability, and Reliability | 8 | 0 | 0 | NOT_STARTED |
 | **Phase 23** | Professional Engineering Habits | 7 | 0 | 0 | NOT_STARTED |
 | **Supplemental** | Advanced Tracks & Specializations | 19 | 0 | 0 | NOT_STARTED |
-| **Total** | **All Modules** | **312** | **22** | **0** | **IN_PROGRESS** |
+| **Total** | **All Modules** | **312** | **23** | **0** | **IN_PROGRESS** |
