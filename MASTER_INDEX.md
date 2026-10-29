@@ -134,7 +134,7 @@
 | `P05-C007` | Objects Utility Class: Null Checks, Equality, and RequireNonNull | [`007-objects-utility-class.md`](curriculum/phase-05-core-java-apis-production/007-objects-utility-class.md) | `COMPLETE` |
 | `P05-C008` | Random vs SecureRandom: PRNG Mechanics, Entropy, and Security Implications | [`008-random-vs-securerandom.md`](curriculum/phase-05-core-java-apis-production/008-random-vs-securerandom.md) | `COMPLETE` |
 | `P05-C009` | System Properties and Environment Variables in Java Applications | [`009-system-properties-and-env.md`](curriculum/phase-05-core-java-apis-production/009-system-properties-and-env.md) | `COMPLETE` |
-| `P05-C010` | Regular Expressions: Pattern, Matcher, Groups, and ReDoS Prevention | [`010-regex-pattern-matcher-redos.md`](curriculum/phase-05-core-java-apis-production/010-regex-pattern-matcher-redos.md) | `NOT_STARTED` |
+| `P05-C010` | Regular Expressions: Pattern, Matcher, Groups, and ReDoS Prevention | [`010-regex-pattern-matcher-redos.md`](curriculum/phase-05-core-java-apis-production/010-regex-pattern-matcher-redos.md) | `COMPLETE` |
 
 ### [Phase 06: Functional Java](curriculum/phase-06-functional-java/README.md)
 

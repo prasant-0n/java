@@ -153,6 +153,7 @@
 - [x] `P05-C007` `Objects` utility class: Fail-fast parameter validation (`requireNonNull`), zero-allocation lazy message formatting (`Supplier<String>`), nullish coalescing mechanics (`requireNonNullElse`, `requireNonNullElseGet`), `equals` vs array-aware `deepEquals`, compound hash allocation trap in `Objects.hash` vs primitive arithmetic, and JVM intrinsic bounds checks (`checkIndex`) verified on HotSpot 64-Bit VM with exit code 0 (6/6 test suites passed).
 - [x] `P05-C008` `Random` vs `SecureRandom`: Donald Knuth 48-bit Linear Congruential Generator (LCG) state predictability proof (cracking seed in under 65,536 iterations from 2 outputs), `SecureRandom` OS kernel entropy harvesting (RFC 4086), modulo bias elimination via rejection sampling in `nextInt(bound)`, and `ThreadLocalRandom` lock-free zero-contention scalability verified on HotSpot 64-Bit VM with exit code 0 (4/4 test suites passed).
 - [x] `P05-C009` System properties and environment variables: Twelve-Factor App Factor III config precedence (System Properties `-D` > OS Environment Variables > Defaults), POSIX key normalization (`database.pool.size` $\rightarrow$ `DATABASE_POOL_SIZE`), JVM `ProcessEnvironment` immutability vs POSIX memory corruption, `Hashtable` synchronization lock contention on `System.getProperty()`, sensitive key redaction for audit logging, and built-in JVM diagnostic metadata verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
+- [x] `P05-C010` Regular expressions: `Pattern` (immutable, precompiled, thread-safe) vs `Matcher` (stateful, mutable), named capturing groups (`(?<name>...)`), Java 9 functional replacements (`replaceAll(Function<MatchResult, String>)`) and stream extraction (`Matcher.results()`), traditional NFA exponential backtracking ($O(2^n)$) mechanics, ReDoS prevention via possessive quantifiers (`++`, `*+`) and atomic groups, and `SafeRegexEngine` timeout guard verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 
 ---
 
@@ -164,7 +165,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P05-C009` (System Properties and Environment Variables in Java Applications). 90% of Phase 05 complete!
+- **Current Stop Point:** Completed all 10 Phase 05 concepts (`P05-C001` through `P05-C010`). 100% of Phase 05 concept modules complete!
 - **Exact Next Milestone:**
-  - `P05-C010`: *Regular Expressions: Pattern, Matcher, Groups, and ReDoS Prevention* (`curriculum/phase-05-core-java-apis-production/010-regex-pattern-matcher-redos.md`)
   - Phase 05 Capstone Integration Project (`curriculum/phase-05-core-java-apis-production/capstone/`)
+  - Phase 06 Launch: *Functional Java* (`curriculum/phase-06-functional-java/001-lambda-expressions-syntax-semantics.md`)
