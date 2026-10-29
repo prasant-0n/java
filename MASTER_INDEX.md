@@ -71,7 +71,7 @@
 
 | Concept ID | Concept Title | Document Link | Status |
 |---|---|---|---|
-| `P02-C001` | Classes, Objects, Fields, and Constructor Chaining | [`001-classes-objects-constructors.md`](curriculum/phase-02-object-oriented-programming/001-classes-objects-constructors.md) | `NOT_STARTED` |
+| `P02-C001` | Classes, Objects, Fields, and Constructor Chaining | [`001-classes-objects-constructors.md`](curriculum/phase-02-object-oriented-programming/001-classes-objects-constructors.md) | `COMPLETE` |
 | `P02-C002` | Static State, Class Loading, and Initialization Order Hazards | [`002-static-members-and-initialization.md`](curriculum/phase-02-object-oriented-programming/002-static-members-and-initialization.md) | `NOT_STARTED` |
 | `P02-C003` | Access Modifiers, Encapsulation, and Package-Private Boundaries | [`003-access-modifiers-encapsulation.md`](curriculum/phase-02-object-oriented-programming/003-access-modifiers-encapsulation.md) | `NOT_STARTED` |
 | `P02-C004` | The Four Pillars of OOP in Java Backend Design | [`004-four-pillars-of-oop.md`](curriculum/phase-02-object-oriented-programming/004-four-pillars-of-oop.md) | `NOT_STARTED` |

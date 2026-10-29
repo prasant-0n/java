@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 26 | 8.3% |
+| **Modules Complete (`COMPLETE`)** | 27 | 8.7% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 286 | 91.7% |
+| **Modules Not Started (`NOT_STARTED`)** | 285 | 91.3% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Phase 01 Capstone Integration Project complete and verified (100% test pass rate).
-- **Status:** Phase 00 (COMPLETE) & Phase 01 (COMPLETE). Ready for Phase 02 launch.
-- **Exact Next Milestone:** `P02-C001` — *Classes, Objects, and State Encapsulation* (`curriculum/phase-02-object-oriented-programming/001-classes-objects-encapsulation.md`).
-- **Following Concept:** `P02-C002` — *Constructors, Initialization Blocks, and Object Lifecycle*
+- **Current Focus:** Completed `P02-C001` (Classes, Objects, Fields, and Constructor Chaining) - verified with 15/15 tests passing.
+- **Status:** Phase 02 in progress (1/15 concepts complete).
+- **Exact Next Milestone:** `P02-C002` — *Static State, Class Loading, and Initialization Order Hazards* (`curriculum/phase-02-object-oriented-programming/002-static-members-and-initialization.md`).
+- **Following Concept:** `P02-C003` — *Access Modifiers, Encapsulation, and Package-Private Boundaries*
 
 ---
 
@@ -33,7 +33,7 @@
 |---|---|---|---|---|---|
 | **Phase 00** | Development Environment and Java Execution | 11 | 11 | 0 | COMPLETE |
 | **Phase 01** | Java Language Fundamentals | 15 | 15 | 0 | COMPLETE |
-| **Phase 02** | Object-Oriented Programming | 15 | 0 | 0 | NOT_STARTED |
+| **Phase 02** | Object-Oriented Programming | 15 | 1 | 0 | IN_PROGRESS |
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 0 | 0 | NOT_STARTED |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 0 | 0 | NOT_STARTED |
 | **Phase 05** | Core Java APIs You Will Use in Production | 10 | 0 | 0 | NOT_STARTED |

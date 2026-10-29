@@ -98,6 +98,7 @@
 - [x] `P01-C015` 16-byte array header memory layout, primitive vs reference arrays, ragged 2D arrays, array covariance `ArrayStoreException`, and zero-allocation ring buffer verified on HotSpot 64-Bit VM with exit code 0.
 - [x] **Phase 01 Capstone Integration Project:** High-Precision Billing & Audit Engine built, regression tested (25/25 assertions passing), packaged into standalone executable JAR (`billing-engine-1.0.0.jar`), and executed with exit code 0.
 - [x] **Phase 01 Completion Gate:** Reconciled and marked `COMPLETE` (15/15 concepts complete + Capstone complete, 100%).
+- [x] `P02-C001` HotSpot 64-bit object header (Mark Word, Klass Word), constructor chaining cascade, master constructor invariant enforcement, and state isolation across instances verified on HotSpot 64-Bit VM with exit code 0 (15/15 assertions passed).
 
 ---
 
@@ -109,7 +110,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Phase 00 (COMPLETE) and Phase 01 (COMPLETE).
+- **Current Stop Point:** Completed `P02-C001` (Classes, Objects, Fields, and Constructor Chaining).
 - **Exact Next Milestone:**
-  - Launch Phase 02: Object-Oriented Programming (`curriculum/phase-02-object-oriented-programming/`)
-  - `P02-C001`: *Classes, Objects, and State Encapsulation* (`001-classes-objects-encapsulation.md`)
+  - `P02-C002`: *Static State, Class Loading, and Initialization Order Hazards* (`curriculum/phase-02-object-oriented-programming/002-static-members-and-initialization.md`)
+  - `P02-C003`: *Access Modifiers, Encapsulation, and Package-Private Boundaries* (`curriculum/phase-02-object-oriented-programming/003-access-modifiers-encapsulation.md`)
