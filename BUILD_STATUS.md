@@ -85,6 +85,7 @@
 - [x] `P01-C002` IEEE 754 bit inspector, epsilon comparison, and Banker's rounding verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P01-C003` reference aliasing demonstrator, footprint calculator, and safe DTO patcher verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P01-C004` variable scope/lifecycle demo, definite assignment analysis, and stack confinement verified on HotSpot 64-Bit VM with exit code 0.
+- [x] `P01-C005` bit-shearing math, compound assignment narrowing trap, unsigned byte decoding, and Math.toIntExact() verified on HotSpot 64-Bit VM with exit code 0.
 
 ---
 
@@ -96,7 +97,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P01-C004`.
+- **Current Stop Point:** Completed `P01-C005`.
 - **Exact Next Queued Concept:**
-  - `P01-C005`: *Type Casting: Widening, Narrowing, and Overflow Traps* (`curriculum/phase-01-java-language-fundamentals/005-type-casting-and-overflow.md`)
   - `P01-C006`: *Wrapper Classes, Autoboxing, and NullPointerExceptions* (`curriculum/phase-01-java-language-fundamentals/006-wrapper-classes-autoboxing.md`)
+  - `P01-C007`: *Local Variable Type Inference (var) and Limitations* (`curriculum/phase-01-java-language-fundamentals/007-local-variable-type-inference-var.md`)
