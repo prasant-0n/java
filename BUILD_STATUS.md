@@ -166,6 +166,7 @@
 - [x] `P06-C008` Collectors: `Collector<T, A, R>` interface contract (supplier, accumulator, combiner, finisher, characteristics), `groupingBy` with downstream multi-level composition, `partitioningBy` guaranteed boolean binary partitioning, production-hardened `toMap` key collision merge functions, Java 9 downstream `filtering` and `flatMapping`, and custom `Collector.of` ledger summarizer verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 - [x] `P06-C009` Primitive streams and performance: `IntStream`, `LongStream`, and `DoubleStream` zero-overhead architectures, heap object overhead analysis (16-24 bytes per `Integer` vs 4 bytes raw primitive, 5x memory overhead), CPU L1/L2 cache line packing (16 ints per 64-byte line) and HotSpot C2 SIMD auto-vectorization, single-pass `summaryStatistics()`, 32-bit silent overflow defense via `asLongStream()`, and Unicode surrogate pair handling via `codePoints()` verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 - [x] `P06-C010` Stream laziness, short-circuiting, and side-effect dangers: Pull-based lazy execution model, vertical loop fusion mechanics, short-circuit signaling via `Sink.cancellationRequested()`, Java 9 `SIZED` count() optimization trap skipping `peek()`, stream source non-interference enforcement (`ConcurrentModificationException`), and concurrent side-effect data race proof (unsafe ArrayList capturing ~10k/20k elements vs 100% deterministic capture in pure stream) verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
+- [x] `P06-C011` Sequential vs parallel streams: `Spliterator` contract (`trySplit`, `characteristics`), data structure splitting efficiencies (ArrayList $O(1)$ balanced vs LinkedList $O(N)$ poor), `ForkJoinPool.commonPool()` work-stealing deque mechanics, blocking I/O common pool starvation hazard, isolated custom `ForkJoinPool` pattern, and the $N \times Q > 10,000$ computational threshold rule verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 
 ---
 
@@ -177,7 +178,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P06-C010` (Stream Laziness, Short-Circuit Evaluation, and Side-Effect Dangers). 83.3% of Phase 06 complete!
+- **Current Stop Point:** Completed `P06-C011` (Sequential vs Parallel Streams: Spliterators, ForkJoinPool, and Overhead). 91.7% of Phase 06 complete!
 - **Exact Next Milestone:**
-  - `P06-C011`: *Sequential vs Parallel Streams: Spliterators, ForkJoinPool, and Overhead* (`curriculum/phase-06-functional-java/011-parallel-streams-and-forkjoin.md`)
   - `P06-C012`: *Stream vs Imperative Loops: Readability, Debuggability, and Benchmarks* (`curriculum/phase-06-functional-java/012-stream-vs-imperative-benchmarks.md`)
+  - **Phase 06 Capstone Integration Project:** Real-Time Analytical Fraud and Revenue Aggregation Engine (`curriculum/phase-06-functional-java/capstone/`)
