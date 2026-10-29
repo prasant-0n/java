@@ -94,5 +94,5 @@
 
 - **Current Stop Point:** Completed Phase 00 (100% COMPLETE).
 - **Exact Next Queued Concept:**
-  - `P01-C001`: *Primitive Types: byte, short, int, long* (`curriculum/phase-01-java-language-fundamentals/012-primitive-types-integers.md`)
-  - `P01-C002`: *Floating-Point Types: float, double* (`curriculum/phase-01-java-language-fundamentals/013-floating-point-types.md`)
+  - `P01-C001`: *Primitive Data Types, Bit Widths, and Numeric Ranges* (`curriculum/phase-01-java-language-fundamentals/001-primitive-data-types.md`)
+  - `P01-C002`: *Floating-Point Precision, IEEE 754, and Rounding Hazards* (`curriculum/phase-01-java-language-fundamentals/002-floating-point-types-and-precision.md`)
