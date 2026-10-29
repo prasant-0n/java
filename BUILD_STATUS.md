@@ -46,6 +46,12 @@
    - Verified binary classfile structure, magic number `0xCAFEBABE`, and constant pool parsing via programmatic `DataInputStream` test (`exit code 0`).
    - Disassembled and verified operand stack instructions (`imul`, `iadd`, `tableswitch`).
    - Updated inventory, index, phase README, and progress registers.
+9. **Fourth Concept Module Authored and Verified:**
+   - Authored complete, 16-section concept module for `P00-C004`: *Compilation, Execution, and Classpath Mechanics* (`curriculum/phase-00-development-environment-java-execution/004-classpath-and-package-structure.md`).
+   - Verified multi-module library compilation, JAR packaging, and consumer linking via `-cp`.
+   - Verified static initialization failure leading to `NoClassDefFoundError` and "wrong name" runtime exception.
+   - Verified three-tier classloader delegation hierarchy (`Bootstrap` $\to$ `Platform` $\to$ `App`).
+   - Updated inventory, index, phase README, and progress registers.
 
 ---
 
@@ -59,6 +65,7 @@
 - [x] `P00-C001` code sample compiled with `javac 21.0.12.1` and executed on HotSpot 64-Bit VM with exit code 0.
 - [x] `P00-C002` multi-package sample compiled and executed on HotSpot 64-Bit VM with exit code 0.
 - [x] `P00-C003` classfile binary parser compiled and executed on HotSpot 64-Bit VM with exit code 0.
+- [x] `P00-C004` multi-JAR linking and classloader hierarchy verified on HotSpot 64-Bit VM with exit code 0.
 
 ---
 
@@ -70,7 +77,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P00-C003`.
+- **Current Stop Point:** Completed `P00-C004`.
 - **Exact Next Queued Concept:**
-  - `P00-C004`: *Compilation, Execution, and Classpath Mechanics* (`curriculum/phase-00-development-environment-java-execution/004-classpath-and-package-structure.md`)
   - `P00-C005`: *Java Entry Point: public static void main Signature and Evolution* (`curriculum/phase-00-development-environment-java-execution/005-entry-point-main-method.md`)
+  - `P00-C006`: *Single-File Source-Code Launching and Shebang Scripts* (`curriculum/phase-00-development-environment-java-execution/006-single-file-source-execution.md`)

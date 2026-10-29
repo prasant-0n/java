@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 3 | 1.0% |
+| **Modules Complete (`COMPLETE`)** | 4 | 1.3% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 309 | 99.0% |
+| **Modules Not Started (`NOT_STARTED`)** | 308 | 98.7% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P00-C003` (Verified and committed).
+- **Current Focus:** Completed `P00-C004` (Verified and committed).
 - **Status:** Checkpoint reached.
-- **Exact Next Queued Concept:** `P00-C004` — *Compilation, Execution, and Classpath Mechanics* (`curriculum/phase-00-development-environment-java-execution/004-classpath-and-package-structure.md`)
-- **Following Concept:** `P00-C005` — *Java Entry Point: public static void main Signature and Evolution* (`curriculum/phase-00-development-environment-java-execution/005-entry-point-main-method.md`)
+- **Exact Next Queued Concept:** `P00-C005` — *Java Entry Point: public static void main Signature and Evolution* (`curriculum/phase-00-development-environment-java-execution/005-entry-point-main-method.md`)
+- **Following Concept:** `P00-C006` — *Single-File Source-Code Launching and Shebang Scripts* (`curriculum/phase-00-development-environment-java-execution/006-single-file-source-execution.md`)
 
 ---
 
@@ -31,7 +31,7 @@
 
 | Phase | Phase Name | Planned Concepts | Completed | In Progress | Status |
 |---|---|---|---|---|---|
-| **Phase 00** | Development Environment and Java Execution | 11 | 3 | 0 | IN_PROGRESS |
+| **Phase 00** | Development Environment and Java Execution | 11 | 4 | 0 | IN_PROGRESS |
 | **Phase 01** | Java Language Fundamentals | 15 | 0 | 0 | NOT_STARTED |
 | **Phase 02** | Object-Oriented Programming | 15 | 0 | 0 | NOT_STARTED |
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 0 | 0 | NOT_STARTED |
@@ -56,4 +56,4 @@
 | **Phase 22** | Performance, Scalability, and Reliability | 8 | 0 | 0 | NOT_STARTED |
 | **Phase 23** | Professional Engineering Habits | 7 | 0 | 0 | NOT_STARTED |
 | **Supplemental** | Advanced Tracks & Specializations | 19 | 0 | 0 | NOT_STARTED |
-| **Total** | **All Modules** | **312** | **3** | **0** | **IN_PROGRESS** |
+| **Total** | **All Modules** | **312** | **4** | **0** | **IN_PROGRESS** |

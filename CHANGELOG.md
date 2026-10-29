@@ -41,3 +41,6 @@ and this project adheres to strict evidence-based curriculum versioning.
 - **Third Concept Module Authored & Verified:**
   - `curriculum/phase-00-development-environment-java-execution/003-source-files-and-bytecode.md`: Complete 16-section concept module covering binary `.class` file structure, `0xCAFEBABE` magic number, Constant Pool relational architecture, stack frame execution (`max_stack`, `max_locals`), instruction-by-instruction operand stack trace, constant inlining binary incompatibility traps, and `javap` disassembly.
   - Programmatic binary inspection test verified on OpenJDK 21 LTS (`exit code 0`).
+- **Fourth Concept Module Authored & Verified:**
+  - `curriculum/phase-00-development-environment-java-execution/004-classpath-and-package-structure.md`: Complete 16-section concept module covering package namespaces, the 1:1 FQCN-to-path invariant, `-classpath` / `-cp` parameter behavior, JAR archives, wildcard expansion rules (`lib/*`), the three-tier Parent Delegation Model (`Bootstrap` $\to$ `Platform` $\to$ `App`), first-match-wins JAR Hell, and diagnosing `ClassNotFoundException` vs `NoClassDefFoundError`.
+  - Multi-module library packaging and static initialization failure reproduction verified on OpenJDK 21 LTS (`exit code 0`).
