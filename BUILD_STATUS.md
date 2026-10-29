@@ -123,6 +123,7 @@
 - [x] `P03-C006` `ArrayDeque` circular ring buffer and `PriorityQueue` complete binary min-heap architectures, method duality contract (throwing vs special-value), stack LIFO operations replacing legacy `Stack`, Floyd linear heapify ($O(N)$), heap parent-child index formulas, non-sorted iterator traps, in-place mutation corruption hazards, and null element prohibition verified on HotSpot 64-Bit VM with exit code 0 (21/21 assertions passed).
 - [x] `P03-C007` `ConcurrentHashMap` vs `Collections.synchronizedMap`, lock-free volatile reads, atomic Compare-And-Swap (CAS) empty bucket insertions, per-bucket head monitor synchronization, cooperative multi-threaded resizing via `ForwardingNode`, atomic compound operations (`computeIfAbsent`, `merge`), weakly consistent iterators, and strict null prohibition verified on HotSpot 64-Bit VM with exit code 0 (18/18 assertions passed).
 - [x] `P03-C008` Truly immutable collections (`List.of`, `Set.of`, `Map.of`, `List.copyOf`) vs unmodifiable views (`Collections.unmodifiableList`), mutation leak vulnerabilities, construction-time duplicate rejection, fail-fast null prohibition, Java 10 `copyOf` $O(1)$ reference optimization, compact internal layouts (`List12`, `Map1`), Java 16 `Stream.toList()`, and shallow vs deep immutability verified on HotSpot 64-Bit VM with exit code 0 (22/22 assertions passed).
+- [x] `P03-C009` The `equals()` and `hashCode()` contract in hash-based collections, broken contract proof (missing `hashCode` causing lookup failure and duplicate `HashSet` entries), mutable key "ghost object" memory leaks, JPA auto-generated database ID hazard, and prime multiplier 31 bitwise shift proof ($31x = (x \ll 5) - x$) verified on HotSpot 64-Bit VM with exit code 0 (14/14 assertions passed).
 
 ---
 
@@ -134,7 +135,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P03-C008` (Immutable Collections [List.of, Set.of, Map.of] vs Unmodifiable Views).
+- **Current Stop Point:** Completed `P03-C009` (The equals() and hashCode() Contract, Hash Collisions, and Mutable Keys).
 - **Exact Next Milestone:**
-  - `P03-C009`: *The equals() and hashCode() Contract, Hash Collisions, and Mutable Keys* (`curriculum/phase-03-collections-framework-generics-type-safety/009-equals-hashcode-contract.md`)
   - `P03-C010`: *Comparable and Comparator: Natural Ordering, Custom Sorts, and Null Safety* (`curriculum/phase-03-collections-framework-generics-type-safety/010-comparable-and-comparator.md`)
+  - `P03-C011`: *Iterators, Fail-Fast vs Fail-Safe Mechanics, and Safe Removal* (`curriculum/phase-03-collections-framework-generics-type-safety/011-iterators-fail-fast-mechanics.md`)

@@ -45,7 +45,7 @@ By completing Phase 03, the learner will independently be able to:
 | `P03-C006` | Queue and Deque Implementations: ArrayDeque vs PriorityQueue | [`006-queues-and-deques.md`](006-queues-and-deques.md) | Essential | COMPLETE |
 | `P03-C007` | Concurrent Collections Introduction: ConcurrentHashMap vs Collections.synchronizedMap | [`007-concurrenthashmap-overview.md`](007-concurrenthashmap-overview.md) | Essential | COMPLETE |
 | `P03-C008` | Immutable Collections (List.of, Set.of, Map.of) vs Unmodifiable Views | [`008-immutable-collections-and-views.md`](008-immutable-collections-and-views.md) | Essential | COMPLETE |
-| `P03-C009` | The equals() and hashCode() Contract, Hash Collisions, and Mutable Keys | [`009-equals-hashcode-contract.md`](009-equals-hashcode-contract.md) | Essential | NOT_STARTED |
+| `P03-C009` | The equals() and hashCode() Contract, Hash Collisions, and Mutable Keys | [`009-equals-hashcode-contract.md`](009-equals-hashcode-contract.md) | Essential | COMPLETE |
 | `P03-C010` | Comparable and Comparator: Natural Ordering, Custom Sorts, and Null Safety | [`010-comparable-and-comparator.md`](010-comparable-and-comparator.md) | Essential | NOT_STARTED |
 | `P03-C011` | Iterators, Fail-Fast vs Fail-Safe Mechanics, and Safe Removal | [`011-iterators-fail-fast-mechanics.md`](011-iterators-fail-fast-mechanics.md) | Essential | NOT_STARTED |
 | `P03-C012` | Generics Fundamentals: Type Parameters, Generic Classes, and Methods | [`012-generics-classes-and-methods.md`](012-generics-classes-and-methods.md) | Essential | NOT_STARTED |
@@ -111,7 +111,7 @@ Before marking Phase 03 as complete:
 ## 8. Status and Progress Reconciler
 
 - **Total Planned Concepts:** `15`
-- **Completed Concepts:** `8`
+- **Completed Concepts:** `9`
 - **In Progress:** `0`
-- **Completion Rate:** `53.3%`
+- **Completion Rate:** `60.0%`
 - **Last Verified Date:** `2026-10-30`
