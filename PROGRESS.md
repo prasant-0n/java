@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 51 | 16.3% |
+| **Modules Complete (`COMPLETE`)** | 52 | 16.7% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 261 | 83.7% |
+| **Modules Not Started (`NOT_STARTED`)** | 260 | 83.3% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P03-C010` (Comparable and Comparator: Natural Ordering, Custom Sorts, and Null Safety).
-- **Status:** Phase 03 in progress (10/15 concepts complete).
-- **Exact Next Milestone:** `P03-C011` — *Iterators, Fail-Fast vs Fail-Safe Mechanics, and Safe Removal* (`curriculum/phase-03-collections-framework-generics-type-safety/011-iterators-fail-fast-mechanics.md`).
-- **Following Concept:** `P03-C012` — *Generics Fundamentals: Type Parameters, Generic Classes, and Methods*
+- **Current Focus:** Completed `P03-C011` (Iterators, Fail-Fast vs Fail-Safe Mechanics, and Safe Removal).
+- **Status:** Phase 03 in progress (11/15 concepts complete).
+- **Exact Next Milestone:** `P03-C012` — *Generics Fundamentals: Type Parameters, Generic Classes, and Methods* (`curriculum/phase-03-collections-framework-generics-type-safety/012-generics-classes-and-methods.md`).
+- **Following Concept:** `P03-C013` — *Bounded Type Parameters and Multiple Bounds*
 
 ---
 
@@ -34,7 +34,7 @@
 | **Phase 00** | Development Environment and Java Execution | 11 | 11 | 0 | COMPLETE |
 | **Phase 01** | Java Language Fundamentals | 15 | 15 | 0 | COMPLETE |
 | **Phase 02** | Object-Oriented Programming | 15 | 15 | 0 | COMPLETE |
-| **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 10 | 0 | IN_PROGRESS |
+| **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 11 | 0 | IN_PROGRESS |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 0 | 0 | NOT_STARTED |
 | **Phase 05** | Core Java APIs You Will Use in Production | 10 | 0 | 0 | NOT_STARTED |
 | **Phase 06** | Functional Java | 12 | 0 | 0 | NOT_STARTED |
@@ -56,4 +56,4 @@
 | **Phase 22** | Performance, Scalability, and Reliability | 8 | 0 | 0 | NOT_STARTED |
 | **Phase 23** | Professional Engineering Habits | 7 | 0 | 0 | NOT_STARTED |
 | **Supplemental** | Advanced Tracks & Specializations | 19 | 0 | 0 | NOT_STARTED |
-| **Total** | **All Modules** | **312** | **51** | **0** | **IN_PROGRESS** |
+| **Total** | **All Modules** | **312** | **52** | **0** | **IN_PROGRESS** |

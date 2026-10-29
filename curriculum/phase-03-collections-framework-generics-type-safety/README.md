@@ -47,7 +47,7 @@ By completing Phase 03, the learner will independently be able to:
 | `P03-C008` | Immutable Collections (List.of, Set.of, Map.of) vs Unmodifiable Views | [`008-immutable-collections-and-views.md`](008-immutable-collections-and-views.md) | Essential | COMPLETE |
 | `P03-C009` | The equals() and hashCode() Contract, Hash Collisions, and Mutable Keys | [`009-equals-hashcode-contract.md`](009-equals-hashcode-contract.md) | Essential | COMPLETE |
 | `P03-C010` | Comparable and Comparator: Natural Ordering, Custom Sorts, and Null Safety | [`010-comparable-and-comparator.md`](010-comparable-and-comparator.md) | Essential | COMPLETE |
-| `P03-C011` | Iterators, Fail-Fast vs Fail-Safe Mechanics, and Safe Removal | [`011-iterators-fail-fast-mechanics.md`](011-iterators-fail-fast-mechanics.md) | Essential | NOT_STARTED |
+| `P03-C011` | Iterators, Fail-Fast vs Fail-Safe Mechanics, and Safe Removal | [`011-iterators-fail-fast-mechanics.md`](011-iterators-fail-fast-mechanics.md) | Essential | COMPLETE |
 | `P03-C012` | Generics Fundamentals: Type Parameters, Generic Classes, and Methods | [`012-generics-classes-and-methods.md`](012-generics-classes-and-methods.md) | Essential | NOT_STARTED |
 | `P03-C013` | Bounded Type Parameters and Multiple Bounds | [`013-bounded-type-parameters.md`](013-bounded-type-parameters.md) | Essential | NOT_STARTED |
 | `P03-C014` | Wildcards and PECS (Producer Extends, Consumer Super) Principle | [`014-wildcards-and-pecs.md`](014-wildcards-and-pecs.md) | Essential | NOT_STARTED |
