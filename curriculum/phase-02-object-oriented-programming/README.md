@@ -46,7 +46,7 @@ By completing Phase 02, the learner will independently be able to:
 | `P02-C007` | Abstract Classes vs Interfaces: Contracts and Default Methods | [`007-abstract-classes-vs-interfaces.md`](007-abstract-classes-vs-interfaces.md) | Essential | COMPLETE |
 | `P02-C008` | Composition over Inheritance in Business Domain Services | [`008-composition-over-inheritance.md`](008-composition-over-inheritance.md) | Essential | COMPLETE |
 | `P02-C009` | Object Relationships: Association, Aggregation, and Composition | [`009-object-relationships.md`](009-object-relationships.md) | Essential | COMPLETE |
-| `P02-C010` | Enums as Rich Domain Objects and Singleton Patterns | [`010-enums-and-domain-state.md`](010-enums-and-domain-state.md) | Essential | NOT_STARTED |
+| `P02-C010` | Enums as Rich Domain Objects and Singleton Patterns | [`010-enums-and-domain-state.md`](010-enums-and-domain-state.md) | Essential | COMPLETE |
 | `P02-C011` | Nested, Inner, and Anonymous Classes | [`011-nested-and-inner-classes.md`](011-nested-and-inner-classes.md) | Recommended | NOT_STARTED |
 | `P02-C012` | Records: Immutable Data Carriers, Compact Constructors, and DTOs | [`012-records-and-immutable-data.md`](012-records-and-immutable-data.md) | Essential | NOT_STARTED |
 | `P02-C013` | Sealed Classes, Sealed Interfaces, and Algebraic Data Types | [`013-sealed-classes-and-interfaces.md`](013-sealed-classes-and-interfaces.md) | Essential | NOT_STARTED |
