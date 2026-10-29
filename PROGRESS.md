@@ -22,8 +22,8 @@
 
 - **Current Focus:** Phase 05 100% COMPLETE! All 10 concepts + Multi-Currency Global Billing Capstone verified and committed.
 - **Status:** Launching Phase 06: Functional Java (0/12 concepts complete).
-- **Exact Next Milestone:** `P06-C001` — *Lambda Expressions: Syntax, Scope, and Semantics* (`curriculum/phase-06-functional-java/001-lambda-expressions-syntax-semantics.md`).
-- **Following Concept:** `P06-C002` — *Functional Interfaces: @FunctionalInterface, java.util.function* (`curriculum/phase-06-functional-java/002-functional-interfaces.md`).
+- **Exact Next Milestone:** `P06-C001` — *Functional Interfaces and the @FunctionalInterface Contract* (`curriculum/phase-06-functional-java/001-functional-interfaces-core.md`).
+- **Following Concept:** `P06-C002` — *Core Function Types: Predicate, Function, Consumer, Supplier, and Primitives* (`curriculum/phase-06-functional-java/002-core-functional-interfaces.md`).
 
 ---
 

@@ -169,5 +169,5 @@
 
 - **Current Stop Point:** Completed Phase 05 (100% COMPLETE: 10/10 concepts + Multi-Currency Global Billing Capstone).
 - **Exact Next Milestone:**
-  - `P06-C001`: *Lambda Expressions: Syntax, Scope, and Semantics* (`curriculum/phase-06-functional-java/001-lambda-expressions-syntax-semantics.md`)
-  - `P06-C002`: *Functional Interfaces: @FunctionalInterface, java.util.function* (`curriculum/phase-06-functional-java/002-functional-interfaces.md`)
+  - `P06-C001`: *Functional Interfaces and the @FunctionalInterface Contract* (`curriculum/phase-06-functional-java/001-functional-interfaces-core.md`)
+  - `P06-C002`: *Core Function Types: Predicate, Function, Consumer, Supplier, and Primitives* (`curriculum/phase-06-functional-java/002-core-functional-interfaces.md`)
