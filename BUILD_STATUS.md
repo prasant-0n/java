@@ -91,6 +91,7 @@
 - [x] `P01-C008` JLS §15.7 evaluation order, short-circuit vs non-short-circuit side effects, signed/unsigned bit shifting, and bitmask permission matrix verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P01-C009` dangling else resolution, tableswitch vs lookupswitch bytecode proof, modern arrow switch expressions, and Java 21 pattern matching with guards and sealed hierarchies verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P01-C010` loop desugaring (arrays vs iterators), labeled break/continue in multi-batch matrix search, second-to-last element CME anomaly, and exponential backoff retry verified on HotSpot 64-Bit VM with exit code 0.
+- [x] `P01-C011` method signature rules, 3-phase overload resolution hierarchy, varargs bytecode desugaring (`ACC_VARARGS`), null ambiguity resolution, and zero-allocation logging fast-path verified on HotSpot 64-Bit VM with exit code 0.
 
 ---
 
@@ -102,7 +103,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P01-C010`.
+- **Current Stop Point:** Completed `P01-C011`.
 - **Exact Next Queued Concept:**
-  - `P01-C011`: *Methods: Signatures, Contracts, and Varargs* (`curriculum/phase-01-java-language-fundamentals/011-methods-and-varargs.md`)
   - `P01-C012`: *Pass-by-Value Semantics in Java (Why References Are Passed by Value)* (`curriculum/phase-01-java-language-fundamentals/012-pass-by-value-semantics.md`)
+  - `P01-C013`: *String Immutability, String Pool, and Memory Optimization* (`curriculum/phase-01-java-language-fundamentals/013-string-immutability-and-pool.md`)
