@@ -44,3 +44,6 @@ and this project adheres to strict evidence-based curriculum versioning.
 - **Fourth Concept Module Authored & Verified:**
   - `curriculum/phase-00-development-environment-java-execution/004-classpath-and-package-structure.md`: Complete 16-section concept module covering package namespaces, the 1:1 FQCN-to-path invariant, `-classpath` / `-cp` parameter behavior, JAR archives, wildcard expansion rules (`lib/*`), the three-tier Parent Delegation Model (`Bootstrap` $\to$ `Platform` $\to$ `App`), first-match-wins JAR Hell, and diagnosing `ClassNotFoundException` vs `NoClassDefFoundError`.
   - Multi-module library packaging and static initialization failure reproduction verified on OpenJDK 21 LTS (`exit code 0`).
+- **Fifth Concept Module Authored & Verified:**
+  - `curriculum/phase-00-development-environment-java-execution/005-entry-point-main-method.md`: Complete 16-section concept module covering `public static void main` keyword-by-keyword deconstruction, native JNI bootstrap sequence, CLI argument heap allocation, thread lifecycle (daemon vs non-daemon threads), JVM shutdown hooks, process exit codes (POSIX standards), and modern Java 21–25 evolution (Instance Main Methods & Unnamed Classes via JEP 445/463/477).
+  - Thread lifecycle and shutdown hook execution verified on OpenJDK 21 LTS (`exit code 0`).
