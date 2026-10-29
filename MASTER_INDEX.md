@@ -126,7 +126,7 @@
 | Concept ID | Concept Title | Document Link | Status |
 |---|---|---|---|
 | `P05-C001` | Java Time Architecture: Instant, LocalDate, LocalDateTime, and ZonedDateTime | [`001-java-time-api-fundamentals.md`](curriculum/phase-05-core-java-apis-production/001-java-time-api-fundamentals.md) | `COMPLETE` |
-| `P05-C002` | Time Zones, UTC Storage, Daylight Saving Hazards, and ZoneId | [`002-timezones-utc-and-dst.md`](curriculum/phase-05-core-java-apis-production/002-timezones-utc-and-dst.md) | `NOT_STARTED` |
+| `P05-C002` | Time Zones, UTC Storage, Daylight Saving Hazards, and ZoneId | [`002-timezones-utc-and-dst.md`](curriculum/phase-05-core-java-apis-production/002-timezones-utc-and-dst.md) | `COMPLETE` |
 | `P05-C003` | Periods, Durations, and DateTimeFormatter Parsing Patterns | [`003-periods-durations-and-formatting.md`](curriculum/phase-05-core-java-apis-production/003-periods-durations-and-formatting.md) | `NOT_STARTED` |
 | `P05-C004` | BigDecimal and BigInteger: Precision, Scale, and Rounding Modes | [`004-bigdecimal-and-financial-math.md`](curriculum/phase-05-core-java-apis-production/004-bigdecimal-and-financial-math.md) | `NOT_STARTED` |
 | `P05-C005` | Optional<T>: Purpose, Monadic Methods, and Anti-Patterns | [`005-optional-idioms-and-anti-patterns.md`](curriculum/phase-05-core-java-apis-production/005-optional-idioms-and-anti-patterns.md) | `NOT_STARTED` |

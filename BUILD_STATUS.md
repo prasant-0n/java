@@ -145,6 +145,7 @@
 - [x] **Phase 04 Capstone Integration Project:** Resilient Financial Transfer Transaction Pipeline (`resilient-transaction-pipeline`) built, regression tested (10/10 assertions passing), packaged into standalone executable JAR (`resilient-transaction-pipeline-1.0.0.jar`), and executed with exit code 0.
 - [x] **Phase 04 Completion Gate:** Reconciled and marked `COMPLETE` (9/9 concepts complete + Capstone complete, 100%).
 - [x] `P05-C001` Java Time architecture (JSR-310): `Instant` (machine timeline point), `LocalDate` (calendar date), `LocalDateTime` (wall-clock time), `ZonedDateTime` (political time with DST rules), `OffsetDateTime` (fixed offset serialization), legacy `Date`/`Calendar` anti-patterns, UTC-everywhere-at-rest pattern, and DST spring-forward / fall-back resolution verified on HotSpot 64-Bit VM with exit code 0 (6/6 assertions passed).
+- [x] `P05-C002` Time zones, UTC storage, and DST hazards: `ZoneOffset` (fixed displacement) vs `ZoneId` (geopolitical IANA rules), `ZoneRules` transition inspection, Spring-Forward gap resolution (skipping non-existent hour), Fall-Back overlap resolution (handling repeated hour with `withEarlierOffsetAtOverlap` / `withLaterOffsetAtOverlap`), non-standard 23-hour and 25-hour days, `Period` (preserving wall clock) vs `Duration` (exact machine seconds), non-hour offsets (Nepal +05:45, India +05:30), and `-Duser.timezone=UTC` verified on HotSpot 64-Bit VM with exit code 0 (7/7 assertions passed).
 
 ---
 
@@ -156,7 +157,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P05-C001` (Java Time Architecture: Instant, LocalDate, LocalDateTime, and ZonedDateTime).
+- **Current Stop Point:** Completed `P05-C002` (Time Zones, UTC Storage, Daylight Saving Hazards, and ZoneId).
 - **Exact Next Milestone:**
-  - `P05-C002`: *Time Zones, UTC Storage, Daylight Saving Hazards, and ZoneId* (`curriculum/phase-05-core-java-apis-production/002-timezones-utc-and-dst.md`)
   - `P05-C003`: *Periods, Durations, and DateTimeFormatter Parsing Patterns* (`curriculum/phase-05-core-java-apis-production/003-periods-durations-and-formatting.md`)
+  - `P05-C004`: *BigDecimal and BigInteger: Precision, Scale, and Rounding Modes* (`curriculum/phase-05-core-java-apis-production/004-bigdecimal-and-financial-math.md`)

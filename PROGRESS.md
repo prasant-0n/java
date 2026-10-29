@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 66 | 21.2% |
+| **Modules Complete (`COMPLETE`)** | 67 | 21.5% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 246 | 78.8% |
+| **Modules Not Started (`NOT_STARTED`)** | 245 | 78.5% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P05-C001` (Java Time Architecture: Instant, LocalDate, LocalDateTime, and ZonedDateTime).
-- **Status:** Phase 05 in progress (1/10 concepts complete).
-- **Exact Next Milestone:** `P05-C002` — *Time Zones, UTC Storage, Daylight Saving Hazards, and ZoneId* (`curriculum/phase-05-core-java-apis-production/002-timezones-utc-and-dst.md`).
-- **Following Concept:** `P05-C003` — *Periods, Durations, and DateTimeFormatter Parsing Patterns* (`curriculum/phase-05-core-java-apis-production/003-periods-durations-and-formatting.md`).
+- **Current Focus:** Completed `P05-C002` (Time Zones, UTC Storage, Daylight Saving Hazards, and ZoneId).
+- **Status:** Phase 05 in progress (2/10 concepts complete).
+- **Exact Next Milestone:** `P05-C003` — *Periods, Durations, and DateTimeFormatter Parsing Patterns* (`curriculum/phase-05-core-java-apis-production/003-periods-durations-and-formatting.md`).
+- **Following Concept:** `P05-C004` — *BigDecimal and BigInteger: Precision, Scale, and Rounding Modes* (`curriculum/phase-05-core-java-apis-production/004-bigdecimal-and-financial-math.md`).
 
 ---
 
@@ -36,7 +36,7 @@
 | **Phase 02** | Object-Oriented Programming | 15 | 15 | 0 | COMPLETE |
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 15 | 0 | COMPLETE |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 9 | 0 | COMPLETE |
-| **Phase 05** | Core Java APIs You Will Use in Production | 10 | 1 | 0 | IN_PROGRESS |
+| **Phase 05** | Core Java APIs You Will Use in Production | 10 | 2 | 0 | IN_PROGRESS |
 | **Phase 06** | Functional Java | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 07** | File I/O, NIO, Configuration, and Data Formats | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 08** | JVM Internals and Memory Management | 12 | 0 | 0 | NOT_STARTED |
