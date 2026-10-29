@@ -42,7 +42,7 @@ By completing Phase 05, the learner will independently be able to:
 | `P05-C003` | Periods, Durations, and DateTimeFormatter Parsing Patterns | [`003-periods-durations-and-formatting.md`](003-periods-durations-and-formatting.md) | Essential | COMPLETE |
 | `P05-C004` | BigDecimal and BigInteger: Precision, Scale, and Rounding Modes | [`004-bigdecimal-and-financial-math.md`](004-bigdecimal-and-financial-math.md) | Essential | COMPLETE |
 | `P05-C005` | Optional<T>: Purpose, Monadic Methods, and Anti-Patterns | [`005-optional-idioms-and-anti-patterns.md`](005-optional-idioms-and-anti-patterns.md) | Essential | COMPLETE |
-| `P05-C006` | UUID Generation, Structure, UUIDv4 vs UUIDv7, and Database Indexing | [`006-uuid-generation-and-indexing.md`](006-uuid-generation-and-indexing.md) | Essential | NOT_STARTED |
+| `P05-C006` | UUID Generation, Structure, UUIDv4 vs UUIDv7, and Database Indexing | [`006-uuid-generation-and-indexing.md`](006-uuid-generation-and-indexing.md) | Essential | COMPLETE |
 | `P05-C007` | Objects Utility Class: Null Checks, Equality, and RequireNonNull | [`007-objects-utility-class.md`](007-objects-utility-class.md) | Essential | NOT_STARTED |
 | `P05-C008` | Random vs SecureRandom: PRNG Mechanics, Entropy, and Security Implications | [`008-random-vs-securerandom.md`](008-random-vs-securerandom.md) | Essential | NOT_STARTED |
 | `P05-C009` | System Properties and Environment Variables in Java Applications | [`009-system-properties-and-env.md`](009-system-properties-and-env.md) | Essential | NOT_STARTED |
@@ -101,7 +101,7 @@ Before marking Phase 05 as complete:
 ## 8. Status and Progress Reconciler
 
 - **Total Planned Concepts:** `10`
-- **Completed Concepts:** `5`
+- **Completed Concepts:** `6`
 - **In Progress:** `0`
-- **Completion Rate:** `50.0%`
+- **Completion Rate:** `60.0%`
 - **Last Verified Date:** `2026-10-30`
