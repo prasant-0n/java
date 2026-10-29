@@ -44,7 +44,7 @@ By completing Phase 04, the learner will independently be able to:
 | `P04-C005` | Custom Domain Exceptions, Error Envelopes, and Context Propagation | [`005-custom-domain-exceptions.md`](005-custom-domain-exceptions.md) | Essential | COMPLETE |
 | `P04-C006` | Exception Chaining, Root Causes, and Preserving Stack Traces | [`006-exception-chaining-and-causes.md`](006-exception-chaining-and-causes.md) | Essential | COMPLETE |
 | `P04-C007` | Defensive Programming: Preconditions, Invariants, and Fail-Fast Design | [`007-defensive-programming-fail-fast.md`](007-defensive-programming-fail-fast.md) | Essential | COMPLETE |
-| `P04-C008` | Anti-Patterns: Swallowed Exceptions, Catching Throwable, and Log-and-Throw | [`008-exception-anti-patterns.md`](008-exception-anti-patterns.md) | Essential | NOT_STARTED |
+| `P04-C008` | Anti-Patterns: Swallowed Exceptions, Catching Throwable, and Log-and-Throw | [`008-exception-anti-patterns.md`](008-exception-anti-patterns.md) | Essential | COMPLETE |
 | `P04-C009` | Exceptions vs Result/Either Types for Expected Business Failures | [`009-exceptions-vs-result-types.md`](009-exceptions-vs-result-types.md) | Recommended | NOT_STARTED |
 
 
@@ -99,7 +99,7 @@ Before marking Phase 04 as complete:
 ## 8. Status and Progress Reconciler
 
 - **Total Planned Concepts:** `9`
-- **Completed Concepts:** `7`
+- **Completed Concepts:** `8`
 - **In Progress:** `0`
-- **Completion Rate:** `77.8%`
+- **Completion Rate:** `88.9%`
 - **Last Verified Date:** `2026-10-30`

@@ -139,6 +139,7 @@
 - [x] `P04-C005` Custom domain exceptions, 4 standard constructors rule, base domain exception hierarchy (`BaseDomainException extends RuntimeException`), machine-readable `ErrorCode` enums, unmodifiable structured context parameter builders, and RFC 7807 / RFC 9457 Problem Details HTTP error envelope translation verified on HotSpot 64-Bit VM with exit code 0 (13/13 assertions passed).
 - [x] `P04-C006` Exception chaining (JSR 51), `getCause()` and `initCause()`, root cause extraction with circularity defense (`IdentityHashMap`), severed causal chain anti-pattern proof, HotSpot common frame trimming in stack traces (`... M more`), and programmatic stack trace filtering verified on HotSpot 64-Bit VM with exit code 0 (11/11 assertions passed).
 - [x] `P04-C007` Defensive programming and fail-fast principle (Jim Gray), Design by Contract (Meyer), `Objects.requireNonNull`, Java 9 `checkIndex`, record compact constructor invariant validation before heap field population, state machine invariant protection via `IllegalStateException`, IEEE 754 `Double.NaN` validation traps, and why `assert` is prohibited for public API validation verified on HotSpot 64-Bit VM with exit code 0 (13/13 assertions passed).
+- [x] `P04-C008` Exception anti-patterns: swallowed exceptions (silent corruption), catching `Throwable`/`Error` (intercepting fatal JVM crashes), the "Log and Throw" multiplier trap ($N$ duplicate stack traces vs Log OR Throw discipline), destructive rethrows losing root cause, exception-based control flow performance penalty (37x slower due to `fillInStackTrace()`), returning fallback/null on outages, and JLS §14.20.2 `finally` return exception suppression verified on HotSpot 64-Bit VM with exit code 0 (8/8 assertions passed).
 
 ---
 
@@ -150,7 +151,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P04-C007` (Defensive Programming: Preconditions, Invariants, and Fail-Fast Design).
+- **Current Stop Point:** Completed `P04-C008` (Anti-Patterns: Swallowed Exceptions, Catching Throwable, and Log-and-Throw).
 - **Exact Next Milestone:**
-  - `P04-C008`: *Anti-Patterns: Swallowed Exceptions, Catching Throwable, and Log-and-Throw* (`curriculum/phase-04-exception-handling-defensive-programming/008-exception-anti-patterns.md`)
   - `P04-C009`: *Exceptions vs Result/Either Types for Expected Business Failures* (`curriculum/phase-04-exception-handling-defensive-programming/009-exceptions-vs-result-types.md`)
+  - Phase 04 Capstone Integration Project (`curriculum/phase-04-exception-handling-defensive-programming/capstone/`)
