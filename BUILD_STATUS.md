@@ -108,6 +108,7 @@
 - [x] `P02-C008` GoF composition over inheritance principle, combinatorial subclass explosion resolution, heap layout vs scalar replacement, and decoupled multi-strategy order fulfillment engine verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P02-C009` four object relationship tiers (Dependency, Association, Aggregation, Composition), pointer reachability & GC cascades, bidirectional pointer synchronization, unmodifiable defensive isolation, and runtime warehouse reassignment verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P02-C010` enum bytecode desugaring (`java.lang.Enum<E>`), constant-specific class bodies (anonymous subclasses), Bloch enum singleton reflection immunity (`IllegalArgumentException`), FSM transition validation, `EnumSet` 64-bit hardware bitmask, and zero-allocation parsing verified on HotSpot 64-Bit VM with exit code 0 (20/20 assertions passed).
+- [x] `P02-C011` four nested class variants, synthetic `this$0` enclosing instance pointer, Java 11 nestmates (JEP 181), asynchronous callback memory leak hazards, static nested builder, member inner lifecycle dispatch, and local effectively final variable capture verified on HotSpot 64-Bit VM with exit code 0 (13/13 assertions passed).
 
 ---
 
@@ -119,7 +120,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P02-C010` (Enums as Rich Domain Objects and Singleton Patterns).
+- **Current Stop Point:** Completed `P02-C011` (Nested, Inner, and Anonymous Classes).
 - **Exact Next Milestone:**
-  - `P02-C011`: *Nested, Inner, and Anonymous Classes* (`curriculum/phase-02-object-oriented-programming/011-nested-and-inner-classes.md`)
   - `P02-C012`: *Records: Immutable Data Carriers, Compact Constructors, and DTOs* (`curriculum/phase-02-object-oriented-programming/012-records-and-immutable-data.md`)
+  - `P02-C013`: *Sealed Classes, Sealed Interfaces, and Algebraic Data Types* (`curriculum/phase-02-object-oriented-programming/013-sealed-classes-and-interfaces.md`)
