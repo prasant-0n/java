@@ -38,3 +38,6 @@ and this project adheres to strict evidence-based curriculum versioning.
 - **Second Concept Module Authored & Verified:**
   - `curriculum/phase-00-development-environment-java-execution/002-javac-compiler-and-launcher.md`: Complete 16-section concept module covering the `javac` compilation pipeline (Parse, Enter, Annotate, Attribute, Flow, Desugar, Gen), the `java` launcher bootstrap sequence, `-parameters` for Spring Boot, single-file source execution (JEP 330), and programmatic compiler testing.
   - Multi-package compilation and execution verified on OpenJDK 21 LTS (`exit code 0`).
+- **Third Concept Module Authored & Verified:**
+  - `curriculum/phase-00-development-environment-java-execution/003-source-files-and-bytecode.md`: Complete 16-section concept module covering binary `.class` file structure, `0xCAFEBABE` magic number, Constant Pool relational architecture, stack frame execution (`max_stack`, `max_locals`), instruction-by-instruction operand stack trace, constant inlining binary incompatibility traps, and `javap` disassembly.
+  - Programmatic binary inspection test verified on OpenJDK 21 LTS (`exit code 0`).

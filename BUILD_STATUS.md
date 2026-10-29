@@ -41,6 +41,11 @@
    - Verified multi-package compilation and execution with `-parameters`, `-encoding UTF-8`, and `-d out` (`exit code 0`).
    - Verified `javap` inspection of `MethodParameters` attribute.
    - Updated inventory, index, phase README, and progress registers.
+8. **Third Concept Module Authored and Verified:**
+   - Authored complete, 16-section concept module for `P00-C003`: *Source Files (.java) and Bytecode (.class) Disassembly* (`curriculum/phase-00-development-environment-java-execution/003-source-files-and-bytecode.md`).
+   - Verified binary classfile structure, magic number `0xCAFEBABE`, and constant pool parsing via programmatic `DataInputStream` test (`exit code 0`).
+   - Disassembled and verified operand stack instructions (`imul`, `iadd`, `tableswitch`).
+   - Updated inventory, index, phase README, and progress registers.
 
 ---
 
@@ -53,6 +58,7 @@
 - [x] Git tracking confirmed active with atomic commits per milestone.
 - [x] `P00-C001` code sample compiled with `javac 21.0.12.1` and executed on HotSpot 64-Bit VM with exit code 0.
 - [x] `P00-C002` multi-package sample compiled and executed on HotSpot 64-Bit VM with exit code 0.
+- [x] `P00-C003` classfile binary parser compiled and executed on HotSpot 64-Bit VM with exit code 0.
 
 ---
 
@@ -64,7 +70,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P00-C002`.
+- **Current Stop Point:** Completed `P00-C003`.
 - **Exact Next Queued Concept:**
-  - `P00-C003`: *Source Files (.java) and Bytecode (.class) Disassembly* (`curriculum/phase-00-development-environment-java-execution/003-source-files-and-bytecode.md`)
   - `P00-C004`: *Compilation, Execution, and Classpath Mechanics* (`curriculum/phase-00-development-environment-java-execution/004-classpath-and-package-structure.md`)
+  - `P00-C005`: *Java Entry Point: public static void main Signature and Evolution* (`curriculum/phase-00-development-environment-java-execution/005-entry-point-main-method.md`)

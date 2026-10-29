@@ -38,7 +38,7 @@ By completing Phase 00, the learner will independently be able to:
 |---|---|---|---|---|
 | `P00-C001` | JDK vs JRE vs JVM Architecture and Evolution | [`001-jdk-jre-jvm.md`](001-jdk-jre-jvm.md) | Essential | COMPLETE |
 | `P00-C002` | Java Compiler (javac) vs Launcher (java) Workflow | [`002-javac-compiler-and-launcher.md`](002-javac-compiler-and-launcher.md) | Essential | COMPLETE |
-| `P00-C003` | Source Files (.java) and Bytecode (.class) Disassembly | [`003-source-files-and-bytecode.md`](003-source-files-and-bytecode.md) | Essential | NOT_STARTED |
+| `P00-C003` | Source Files (.java) and Bytecode (.class) Disassembly | [`003-source-files-and-bytecode.md`](003-source-files-and-bytecode.md) | Essential | COMPLETE |
 | `P00-C004` | Compilation, Execution, and Classpath Mechanics | [`004-classpath-and-package-structure.md`](004-classpath-and-package-structure.md) | Essential | NOT_STARTED |
 | `P00-C005` | Java Entry Point: public static void main Signature and Evolution | [`005-entry-point-main-method.md`](005-entry-point-main-method.md) | Essential | NOT_STARTED |
 | `P00-C006` | Single-File Source-Code Launching and Shebang Scripts | [`006-single-file-source-execution.md`](006-single-file-source-execution.md) | Recommended | NOT_STARTED |
@@ -102,7 +102,7 @@ Before marking Phase 00 as complete:
 ## 8. Status and Progress Reconciler
 
 - **Total Planned Concepts:** `11`
-- **Completed Concepts:** `2`
+- **Completed Concepts:** `3`
 - **In Progress:** `0`
-- **Completion Rate:** `18.2%`
+- **Completion Rate:** `27.3%`
 - **Last Verified Date:** `2026-10-29`

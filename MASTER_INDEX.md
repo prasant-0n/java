@@ -37,7 +37,7 @@
 |---|---|---|---|
 | `P00-C001` | JDK vs JRE vs JVM Architecture and Evolution | [`001-jdk-jre-jvm.md`](curriculum/phase-00-development-environment-java-execution/001-jdk-jre-jvm.md) | `COMPLETE` |
 | `P00-C002` | Java Compiler (javac) vs Launcher (java) Workflow | [`002-javac-compiler-and-launcher.md`](curriculum/phase-00-development-environment-java-execution/002-javac-compiler-and-launcher.md) | `COMPLETE` |
-| `P00-C003` | Source Files (.java) and Bytecode (.class) Disassembly | [`003-source-files-and-bytecode.md`](curriculum/phase-00-development-environment-java-execution/003-source-files-and-bytecode.md) | `NOT_STARTED` |
+| `P00-C003` | Source Files (.java) and Bytecode (.class) Disassembly | [`003-source-files-and-bytecode.md`](curriculum/phase-00-development-environment-java-execution/003-source-files-and-bytecode.md) | `COMPLETE` |
 | `P00-C004` | Compilation, Execution, and Classpath Mechanics | [`004-classpath-and-package-structure.md`](curriculum/phase-00-development-environment-java-execution/004-classpath-and-package-structure.md) | `NOT_STARTED` |
 | `P00-C005` | Java Entry Point: public static void main Signature and Evolution | [`005-entry-point-main-method.md`](curriculum/phase-00-development-environment-java-execution/005-entry-point-main-method.md) | `NOT_STARTED` |
 | `P00-C006` | Single-File Source-Code Launching and Shebang Scripts | [`006-single-file-source-execution.md`](curriculum/phase-00-development-environment-java-execution/006-single-file-source-execution.md) | `NOT_STARTED` |
