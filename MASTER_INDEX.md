@@ -119,7 +119,7 @@
 | `P04-C006` | Exception Chaining, Root Causes, and Preserving Stack Traces | [`006-exception-chaining-and-causes.md`](curriculum/phase-04-exception-handling-defensive-programming/006-exception-chaining-and-causes.md) | `COMPLETE` |
 | `P04-C007` | Defensive Programming: Preconditions, Invariants, and Fail-Fast Design | [`007-defensive-programming-fail-fast.md`](curriculum/phase-04-exception-handling-defensive-programming/007-defensive-programming-fail-fast.md) | `COMPLETE` |
 | `P04-C008` | Anti-Patterns: Swallowed Exceptions, Catching Throwable, and Log-and-Throw | [`008-exception-anti-patterns.md`](curriculum/phase-04-exception-handling-defensive-programming/008-exception-anti-patterns.md) | `COMPLETE` |
-| `P04-C009` | Exceptions vs Result/Either Types for Expected Business Failures | [`009-exceptions-vs-result-types.md`](curriculum/phase-04-exception-handling-defensive-programming/009-exceptions-vs-result-types.md) | `NOT_STARTED` |
+| `P04-C009` | Exceptions vs Result/Either Types for Expected Business Failures | [`009-exceptions-vs-result-types.md`](curriculum/phase-04-exception-handling-defensive-programming/009-exceptions-vs-result-types.md) | `COMPLETE` |
 
 ### [Phase 05: Core Java APIs You Will Use in Production](curriculum/phase-05-core-java-apis-production/README.md)
 
