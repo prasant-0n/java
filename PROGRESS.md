@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 84 | 26.9% |
+| **Modules Complete (`COMPLETE`)** | 85 | 27.2% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 228 | 73.1% |
+| **Modules Not Started (`NOT_STARTED`)** | 227 | 72.8% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P06-C009` (Primitive Streams: IntStream, LongStream, DoubleStream and Performance). 75.0% of Phase 06 complete!
-- **Status:** Phase 06 in progress (9/12 concepts complete).
-- **Exact Next Milestone:** `P06-C010` — *Stream Laziness, Short-Circuit Evaluation, and Side-Effect Dangers* (`curriculum/phase-06-functional-java/010-stream-laziness-side-effects.md`).
-- **Following Concept:** `P06-C011` — *Sequential vs Parallel Streams: Spliterators, ForkJoinPool, and Overhead* (`curriculum/phase-06-functional-java/011-parallel-streams-and-forkjoin.md`).
+- **Current Focus:** Completed `P06-C010` (Stream Laziness, Short-Circuit Evaluation, and Side-Effect Dangers). 83.3% of Phase 06 complete!
+- **Status:** Phase 06 in progress (10/12 concepts complete).
+- **Exact Next Milestone:** `P06-C011` — *Sequential vs Parallel Streams: Spliterators, ForkJoinPool, and Overhead* (`curriculum/phase-06-functional-java/011-parallel-streams-and-forkjoin.md`).
+- **Following Concept:** `P06-C012` — *Stream vs Imperative Loops: Readability, Debuggability, and Benchmarks* (`curriculum/phase-06-functional-java/012-stream-vs-imperative-benchmarks.md`).
 
 ---
 
@@ -37,7 +37,7 @@
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 15 | 0 | COMPLETE |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 9 | 0 | COMPLETE |
 | **Phase 05** | Core Java APIs You Will Use in Production | 10 | 10 | 0 | COMPLETE |
-| **Phase 06** | Functional Java | 12 | 9 | 0 | IN_PROGRESS |
+| **Phase 06** | Functional Java | 12 | 10 | 0 | IN_PROGRESS |
 | **Phase 07** | File I/O, NIO, Configuration, and Data Formats | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 08** | JVM Internals and Memory Management | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 09** | Data Structures and Algorithms for Backend Developers | 13 | 0 | 0 | NOT_STARTED |

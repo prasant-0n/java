@@ -46,7 +46,7 @@ By completing Phase 06, the learner will independently be able to:
 | `P06-C007` | Terminal Operations: forEach, collect, reduce, matchers, findFirst | [`007-terminal-stream-operations.md`](007-terminal-stream-operations.md) | Essential | COMPLETE |
 | `P06-C008` | Collectors: groupingBy, partitioningBy, toMap, and Downstream Collectors | [`008-collectors-grouping-partitioning.md`](008-collectors-grouping-partitioning.md) | Essential | COMPLETE |
 | `P06-C009` | Primitive Streams: IntStream, LongStream, DoubleStream and Performance | [`009-primitive-streams-performance.md`](009-primitive-streams-performance.md) | Essential | COMPLETE |
-| `P06-C010` | Stream Laziness, Short-Circuit Evaluation, and Side-Effect Dangers | [`010-stream-laziness-side-effects.md`](010-stream-laziness-side-effects.md) | Essential | NOT_STARTED |
+| `P06-C010` | Stream Laziness, Short-Circuit Evaluation, and Side-Effect Dangers | [`010-stream-laziness-side-effects.md`](010-stream-laziness-side-effects.md) | Essential | COMPLETE |
 | `P06-C011` | Sequential vs Parallel Streams: Spliterators, ForkJoinPool, and Overhead | [`011-parallel-streams-and-forkjoin.md`](011-parallel-streams-and-forkjoin.md) | Essential | NOT_STARTED |
 | `P06-C012` | Stream vs Imperative Loops: Readability, Debuggability, and Benchmarks | [`012-stream-vs-imperative-benchmarks.md`](012-stream-vs-imperative-benchmarks.md) | Essential | NOT_STARTED |
 
@@ -106,7 +106,7 @@ Before marking Phase 06 as complete:
 
 - **Phase Status:** `IN_PROGRESS`
 - **Total Planned Concepts:** `12`
-- **Completed Concepts:** `9`
+- **Completed Concepts:** `10`
 - **In Progress:** `0`
-- **Completion Rate:** `75.0%`
+- **Completion Rate:** `83.3%`
 - **Last Verified Date:** `2026-10-30`
