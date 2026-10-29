@@ -111,6 +111,7 @@
 - [x] `P02-C011` four nested class variants, synthetic `this$0` enclosing instance pointer, Java 11 nestmates (JEP 181), asynchronous callback memory leak hazards, static nested builder, member inner lifecycle dispatch, and local effectively final variable capture verified on HotSpot 64-Bit VM with exit code 0 (13/13 assertions passed).
 - [x] `P02-C012` Record semantics (JEP 395), `Record` classfile attribute, invokedynamic bootstrap methods for equals/hashCode/toString, compact constructor validation, deep immutability defensive copy (`List.copyOf`), and Java 21 Record Pattern matching (JEP 440) verified on HotSpot 64-Bit VM with exit code 0 (8/8 assertions passed).
 - [x] `P02-C013` Sealed types (JEP 409), `PermittedSubclasses` classfile attribute, subclass modifier triad (`final`, `sealed`, `non-sealed`), Algebraic Data Types (Sum + Product), reflection API inspection, and exhaustive switch dispatch verified on HotSpot 64-Bit VM with exit code 0 (12/12 assertions passed).
+- [x] `P02-C014` Pattern Matching for `instanceof` (JEP 394), flow scoping rules across boolean short-circuits, Record Patterns (JEP 440), exhaustive switch pattern matching (JEP 441) with guarded patterns (`when`), safe `case null` handling, and pattern dominance enforcement verified on HotSpot 64-Bit VM with exit code 0 (10/10 assertions passed).
 
 ---
 
@@ -122,7 +123,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P02-C013` (Sealed Classes, Sealed Interfaces, and Algebraic Data Types).
+- **Current Stop Point:** Completed `P02-C014` (Pattern Matching for instanceof and Switch Expressions).
 - **Exact Next Milestone:**
-  - `P02-C014`: *Pattern Matching for instanceof and Switch Expressions* (`curriculum/phase-02-object-oriented-programming/014-pattern-matching-oop.md`)
   - `P02-C015`: *The Object Superclass Contract: equals(), hashCode(), toString(), clone()* (`curriculum/phase-02-object-oriented-programming/015-object-class-contracts.md`)
+  - Phase 02 Capstone Integration Project and Phase Gate Reconciler
