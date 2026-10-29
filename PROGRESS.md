@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 54 | 17.3% |
+| **Modules Complete (`COMPLETE`)** | 55 | 17.6% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 258 | 82.7% |
+| **Modules Not Started (`NOT_STARTED`)** | 257 | 82.4% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P03-C013` (Bounded Type Parameters and Multiple Bounds).
-- **Status:** Phase 03 in progress (13/15 concepts complete).
-- **Exact Next Milestone:** `P03-C014` — *Wildcards and PECS (Producer Extends, Consumer Super) Principle* (`curriculum/phase-03-collections-framework-generics-type-safety/014-wildcards-and-pecs.md`).
-- **Following Concept:** `P03-C015` — *Type Erasure, Bridge Methods, Heap Pollution, and Reifiable Types*
+- **Current Focus:** Completed `P03-C014` (Wildcards and PECS (Producer Extends, Consumer Super) Principle).
+- **Status:** Phase 03 in progress (14/15 concepts complete).
+- **Exact Next Milestone:** `P03-C015` — *Type Erasure, Bridge Methods, Heap Pollution, and Reifiable Types* (`curriculum/phase-03-collections-framework-generics-type-safety/015-type-erasure-and-heap-pollution.md`).
+- **Following Milestone:** Phase 03 Capstone Integration Project & Phase Gate (`generic-evicting-cache`).
 
 ---
 
@@ -34,7 +34,7 @@
 | **Phase 00** | Development Environment and Java Execution | 11 | 11 | 0 | COMPLETE |
 | **Phase 01** | Java Language Fundamentals | 15 | 15 | 0 | COMPLETE |
 | **Phase 02** | Object-Oriented Programming | 15 | 15 | 0 | COMPLETE |
-| **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 13 | 0 | IN_PROGRESS |
+| **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 14 | 0 | IN_PROGRESS |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 0 | 0 | NOT_STARTED |
 | **Phase 05** | Core Java APIs You Will Use in Production | 10 | 0 | 0 | NOT_STARTED |
 | **Phase 06** | Functional Java | 12 | 0 | 0 | NOT_STARTED |
@@ -56,4 +56,4 @@
 | **Phase 22** | Performance, Scalability, and Reliability | 8 | 0 | 0 | NOT_STARTED |
 | **Phase 23** | Professional Engineering Habits | 7 | 0 | 0 | NOT_STARTED |
 | **Supplemental** | Advanced Tracks & Specializations | 19 | 0 | 0 | NOT_STARTED |
-| **Total** | **All Modules** | **312** | **54** | **0** | **IN_PROGRESS** |
+| **Total** | **All Modules** | **312** | **55** | **0** | **IN_PROGRESS** |

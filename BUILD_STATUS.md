@@ -128,6 +128,7 @@
 - [x] `P03-C011` `Iterator<T>` and `Iterable<T>` contracts, fail-fast mechanics (`modCount` vs `expectedModCount`), direct collection mutation CME triggers, safe element removal via `iterator.remove()`, double remove `IllegalStateException`, high-performance bulk compaction via `removeIf(Predicate)` ($O(N)$ vs $O(N^2)$), weakly consistent iterators (`ConcurrentHashMap`), snapshot iterators (`CopyOnWriteArrayList`), `ListIterator` bidirectional navigation, `Spliterator.trySplit()` parallel partitioning, and the second-to-last element silent loop termination anomaly verified on HotSpot 64-Bit VM with exit code 0 (19/19 assertions passed).
 - [x] `P03-C012` Generics fundamentals, parametric polymorphism, compile-time type safety vs pre-Java 5 raw `Object` runtime `ClassCastException`, type parameter naming conventions, generic classes/interfaces (`Repository<T, ID>`), generic methods with independent type parameters (`<R> List<R> mapAll`), static context parameter isolation, strict type invariance (`List<String>` not assignable to `List<Object>`), type erasure mechanics and `checkcast` instructions, `Signature` classfile attribute preservation, shared runtime `Class` mirrors, monadic generic `Result<T>` envelope, and raw type runtime hazards verified on HotSpot 64-Bit VM with exit code 0 (18/18 assertions passed).
 - [x] `P03-C013` Bounded type parameters, single upper bounds (`<T extends Number>`), multiple bounds syntax and semantics (`<T extends ClassBound & InterfaceBound1 & InterfaceBound2>`), the "class bound first" requirement, prohibition of multiple class inheritance, recursive type bounds (`<T extends Comparable<T>>`), erasure to first bound (`Number` vs `Object`) proven via reflection, and zero-runtime overhead dispatch verified on HotSpot 64-Bit VM with exit code 0 (15/15 assertions passed).
+- [x] `P03-C014` Wildcards and PECS (Producer Extends, Consumer Super) principle, use-site variance, upper-bounded wildcards (`? extends T`) for read-only producer collections, lower-bounded wildcards (`? super T`) for write-only consumer collections, why adding to `? extends T` is forbidden, why reading from `? super T` yields `Object`, archetypal `Collections.copy` batch transfers, unbounded wildcards (`?`), and private wildcard capture helpers verified on HotSpot 64-Bit VM with exit code 0 (14/14 assertions passed).
 
 ---
 
@@ -139,7 +140,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P03-C013` (Bounded Type Parameters and Multiple Bounds).
+- **Current Stop Point:** Completed `P03-C014` (Wildcards and PECS (Producer Extends, Consumer Super) Principle).
 - **Exact Next Milestone:**
-  - `P03-C014`: *Wildcards and PECS (Producer Extends, Consumer Super) Principle* (`curriculum/phase-03-collections-framework-generics-type-safety/014-wildcards-and-pecs.md`)
   - `P03-C015`: *Type Erasure, Bridge Methods, Heap Pollution, and Reifiable Types* (`curriculum/phase-03-collections-framework-generics-type-safety/015-type-erasure-and-heap-pollution.md`)
+  - Phase 03 Capstone Integration Project & Phase Gate (`generic-evicting-cache`)
