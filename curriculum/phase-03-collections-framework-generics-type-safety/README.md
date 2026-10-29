@@ -37,7 +37,7 @@ By completing Phase 03, the learner will independently be able to:
 
 | Concept ID | Concept Title | File Name | Importance | Status |
 |---|---|---|---|---|
-| `P03-C001` | Collections Framework Architecture: Iterable, Collection, and Map | [`001-collections-framework-hierarchy.md`](001-collections-framework-hierarchy.md) | Essential | NOT_STARTED |
+| `P03-C001` | Collections Framework Architecture: Iterable, Collection, and Map | [`001-collections-framework-hierarchy.md`](001-collections-framework-hierarchy.md) | Essential | COMPLETE |
 | `P03-C002` | List Implementations: ArrayList vs LinkedList Performance and Memory | [`002-arraylist-vs-linkedlist.md`](002-arraylist-vs-linkedlist.md) | Essential | NOT_STARTED |
 | `P03-C003` | Set Implementations: HashSet, LinkedHashSet, and TreeSet | [`003-set-implementations.md`](003-set-implementations.md) | Essential | NOT_STARTED |
 | `P03-C004` | HashMap Internals: Hash Codes, Buckets, Treeification, and Rehashing | [`004-hashmap-internals-and-mechanics.md`](004-hashmap-internals-and-mechanics.md) | Essential | NOT_STARTED |

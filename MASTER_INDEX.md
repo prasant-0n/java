@@ -91,7 +91,7 @@
 
 | Concept ID | Concept Title | Document Link | Status |
 |---|---|---|---|
-| `P03-C001` | Collections Framework Architecture: Iterable, Collection, and Map | [`001-collections-framework-hierarchy.md`](curriculum/phase-03-collections-framework-generics-type-safety/001-collections-framework-hierarchy.md) | `NOT_STARTED` |
+| `P03-C001` | Collections Framework Architecture: Iterable, Collection, and Map | [`001-collections-framework-hierarchy.md`](curriculum/phase-03-collections-framework-generics-type-safety/001-collections-framework-hierarchy.md) | `COMPLETE` |
 | `P03-C002` | List Implementations: ArrayList vs LinkedList Performance and Memory | [`002-arraylist-vs-linkedlist.md`](curriculum/phase-03-collections-framework-generics-type-safety/002-arraylist-vs-linkedlist.md) | `NOT_STARTED` |
 | `P03-C003` | Set Implementations: HashSet, LinkedHashSet, and TreeSet | [`003-set-implementations.md`](curriculum/phase-03-collections-framework-generics-type-safety/003-set-implementations.md) | `NOT_STARTED` |
 | `P03-C004` | HashMap Internals: Hash Codes, Buckets, Treeification, and Rehashing | [`004-hashmap-internals-and-mechanics.md`](curriculum/phase-03-collections-framework-generics-type-safety/004-hashmap-internals-and-mechanics.md) | `NOT_STARTED` |

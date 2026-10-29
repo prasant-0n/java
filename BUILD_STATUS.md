@@ -115,6 +115,7 @@
 - [x] `P02-C015` The `java.lang.Object` contracts (`equals`, `hashCode`, `toString`, `clone`), 5 mathematical axioms, identity hash code in 64-bit Mark Word, mutable collection key hazards, copy constructors over `Cloneable`, and credential masking verified on HotSpot 64-Bit VM with exit code 0 (17/17 assertions passed).
 - [x] **Phase 02 Capstone Integration Project:** Clean Architecture Banking Domain Engine built, regression tested (31/31 assertions passing), packaged into standalone executable JAR (`banking-domain-engine-1.0.0.jar`), and executed with exit code 0.
 - [x] **Phase 02 Completion Gate:** Reconciled and marked `COMPLETE` (15/15 concepts complete + Capstone complete, 100%).
+- [x] `P03-C001` Java Collections Framework architecture (`Iterable`, `Collection`, `Map`), why `Map` does not extend `Collection`, Map collection view synchronization, Java 21 `SequencedCollection` operations (`addFirst`, `getLast`, `reversed`), and Queue special-value null contracts verified on HotSpot 64-Bit VM with exit code 0 (12/12 assertions passed).
 
 ---
 
@@ -126,8 +127,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Phase 02 Formally Reconciled and Closed (100% COMPLETE).
+- **Current Stop Point:** Completed `P03-C001` (Collections Framework Architecture: Iterable, Collection, and Map).
 - **Exact Next Milestone:**
-  - Launch Phase 03: Collections Framework, Generics, and Type Safety
-  - `P03-C001`: *The Collections Framework Architecture and Hierarchy* (`curriculum/phase-03-collections-framework-generics-type-safety/001-collections-framework-hierarchy.md`)
-  - `P03-C002`: *ArrayList Internals, Dynamic Resizing, and Vector/CopyOnWriteArrayList Comparison* (`curriculum/phase-03-collections-framework-generics-type-safety/002-arraylist-internals.md`)
+  - `P03-C002`: *List Implementations: ArrayList vs LinkedList Performance and Memory* (`curriculum/phase-03-collections-framework-generics-type-safety/002-arraylist-vs-linkedlist.md`)
+  - `P03-C003`: *Set Implementations: HashSet, LinkedHashSet, and TreeSet* (`curriculum/phase-03-collections-framework-generics-type-safety/003-set-implementations.md`)
