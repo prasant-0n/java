@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 45 | 14.4% |
+| **Modules Complete (`COMPLETE`)** | 46 | 14.7% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 267 | 85.6% |
+| **Modules Not Started (`NOT_STARTED`)** | 266 | 85.3% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P03-C004` (HashMap Internals: Hash Codes, Buckets, Treeification, and Rehashing).
-- **Status:** Phase 03 in progress (4/15 concepts complete).
-- **Exact Next Milestone:** `P03-C005` — *LinkedHashMap and TreeMap: Ordering, Red-Black Trees, and LRU Caches* (`curriculum/phase-03-collections-framework-generics-type-safety/005-linkedhashmap-treemap-ordering.md`).
-- **Following Concept:** `P03-C006` — *Queue and Deque Implementations: ArrayDeque vs PriorityQueue*
+- **Current Focus:** Completed `P03-C005` (LinkedHashMap and TreeMap: Ordering, Red-Black Trees, and LRU Caches).
+- **Status:** Phase 03 in progress (5/15 concepts complete).
+- **Exact Next Milestone:** `P03-C006` — *Queue and Deque Implementations: ArrayDeque vs PriorityQueue* (`curriculum/phase-03-collections-framework-generics-type-safety/006-queues-and-deques.md`).
+- **Following Concept:** `P03-C007` — *Concurrent Collections Introduction: ConcurrentHashMap vs Collections.synchronizedMap*
 
 ---
 
@@ -34,7 +34,7 @@
 | **Phase 00** | Development Environment and Java Execution | 11 | 11 | 0 | COMPLETE |
 | **Phase 01** | Java Language Fundamentals | 15 | 15 | 0 | COMPLETE |
 | **Phase 02** | Object-Oriented Programming | 15 | 15 | 0 | COMPLETE |
-| **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 4 | 0 | IN_PROGRESS |
+| **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 5 | 0 | IN_PROGRESS |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 0 | 0 | NOT_STARTED |
 | **Phase 05** | Core Java APIs You Will Use in Production | 10 | 0 | 0 | NOT_STARTED |
 | **Phase 06** | Functional Java | 12 | 0 | 0 | NOT_STARTED |
@@ -56,4 +56,4 @@
 | **Phase 22** | Performance, Scalability, and Reliability | 8 | 0 | 0 | NOT_STARTED |
 | **Phase 23** | Professional Engineering Habits | 7 | 0 | 0 | NOT_STARTED |
 | **Supplemental** | Advanced Tracks & Specializations | 19 | 0 | 0 | NOT_STARTED |
-| **Total** | **All Modules** | **312** | **45** | **0** | **IN_PROGRESS** |
+| **Total** | **All Modules** | **312** | **46** | **0** | **IN_PROGRESS** |
