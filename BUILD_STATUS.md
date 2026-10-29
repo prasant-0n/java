@@ -137,6 +137,7 @@
 - [x] `P04-C003` `try`, `catch`, `finally` control flow, subclass-before-superclass catch ordering (unreachable code rejection), Java 7 multi-catch syntax (`catch (IOException | SQLException e)`), disjoint types constraint, implicitly final catch parameters, `finally` execution guarantees across normal/caught/early-return paths, `finally` bytecode compilation via code inlining and synthetic `any` exception tables, and dangerous `finally` return/throw traps verified on HotSpot 64-Bit VM with exit code 0 (15/15 assertions passed).
 - [x] `P04-C004` Try-with-resources statement (JEP 105), `AutoCloseable` vs `Closeable` contracts, reverse LIFO resource closing order, suppressed exceptions preservation (`Throwable.addSuppressed` and `Throwable.getSuppressed`), `javac` synthetic desugaring tree, and Java 9 effectively final resource references verified on HotSpot 64-Bit VM with exit code 0 (12/12 assertions passed).
 - [x] `P04-C005` Custom domain exceptions, 4 standard constructors rule, base domain exception hierarchy (`BaseDomainException extends RuntimeException`), machine-readable `ErrorCode` enums, unmodifiable structured context parameter builders, and RFC 7807 / RFC 9457 Problem Details HTTP error envelope translation verified on HotSpot 64-Bit VM with exit code 0 (13/13 assertions passed).
+- [x] `P04-C006` Exception chaining (JSR 51), `getCause()` and `initCause()`, root cause extraction with circularity defense (`IdentityHashMap`), severed causal chain anti-pattern proof, HotSpot common frame trimming in stack traces (`... M more`), and programmatic stack trace filtering verified on HotSpot 64-Bit VM with exit code 0 (11/11 assertions passed).
 
 ---
 
@@ -148,7 +149,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P04-C005` (Custom Domain Exceptions, Error Envelopes, and Context Propagation).
+- **Current Stop Point:** Completed `P04-C006` (Exception Chaining, Root Causes, and Preserving Stack Traces).
 - **Exact Next Milestone:**
-  - `P04-C006`: *Exception Chaining, Root Causes, and Preserving Stack Traces* (`curriculum/phase-04-exception-handling-defensive-programming/006-exception-chaining-and-causes.md`)
   - `P04-C007`: *Defensive Programming: Preconditions, Invariants, and Fail-Fast Design* (`curriculum/phase-04-exception-handling-defensive-programming/007-defensive-programming-fail-fast.md`)
+  - `P04-C008`: *Anti-Patterns: Swallowed Exceptions, Catching Throwable, and Log-and-Throw* (`curriculum/phase-04-exception-handling-defensive-programming/008-exception-anti-patterns.md`)

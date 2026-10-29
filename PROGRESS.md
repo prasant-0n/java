@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 61 | 19.6% |
+| **Modules Complete (`COMPLETE`)** | 62 | 19.9% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 251 | 80.4% |
+| **Modules Not Started (`NOT_STARTED`)** | 250 | 80.1% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P04-C005` (Custom Domain Exceptions, Error Envelopes, and Context Propagation).
-- **Status:** Phase 04 in progress (5/9 concepts complete).
-- **Exact Next Milestone:** `P04-C006` — *Exception Chaining, Root Causes, and Preserving Stack Traces* (`curriculum/phase-04-exception-handling-defensive-programming/006-exception-chaining-and-causes.md`).
-- **Following Concept:** `P04-C007` — *Defensive Programming: Preconditions, Invariants, and Fail-Fast Design*
+- **Current Focus:** Completed `P04-C006` (Exception Chaining, Root Causes, and Preserving Stack Traces).
+- **Status:** Phase 04 in progress (6/9 concepts complete).
+- **Exact Next Milestone:** `P04-C007` — *Defensive Programming: Preconditions, Invariants, and Fail-Fast Design* (`curriculum/phase-04-exception-handling-defensive-programming/007-defensive-programming-fail-fast.md`).
+- **Following Concept:** `P04-C008` — *Anti-Patterns: Swallowed Exceptions, Catching Throwable, and Log-and-Throw*
 
 ---
 
@@ -35,7 +35,7 @@
 | **Phase 01** | Java Language Fundamentals | 15 | 15 | 0 | COMPLETE |
 | **Phase 02** | Object-Oriented Programming | 15 | 15 | 0 | COMPLETE |
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 15 | 0 | COMPLETE |
-| **Phase 04** | Exception Handling and Defensive Programming | 9 | 5 | 0 | IN_PROGRESS |
+| **Phase 04** | Exception Handling and Defensive Programming | 9 | 6 | 0 | IN_PROGRESS |
 | **Phase 05** | Core Java APIs You Will Use in Production | 10 | 0 | 0 | NOT_STARTED |
 | **Phase 06** | Functional Java | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 07** | File I/O, NIO, Configuration, and Data Formats | 12 | 0 | 0 | NOT_STARTED |
@@ -56,4 +56,4 @@
 | **Phase 22** | Performance, Scalability, and Reliability | 8 | 0 | 0 | NOT_STARTED |
 | **Phase 23** | Professional Engineering Habits | 7 | 0 | 0 | NOT_STARTED |
 | **Supplemental** | Advanced Tracks & Specializations | 19 | 0 | 0 | NOT_STARTED |
-| **Total** | **All Modules** | **312** | **61** | **0** | **IN_PROGRESS** |
+| **Total** | **All Modules** | **312** | **62** | **0** | **IN_PROGRESS** |
