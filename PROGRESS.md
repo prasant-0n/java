@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 6 | 1.9% |
+| **Modules Complete (`COMPLETE`)** | 7 | 2.2% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 306 | 98.1% |
+| **Modules Not Started (`NOT_STARTED`)** | 305 | 97.8% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P00-C006` (Verified and committed).
+- **Current Focus:** Completed `P00-C007` (Verified and committed).
 - **Status:** Resuming execution pipeline.
-- **Exact Next Queued Concept:** `P00-C007` — *Environment Variables: JAVA_HOME and PATH in Linux/Production* (`curriculum/phase-00-development-environment-java-execution/007-environment-variables-java-home-path.md`)
-- **Following Concept:** `P00-C008` — *JDK Versions, Release Cadence, LTS, and Bytecode Compatibility* (`curriculum/phase-00-development-environment-java-execution/008-jdk-versions-lts-compatibility.md`)
+- **Exact Next Queued Concept:** `P00-C008` — *JDK Versions, Release Cadence, LTS, and Bytecode Compatibility* (`curriculum/phase-00-development-environment-java-execution/008-jdk-versions-lts-compatibility.md`)
+- **Following Concept:** `P00-C009` — *IDEs vs Headless Terminal Development in Server Environments* (`curriculum/phase-00-development-environment-java-execution/009-ide-vs-terminal-development.md`)
 
 ---
 
@@ -31,7 +31,7 @@
 
 | Phase | Phase Name | Planned Concepts | Completed | In Progress | Status |
 |---|---|---|---|---|---|
-| **Phase 00** | Development Environment and Java Execution | 11 | 6 | 0 | IN_PROGRESS |
+| **Phase 00** | Development Environment and Java Execution | 11 | 7 | 0 | IN_PROGRESS |
 | **Phase 01** | Java Language Fundamentals | 15 | 0 | 0 | NOT_STARTED |
 | **Phase 02** | Object-Oriented Programming | 15 | 0 | 0 | NOT_STARTED |
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 0 | 0 | NOT_STARTED |

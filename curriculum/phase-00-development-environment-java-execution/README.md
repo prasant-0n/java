@@ -42,7 +42,7 @@ By completing Phase 00, the learner will independently be able to:
 | `P00-C004` | Compilation, Execution, and Classpath Mechanics | [`004-classpath-and-package-structure.md`](004-classpath-and-package-structure.md) | Essential | COMPLETE |
 | `P00-C005` | Java Entry Point: public static void main Signature and Evolution | [`005-entry-point-main-method.md`](005-entry-point-main-method.md) | Essential | COMPLETE |
 | `P00-C006` | Single-File Source-Code Launching and Shebang Scripts | [`006-single-file-source-execution.md`](006-single-file-source-execution.md) | Recommended | COMPLETE |
-| `P00-C007` | Environment Variables: JAVA_HOME and PATH in Linux/Production | [`007-environment-variables-java-home-path.md`](007-environment-variables-java-home-path.md) | Essential | NOT_STARTED |
+| `P00-C007` | Environment Variables: JAVA_HOME and PATH in Linux/Production | [`007-environment-variables-java-home-path.md`](007-environment-variables-java-home-path.md) | Essential | COMPLETE |
 | `P00-C008` | JDK Versions, Release Cadence, LTS, and Bytecode Compatibility | [`008-jdk-versions-lts-compatibility.md`](008-jdk-versions-lts-compatibility.md) | Essential | NOT_STARTED |
 | `P00-C009` | IDEs vs Headless Terminal Development in Server Environments | [`009-ide-vs-terminal-development.md`](009-ide-vs-terminal-development.md) | Recommended | NOT_STARTED |
 | `P00-C010` | Maven Fundamentals and Standard Directory Layout | [`010-maven-fundamentals-project-structure.md`](010-maven-fundamentals-project-structure.md) | Essential | NOT_STARTED |
@@ -102,7 +102,7 @@ Before marking Phase 00 as complete:
 ## 8. Status and Progress Reconciler
 
 - **Total Planned Concepts:** `11`
-- **Completed Concepts:** `6`
+- **Completed Concepts:** `7`
 - **In Progress:** `0`
-- **Completion Rate:** `54.5%`
+- **Completion Rate:** `63.6%`
 - **Last Verified Date:** `2026-10-29`

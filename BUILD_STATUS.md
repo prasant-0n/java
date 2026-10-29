@@ -74,6 +74,7 @@
 - [x] `P00-C004` multi-JAR linking and classloader hierarchy verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P00-C005` thread lifecycle and shutdown hooks verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P00-C006` single-file launcher and Linux executable shebang script verified on HotSpot 64-Bit VM with exit code 0.
+- [x] `P00-C007` environment variable auditor and Linux symlink resolver verified on HotSpot 64-Bit VM with exit code 0.
 
 ---
 
@@ -85,7 +86,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P00-C006`.
+- **Current Stop Point:** Completed `P00-C007`.
 - **Exact Next Queued Concept:**
-  - `P00-C007`: *Environment Variables: JAVA_HOME and PATH in Linux/Production* (`curriculum/phase-00-development-environment-java-execution/007-environment-variables-java-home-path.md`)
   - `P00-C008`: *JDK Versions, Release Cadence, LTS, and Bytecode Compatibility* (`curriculum/phase-00-development-environment-java-execution/008-jdk-versions-lts-compatibility.md`)
+  - `P00-C009`: *IDEs vs Headless Terminal Development in Server Environments* (`curriculum/phase-00-development-environment-java-execution/009-ide-vs-terminal-development.md`)
