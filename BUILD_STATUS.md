@@ -112,6 +112,7 @@
 - [x] `P02-C012` Record semantics (JEP 395), `Record` classfile attribute, invokedynamic bootstrap methods for equals/hashCode/toString, compact constructor validation, deep immutability defensive copy (`List.copyOf`), and Java 21 Record Pattern matching (JEP 440) verified on HotSpot 64-Bit VM with exit code 0 (8/8 assertions passed).
 - [x] `P02-C013` Sealed types (JEP 409), `PermittedSubclasses` classfile attribute, subclass modifier triad (`final`, `sealed`, `non-sealed`), Algebraic Data Types (Sum + Product), reflection API inspection, and exhaustive switch dispatch verified on HotSpot 64-Bit VM with exit code 0 (12/12 assertions passed).
 - [x] `P02-C014` Pattern Matching for `instanceof` (JEP 394), flow scoping rules across boolean short-circuits, Record Patterns (JEP 440), exhaustive switch pattern matching (JEP 441) with guarded patterns (`when`), safe `case null` handling, and pattern dominance enforcement verified on HotSpot 64-Bit VM with exit code 0 (10/10 assertions passed).
+- [x] `P02-C015` The `java.lang.Object` contracts (`equals`, `hashCode`, `toString`, `clone`), 5 mathematical axioms, identity hash code in 64-bit Mark Word, mutable collection key hazards, copy constructors over `Cloneable`, and credential masking verified on HotSpot 64-Bit VM with exit code 0 (17/17 assertions passed).
 
 ---
 
@@ -123,7 +124,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P02-C014` (Pattern Matching for instanceof and Switch Expressions).
+- **Current Stop Point:** Completed all 15 Phase 02 Concept Modules (`P02-C001` through `P02-C015`, 100%).
 - **Exact Next Milestone:**
-  - `P02-C015`: *The Object Superclass Contract: equals(), hashCode(), toString(), clone()* (`curriculum/phase-02-object-oriented-programming/015-object-class-contracts.md`)
-  - Phase 02 Capstone Integration Project and Phase Gate Reconciler
+  - Phase 02 Capstone Integration Project — Clean Architecture Banking Domain Engine (`curriculum/phase-02-object-oriented-programming/capstone/`)
+  - Phase 02 Completion Gate Reconciliation

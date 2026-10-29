@@ -85,7 +85,7 @@
 | `P02-C012` | Records: Immutable Data Carriers, Compact Constructors, and DTOs | [`012-records-and-immutable-data.md`](curriculum/phase-02-object-oriented-programming/012-records-and-immutable-data.md) | `COMPLETE` |
 | `P02-C013` | Sealed Classes, Sealed Interfaces, and Algebraic Data Types | [`013-sealed-classes-and-interfaces.md`](curriculum/phase-02-object-oriented-programming/013-sealed-classes-and-interfaces.md) | `COMPLETE` |
 | `P02-C014` | Pattern Matching for instanceof and Switch Expressions | [`014-pattern-matching-oop.md`](curriculum/phase-02-object-oriented-programming/014-pattern-matching-oop.md) | `COMPLETE` |
-| `P02-C015` | The Object Superclass Contract: equals(), hashCode(), toString(), clone() | [`015-object-class-contracts.md`](curriculum/phase-02-object-oriented-programming/015-object-class-contracts.md) | `NOT_STARTED` |
+| `P02-C015` | The Object Superclass Contract: equals(), hashCode(), toString(), clone() | [`015-object-class-contracts.md`](curriculum/phase-02-object-oriented-programming/015-object-class-contracts.md) | `COMPLETE` |
 
 ### [Phase 03: Collections Framework, Generics, and Type Safety](curriculum/phase-03-collections-framework-generics-type-safety/README.md)
 
