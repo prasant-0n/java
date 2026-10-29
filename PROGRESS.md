@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P05-C010` (Regular Expressions: Pattern, Matcher, Groups, and ReDoS Prevention). All 10 Phase 05 concepts complete (100%)!
-- **Status:** Phase 05 concepts complete (10/10). Next is Phase 05 Capstone Integration Project.
-- **Exact Next Milestone:** Phase 05 Capstone Integration Project (`curriculum/phase-05-core-java-apis-production/capstone/`).
-- **Following Concept:** Phase 06 Launch (`001-lambda-expressions-syntax-semantics.md`).
+- **Current Focus:** Phase 05 100% COMPLETE! All 10 concepts + Multi-Currency Global Billing Capstone verified and committed.
+- **Status:** Launching Phase 06: Functional Java (0/12 concepts complete).
+- **Exact Next Milestone:** `P06-C001` — *Lambda Expressions: Syntax, Scope, and Semantics* (`curriculum/phase-06-functional-java/001-lambda-expressions-syntax-semantics.md`).
+- **Following Concept:** `P06-C002` — *Functional Interfaces: @FunctionalInterface, java.util.function* (`curriculum/phase-06-functional-java/002-functional-interfaces.md`).
 
 ---
 
@@ -36,7 +36,7 @@
 | **Phase 02** | Object-Oriented Programming | 15 | 15 | 0 | COMPLETE |
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 15 | 0 | COMPLETE |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 9 | 0 | COMPLETE |
-| **Phase 05** | Core Java APIs You Will Use in Production | 10 | 10 | 0 | IN_PROGRESS |
+| **Phase 05** | Core Java APIs You Will Use in Production | 10 | 10 | 0 | COMPLETE |
 | **Phase 06** | Functional Java | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 07** | File I/O, NIO, Configuration, and Data Formats | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 08** | JVM Internals and Memory Management | 12 | 0 | 0 | NOT_STARTED |
