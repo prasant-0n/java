@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 28 | 9.0% |
+| **Modules Complete (`COMPLETE`)** | 29 | 9.3% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 284 | 91.0% |
+| **Modules Not Started (`NOT_STARTED`)** | 283 | 90.7% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P02-C002` (Static State, Class Loading, and Initialization Order Hazards).
-- **Status:** Phase 02 in progress (2/15 concepts complete).
-- **Exact Next Milestone:** `P02-C003` — *Access Modifiers, Encapsulation, and Package-Private Boundaries* (`curriculum/phase-02-object-oriented-programming/003-access-modifiers-encapsulation.md`).
-- **Following Concept:** `P02-C004` — *The Four Pillars of OOP in Java Backend Design*
+- **Current Focus:** Completed `P02-C003` (Access Modifiers, Encapsulation, and Package-Private Boundaries).
+- **Status:** Phase 02 in progress (3/15 concepts complete).
+- **Exact Next Milestone:** `P02-C004` — *The Four Pillars of OOP in Java Backend Design* (`curriculum/phase-02-object-oriented-programming/004-four-pillars-of-oop.md`).
+- **Following Concept:** `P02-C005` — *Inheritance (extends) vs Subtyping vs Fragile Base Class Problem*
 
 ---
 
@@ -33,7 +33,7 @@
 |---|---|---|---|---|---|
 | **Phase 00** | Development Environment and Java Execution | 11 | 11 | 0 | COMPLETE |
 | **Phase 01** | Java Language Fundamentals | 15 | 15 | 0 | COMPLETE |
-| **Phase 02** | Object-Oriented Programming | 15 | 2 | 0 | IN_PROGRESS |
+| **Phase 02** | Object-Oriented Programming | 15 | 3 | 0 | IN_PROGRESS |
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 0 | 0 | NOT_STARTED |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 0 | 0 | NOT_STARTED |
 | **Phase 05** | Core Java APIs You Will Use in Production | 10 | 0 | 0 | NOT_STARTED |

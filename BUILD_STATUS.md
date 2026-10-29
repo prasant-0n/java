@@ -100,6 +100,7 @@
 - [x] **Phase 01 Completion Gate:** Reconciled and marked `COMPLETE` (15/15 concepts complete + Capstone complete, 100%).
 - [x] `P02-C001` HotSpot 64-bit object header (Mark Word, Klass Word), constructor chaining cascade, master constructor invariant enforcement, and state isolation across instances verified on HotSpot 64-Bit VM with exit code 0 (15/15 assertions passed).
 - [x] `P02-C002` strict 6-phase / 10-step initialization hierarchy, compile-time constant inlining, circular static deadlock analysis, and Bill Pugh thread-safe singleton verified on HotSpot 64-Bit VM with exit code 0.
+- [x] `P02-C003` package-private boundary protection, JLS §6.6.2 protected access constraints, Java 11 JEP 181 nestmates, defensive immutability, and rich domain model verification tested on HotSpot 64-Bit VM with exit code 0.
 
 ---
 
@@ -111,7 +112,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P02-C002` (Static State, Class Loading, and Initialization Order Hazards).
+- **Current Stop Point:** Completed `P02-C003` (Access Modifiers, Encapsulation, and Package-Private Boundaries).
 - **Exact Next Milestone:**
-  - `P02-C003`: *Access Modifiers, Encapsulation, and Package-Private Boundaries* (`curriculum/phase-02-object-oriented-programming/003-access-modifiers-encapsulation.md`)
   - `P02-C004`: *The Four Pillars of OOP in Java Backend Design* (`curriculum/phase-02-object-oriented-programming/004-four-pillars-of-oop.md`)
+  - `P02-C005`: *Inheritance (extends) vs Subtyping vs Fragile Base Class Problem* (`curriculum/phase-02-object-oriented-programming/005-inheritance-and-fragile-base-class.md`)
