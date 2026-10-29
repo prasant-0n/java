@@ -59,7 +59,7 @@
 | `P01-C006` | Wrapper Classes, Autoboxing, and NullPointerExceptions | [`006-wrapper-classes-autoboxing.md`](curriculum/phase-01-java-language-fundamentals/006-wrapper-classes-autoboxing.md) | `COMPLETE` |
 | `P01-C007` | Local Variable Type Inference (var) and Limitations | [`007-local-variable-type-inference-var.md`](curriculum/phase-01-java-language-fundamentals/007-local-variable-type-inference-var.md) | `COMPLETE` |
 | `P01-C008` | Operators, Precedence, and Short-Circuit Evaluation | [`008-operators-and-short-circuit-evaluation.md`](curriculum/phase-01-java-language-fundamentals/008-operators-and-short-circuit-evaluation.md) | `COMPLETE` |
-| `P01-C009` | Control Flow: Conditionals, Switch Statements, and Switch Expressions | [`009-control-flow-conditionals-switch.md`](curriculum/phase-01-java-language-fundamentals/009-control-flow-conditionals-switch.md) | `NOT_STARTED` |
+| `P01-C009` | Control Flow: Conditionals, Switch Statements, and Switch Expressions | [`009-control-flow-conditionals-switch.md`](curriculum/phase-01-java-language-fundamentals/009-control-flow-conditionals-switch.md) | `COMPLETE` |
 | `P01-C010` | Looping Constructs, Jump Statements, and Labels | [`010-loops-and-iteration.md`](curriculum/phase-01-java-language-fundamentals/010-loops-and-iteration.md) | `NOT_STARTED` |
 | `P01-C011` | Methods: Signatures, Contracts, and Varargs | [`011-methods-and-varargs.md`](curriculum/phase-01-java-language-fundamentals/011-methods-and-varargs.md) | `NOT_STARTED` |
 | `P01-C012` | Pass-by-Value Semantics in Java (Why References Are Passed by Value) | [`012-pass-by-value-semantics.md`](curriculum/phase-01-java-language-fundamentals/012-pass-by-value-semantics.md) | `NOT_STARTED` |

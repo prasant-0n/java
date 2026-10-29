@@ -89,6 +89,7 @@
 - [x] `P01-C006` IntegerCache flyweight bounds, autounboxing NPE triggers, ternary operator desugaring, and safe DTO null checks verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P01-C007` local variable type inference, generic diamond operator trap, anonymous subclass type capture, and bytecode equivalence verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P01-C008` JLS §15.7 evaluation order, short-circuit vs non-short-circuit side effects, signed/unsigned bit shifting, and bitmask permission matrix verified on HotSpot 64-Bit VM with exit code 0.
+- [x] `P01-C009` dangling else resolution, tableswitch vs lookupswitch bytecode proof, modern arrow switch expressions, and Java 21 pattern matching with guards and sealed hierarchies verified on HotSpot 64-Bit VM with exit code 0.
 
 ---
 
@@ -100,7 +101,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P01-C008`.
+- **Current Stop Point:** Completed `P01-C009`.
 - **Exact Next Queued Concept:**
-  - `P01-C009`: *Control Flow: Conditionals, Switch Statements, and Switch Expressions* (`curriculum/phase-01-java-language-fundamentals/009-control-flow-conditionals-switch.md`)
   - `P01-C010`: *Looping Constructs, Jump Statements, and Labels* (`curriculum/phase-01-java-language-fundamentals/010-loops-and-iteration.md`)
+  - `P01-C011`: *Methods: Signatures, Contracts, and Varargs* (`curriculum/phase-01-java-language-fundamentals/011-methods-and-varargs.md`)
