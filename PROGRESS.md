@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P04-C009` (Exceptions vs Result/Either Types for Expected Business Failures). All 9 concepts in Phase 04 complete!
-- **Status:** Phase 04 in progress (9/9 concepts complete; Capstone pending).
-- **Exact Next Milestone:** Phase 04 Capstone Integration Project: Financial Transfer Transaction Pipeline (`curriculum/phase-04-exception-handling-defensive-programming/capstone/`).
-- **Following Concept:** Phase 05 Launch: `P05-C001` — *Java Time Architecture* (`curriculum/phase-05-core-java-apis-production/001-java-time-api-fundamentals.md`).
+- **Current Focus:** Phase 04 100% COMPLETE (9/9 concepts + Capstone Integration Project complete).
+- **Status:** Phase 04 complete. Launching Phase 05: Core Java APIs You Will Use in Production.
+- **Exact Next Milestone:** `P05-C001` — *Java Time Architecture: Instant, LocalDate, LocalDateTime, and ZonedDateTime* (`curriculum/phase-05-core-java-apis-production/001-java-time-api-fundamentals.md`).
+- **Following Concept:** `P05-C002` — *Time Zones, UTC Storage, Daylight Saving Hazards, and ZoneId* (`curriculum/phase-05-core-java-apis-production/002-timezones-utc-and-dst.md`).
 
 ---
 
@@ -35,7 +35,7 @@
 | **Phase 01** | Java Language Fundamentals | 15 | 15 | 0 | COMPLETE |
 | **Phase 02** | Object-Oriented Programming | 15 | 15 | 0 | COMPLETE |
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 15 | 0 | COMPLETE |
-| **Phase 04** | Exception Handling and Defensive Programming | 9 | 9 | 0 | IN_PROGRESS |
+| **Phase 04** | Exception Handling and Defensive Programming | 9 | 9 | 0 | COMPLETE |
 | **Phase 05** | Core Java APIs You Will Use in Production | 10 | 0 | 0 | NOT_STARTED |
 | **Phase 06** | Functional Java | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 07** | File I/O, NIO, Configuration, and Data Formats | 12 | 0 | 0 | NOT_STARTED |

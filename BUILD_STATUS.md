@@ -142,6 +142,9 @@
 - [x] `P04-C008` Exception anti-patterns: swallowed exceptions (silent corruption), catching `Throwable`/`Error` (intercepting fatal JVM crashes), the "Log and Throw" multiplier trap ($N$ duplicate stack traces vs Log OR Throw discipline), destructive rethrows losing root cause, exception-based control flow performance penalty (37x slower due to `fillInStackTrace()`), returning fallback/null on outages, and JLS §14.20.2 `finally` return exception suppression verified on HotSpot 64-Bit VM with exit code 0 (8/8 assertions passed).
 - [x] `P04-C009` Exceptions vs Result/Either types for expected domain failures: exceptional infrastructure faults vs anticipated business outcomes, Railway-Oriented Programming (ROP), Java 21 `sealed interface Result<T, E> permits Success, Failure` modeled via immutable records, compiler-enforced pattern matching exhaustiveness (`switch`) without default clauses, monadic chaining (`map`, `flatMap`, `recover`, `fold`, `getOrElse`), and zero-allocation record instantiation vs `athrow` HotSpot frame walking verified on HotSpot 64-Bit VM with exit code 0 (6/6 assertions passed, 5.1x microbenchmark speedup).
 
+- [x] **Phase 04 Capstone Integration Project:** Resilient Financial Transfer Transaction Pipeline (`resilient-transaction-pipeline`) built, regression tested (10/10 assertions passing), packaged into standalone executable JAR (`resilient-transaction-pipeline-1.0.0.jar`), and executed with exit code 0.
+- [x] **Phase 04 Completion Gate:** Reconciled and marked `COMPLETE` (9/9 concepts complete + Capstone complete, 100%).
+
 ---
 
 ## 4. Known Blockers and Unresolved Topics
@@ -152,7 +155,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P04-C009` (Exceptions vs Result/Either Types for Expected Business Failures). All 9 concepts of Phase 04 complete!
+- **Current Stop Point:** Phase 04 100% COMPLETE. Launching Phase 05: Core Java APIs You Will Use in Production.
 - **Exact Next Milestone:**
-  - Phase 04 Capstone Integration Project: Financial Transfer Transaction Pipeline (`curriculum/phase-04-exception-handling-defensive-programming/capstone/`)
-  - Phase 05 Launch: `P05-C001` — *Java Time Architecture* (`curriculum/phase-05-core-java-apis-production/001-java-time-api-fundamentals.md`)
+  - `P05-C001`: *Java Time Architecture: Instant, LocalDate, LocalDateTime, and ZonedDateTime* (`curriculum/phase-05-core-java-apis-production/001-java-time-api-fundamentals.md`)
+  - `P05-C002`: *Time Zones, UTC Storage, Daylight Saving Hazards, and ZoneId* (`curriculum/phase-05-core-java-apis-production/002-timezones-utc-and-dst.md`)
