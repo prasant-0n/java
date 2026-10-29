@@ -79,7 +79,7 @@
 | `P02-C006` | Method Overriding, Upcasting/Downcasting, and Dynamic Dispatch | [`006-overriding-dynamic-dispatch.md`](curriculum/phase-02-object-oriented-programming/006-overriding-dynamic-dispatch.md) | `COMPLETE` |
 | `P02-C007` | Abstract Classes vs Interfaces: Contracts and Default Methods | [`007-abstract-classes-vs-interfaces.md`](curriculum/phase-02-object-oriented-programming/007-abstract-classes-vs-interfaces.md) | `COMPLETE` |
 | `P02-C008` | Composition over Inheritance in Business Domain Services | [`008-composition-over-inheritance.md`](curriculum/phase-02-object-oriented-programming/008-composition-over-inheritance.md) | `COMPLETE` |
-| `P02-C009` | Object Relationships: Association, Aggregation, and Composition | [`009-object-relationships.md`](curriculum/phase-02-object-oriented-programming/009-object-relationships.md) | `NOT_STARTED` |
+| `P02-C009` | Object Relationships: Association, Aggregation, and Composition | [`009-object-relationships.md`](curriculum/phase-02-object-oriented-programming/009-object-relationships.md) | `COMPLETE` |
 | `P02-C010` | Enums as Rich Domain Objects and Singleton Patterns | [`010-enums-and-domain-state.md`](curriculum/phase-02-object-oriented-programming/010-enums-and-domain-state.md) | `NOT_STARTED` |
 | `P02-C011` | Nested, Inner, and Anonymous Classes | [`011-nested-and-inner-classes.md`](curriculum/phase-02-object-oriented-programming/011-nested-and-inner-classes.md) | `NOT_STARTED` |
 | `P02-C012` | Records: Immutable Data Carriers, Compact Constructors, and DTOs | [`012-records-and-immutable-data.md`](curriculum/phase-02-object-oriented-programming/012-records-and-immutable-data.md) | `NOT_STARTED` |

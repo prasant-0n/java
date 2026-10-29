@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 34 | 10.9% |
+| **Modules Complete (`COMPLETE`)** | 35 | 11.2% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 278 | 89.1% |
+| **Modules Not Started (`NOT_STARTED`)** | 277 | 88.8% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P02-C008` (Composition over Inheritance in Business Domain Services).
-- **Status:** Phase 02 in progress (8/15 concepts complete).
-- **Exact Next Milestone:** `P02-C009` — *Object Relationships: Association, Aggregation, and Composition* (`curriculum/phase-02-object-oriented-programming/009-object-relationships.md`).
-- **Following Concept:** `P02-C010` — *Enums as Rich Domain Objects and Singleton Patterns*
+- **Current Focus:** Completed `P02-C009` (Object Relationships: Association, Aggregation, and Composition).
+- **Status:** Phase 02 in progress (9/15 concepts complete).
+- **Exact Next Milestone:** `P02-C010` — *Enums as Rich Domain Objects and Singleton Patterns* (`curriculum/phase-02-object-oriented-programming/010-enums-and-domain-state.md`).
+- **Following Concept:** `P02-C011` — *Nested, Inner, and Anonymous Classes*
 
 ---
 
@@ -33,7 +33,7 @@
 |---|---|---|---|---|---|
 | **Phase 00** | Development Environment and Java Execution | 11 | 11 | 0 | COMPLETE |
 | **Phase 01** | Java Language Fundamentals | 15 | 15 | 0 | COMPLETE |
-| **Phase 02** | Object-Oriented Programming | 15 | 8 | 0 | IN_PROGRESS |
+| **Phase 02** | Object-Oriented Programming | 15 | 9 | 0 | IN_PROGRESS |
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 0 | 0 | NOT_STARTED |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 0 | 0 | NOT_STARTED |
 | **Phase 05** | Core Java APIs You Will Use in Production | 10 | 0 | 0 | NOT_STARTED |
@@ -56,4 +56,4 @@
 | **Phase 22** | Performance, Scalability, and Reliability | 8 | 0 | 0 | NOT_STARTED |
 | **Phase 23** | Professional Engineering Habits | 7 | 0 | 0 | NOT_STARTED |
 | **Supplemental** | Advanced Tracks & Specializations | 19 | 0 | 0 | NOT_STARTED |
-| **Total** | **All Modules** | **312** | **26** | **0** | **IN_PROGRESS** |
+| **Total** | **All Modules** | **312** | **35** | **0** | **IN_PROGRESS** |
