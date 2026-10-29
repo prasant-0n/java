@@ -44,7 +44,7 @@
 | `P00-C007` | Environment Variables: JAVA_HOME and PATH in Linux/Production | [`007-environment-variables-java-home-path.md`](curriculum/phase-00-development-environment-java-execution/007-environment-variables-java-home-path.md) | `COMPLETE` |
 | `P00-C008` | JDK Versions, Release Cadence, LTS, and Bytecode Compatibility | [`008-jdk-versions-lts-compatibility.md`](curriculum/phase-00-development-environment-java-execution/008-jdk-versions-lts-compatibility.md) | `COMPLETE` |
 | `P00-C009` | IDEs vs Headless Terminal Development in Server Environments | [`009-ide-vs-terminal-development.md`](curriculum/phase-00-development-environment-java-execution/009-ide-vs-terminal-development.md) | `COMPLETE` |
-| `P00-C010` | Maven Fundamentals and Standard Directory Layout | [`010-maven-fundamentals-project-structure.md`](curriculum/phase-00-development-environment-java-execution/010-maven-fundamentals-project-structure.md) | `NOT_STARTED` |
+| `P00-C010` | Maven Fundamentals and Standard Directory Layout | [`010-maven-fundamentals-project-structure.md`](curriculum/phase-00-development-environment-java-execution/010-maven-fundamentals-project-structure.md) | `COMPLETE` |
 | `P00-C011` | Git Hygiene and .gitignore for Java/Maven Projects | [`011-git-basics-for-java-developers.md`](curriculum/phase-00-development-environment-java-execution/011-git-basics-for-java-developers.md) | `NOT_STARTED` |
 
 ### [Phase 01: Java Language Fundamentals](curriculum/phase-01-java-language-fundamentals/README.md)

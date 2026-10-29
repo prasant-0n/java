@@ -77,6 +77,7 @@
 - [x] `P00-C007` environment variable auditor and Linux symlink resolver verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P00-C008` bytecode version inspector and --release cross-compilation verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P00-C009` headless background daemon and live jcmd/jstat CLI triage verified on HotSpot 64-Bit VM with exit code 0.
+- [x] `P00-C010` canonical Maven layout auditor and CLI packaging pipeline verified on HotSpot 64-Bit VM with exit code 0.
 
 ---
 
@@ -88,7 +89,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P00-C009`.
+- **Current Stop Point:** Completed `P00-C010`.
 - **Exact Next Queued Concept:**
-  - `P00-C010`: *Maven Fundamentals and Standard Directory Layout* (`curriculum/phase-00-development-environment-java-execution/010-maven-fundamentals-project-structure.md`)
   - `P00-C011`: *Git Hygiene and .gitignore for Java/Maven Projects* (`curriculum/phase-00-development-environment-java-execution/011-git-basics-for-java-developers.md`)
+  - Phase 00 Completion Gate & Capstone Assessment
