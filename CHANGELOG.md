@@ -35,3 +35,6 @@ and this project adheres to strict evidence-based curriculum versioning.
 - **First Concept Module Authored & Verified:**
   - `curriculum/phase-00-development-environment-java-execution/001-jdk-jre-jvm.md`: Complete 16-section concept module covering JDK vs JRE vs JVM architecture, history, modularity, containerization, and diagnostic CLI tools.
   - Runtime verification test executed on OpenJDK 21 LTS (`exit code 0`).
+- **Second Concept Module Authored & Verified:**
+  - `curriculum/phase-00-development-environment-java-execution/002-javac-compiler-and-launcher.md`: Complete 16-section concept module covering the `javac` compilation pipeline (Parse, Enter, Annotate, Attribute, Flow, Desugar, Gen), the `java` launcher bootstrap sequence, `-parameters` for Spring Boot, single-file source execution (JEP 330), and programmatic compiler testing.
+  - Multi-package compilation and execution verified on OpenJDK 21 LTS (`exit code 0`).
