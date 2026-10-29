@@ -52,7 +52,7 @@
 | Concept ID | Concept Title | Document Link | Status |
 |---|---|---|---|
 | `P01-C001` | Primitive Data Types, Bit Widths, and Numeric Ranges | [`001-primitive-data-types.md`](curriculum/phase-01-java-language-fundamentals/001-primitive-data-types.md) | `COMPLETE` |
-| `P01-C002` | Floating-Point Precision, IEEE 754, and Rounding Hazards | [`002-floating-point-types-and-precision.md`](curriculum/phase-01-java-language-fundamentals/002-floating-point-types-and-precision.md) | `NOT_STARTED` |
+| `P01-C002` | Floating-Point Precision, IEEE 754, and Rounding Hazards | [`002-floating-point-types-and-precision.md`](curriculum/phase-01-java-language-fundamentals/002-floating-point-types-and-precision.md) | `COMPLETE` |
 | `P01-C003` | Reference Types vs Primitive Types in Memory | [`003-reference-types-vs-primitives.md`](curriculum/phase-01-java-language-fundamentals/003-reference-types-vs-primitives.md) | `NOT_STARTED` |
 | `P01-C004` | Variable Declaration, Scope, Lifetime, and Default Values | [`004-variable-scopes-and-lifetimes.md`](curriculum/phase-01-java-language-fundamentals/004-variable-scopes-and-lifetimes.md) | `NOT_STARTED` |
 | `P01-C005` | Type Casting: Widening, Narrowing, and Overflow Traps | [`005-type-casting-and-overflow.md`](curriculum/phase-01-java-language-fundamentals/005-type-casting-and-overflow.md) | `NOT_STARTED` |
