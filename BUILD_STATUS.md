@@ -126,6 +126,7 @@
 - [x] `P03-C009` The `equals()` and `hashCode()` contract in hash-based collections, broken contract proof (missing `hashCode` causing lookup failure and duplicate `HashSet` entries), mutable key "ghost object" memory leaks, JPA auto-generated database ID hazard, and prime multiplier 31 bitwise shift proof ($31x = (x \ll 5) - x$) verified on HotSpot 64-Bit VM with exit code 0 (14/14 assertions passed).
 - [x] `P03-C010` `Comparable<T>` natural ordering vs `Comparator<T>` custom strategies, mathematical preorder axioms, integer subtraction overflow bugs ($a - b$ inverting signs), Double.compare IEEE 754 total ordering (NaN and -0.0), nullsFirst/nullsLast combinators, and TimSort contract violation detection (`IllegalArgumentException`) verified on HotSpot 64-Bit VM with exit code 0 (18/18 assertions passed).
 - [x] `P03-C011` `Iterator<T>` and `Iterable<T>` contracts, fail-fast mechanics (`modCount` vs `expectedModCount`), direct collection mutation CME triggers, safe element removal via `iterator.remove()`, double remove `IllegalStateException`, high-performance bulk compaction via `removeIf(Predicate)` ($O(N)$ vs $O(N^2)$), weakly consistent iterators (`ConcurrentHashMap`), snapshot iterators (`CopyOnWriteArrayList`), `ListIterator` bidirectional navigation, `Spliterator.trySplit()` parallel partitioning, and the second-to-last element silent loop termination anomaly verified on HotSpot 64-Bit VM with exit code 0 (19/19 assertions passed).
+- [x] `P03-C012` Generics fundamentals, parametric polymorphism, compile-time type safety vs pre-Java 5 raw `Object` runtime `ClassCastException`, type parameter naming conventions, generic classes/interfaces (`Repository<T, ID>`), generic methods with independent type parameters (`<R> List<R> mapAll`), static context parameter isolation, strict type invariance (`List<String>` not assignable to `List<Object>`), type erasure mechanics and `checkcast` instructions, `Signature` classfile attribute preservation, shared runtime `Class` mirrors, monadic generic `Result<T>` envelope, and raw type runtime hazards verified on HotSpot 64-Bit VM with exit code 0 (18/18 assertions passed).
 
 ---
 
@@ -137,7 +138,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P03-C011` (Iterators, Fail-Fast vs Fail-Safe Mechanics, and Safe Removal).
+- **Current Stop Point:** Completed `P03-C012` (Generics Fundamentals: Type Parameters, Generic Classes, and Methods).
 - **Exact Next Milestone:**
-  - `P03-C012`: *Generics Fundamentals: Type Parameters, Generic Classes, and Methods* (`curriculum/phase-03-collections-framework-generics-type-safety/012-generics-classes-and-methods.md`)
   - `P03-C013`: *Bounded Type Parameters and Multiple Bounds* (`curriculum/phase-03-collections-framework-generics-type-safety/013-bounded-type-parameters.md`)
+  - `P03-C014`: *Wildcards and PECS (Producer Extends, Consumer Super) Principle* (`curriculum/phase-03-collections-framework-generics-type-safety/014-wildcards-and-pecs.md`)
