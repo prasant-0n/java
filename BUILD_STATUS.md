@@ -148,6 +148,7 @@
 - [x] `P05-C002` Time zones, UTC storage, and DST hazards: `ZoneOffset` (fixed displacement) vs `ZoneId` (geopolitical IANA rules), `ZoneRules` transition inspection, Spring-Forward gap resolution (skipping non-existent hour), Fall-Back overlap resolution (handling repeated hour with `withEarlierOffsetAtOverlap` / `withLaterOffsetAtOverlap`), non-standard 23-hour and 25-hour days, `Period` (preserving wall clock) vs `Duration` (exact machine seconds), non-hour offsets (Nepal +05:45, India +05:30), and `-Duser.timezone=UTC` verified on HotSpot 64-Bit VM with exit code 0 (7/7 assertions passed).
 - [x] `P05-C003` Periods, Durations, and DateTimeFormatter: `Duration` (physical machine seconds) vs `Period` (human calendar years/months/days), the `period.getDays()` component trap vs `ChronoUnit.DAYS.between()`, `DateTimeFormatter` complete thread safety under concurrent execution (50k ops), strict parsing via `ResolverStyle.STRICT` with proleptic year `u` rejecting Feb 31, and ISO formatters verified on HotSpot 64-Bit VM with exit code 0 (7/7 assertions passed).
 - [x] `P05-C004` `BigDecimal` and `BigInteger`: IEEE 754 binary floating point inaccuracy proof (`0.1 + 0.2 != 0.3`), constructor trap (`new BigDecimal(double)` vs `String` vs `BigDecimal.valueOf`), scale vs precision, non-terminating division `ArithmeticException` defense, Banker's Rounding (`RoundingMode.HALF_EVEN`), the `equals()` (checks scale) vs `compareTo()` trap in `HashSet` vs `TreeSet`, and `BigInteger` modular exponentiation for cryptography verified on HotSpot 64-Bit VM with exit code 0 (7/7 assertions passed).
+- [x] `P05-C005` `Optional<T>`: Brian Goetz method return design intent, Tony Hoare "billion-dollar mistake" elimination, monadic pipeline (`map`, `flatMap`, `filter`), eager `orElse()` vs lazy `orElseGet()` evaluation performance, modern Java 9-11 methods (`ifPresentOrElse`, `or`, `stream`, `isEmpty`), the 7 deadly anti-patterns (e.g. parameter/field abuse, `null` returns, `Optional<List>`), and JEP 390 value-based class mechanics verified on HotSpot 64-Bit VM with exit code 0 (6/6 assertions passed).
 
 ---
 
@@ -159,7 +160,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P05-C004` (BigDecimal and BigInteger: Precision, Scale, and Rounding Modes).
+- **Current Stop Point:** Completed `P05-C005` (Optional<T>: Purpose, Monadic Methods, and Anti-Patterns). 50% of Phase 05 complete!
 - **Exact Next Milestone:**
-  - `P05-C005`: *Optional<T>: Purpose, Monadic Methods, and Anti-Patterns* (`curriculum/phase-05-core-java-apis-production/005-optional-idioms-and-anti-patterns.md`)
   - `P05-C006`: *UUID Generation, Structure, UUIDv4 vs UUIDv7, and Database Indexing* (`curriculum/phase-05-core-java-apis-production/006-uuid-generation-and-indexing.md`)
+  - `P05-C007`: *Objects Utility Class: Null Checks, Equality, and RequireNonNull* (`curriculum/phase-05-core-java-apis-production/007-objects-utility-class.md`)
