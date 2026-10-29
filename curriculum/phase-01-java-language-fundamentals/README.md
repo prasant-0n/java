@@ -44,7 +44,7 @@ By completing Phase 01, the learner will independently be able to:
 | `P01-C004` | Variable Declaration, Scope, Lifetime, and Default Values | [`004-variable-scopes-and-lifetimes.md`](004-variable-scopes-and-lifetimes.md) | Essential | COMPLETE |
 | `P01-C005` | Type Casting: Widening, Narrowing, and Overflow Traps | [`005-type-casting-and-overflow.md`](005-type-casting-and-overflow.md) | Essential | COMPLETE |
 | `P01-C006` | Wrapper Classes, Autoboxing, and NullPointerExceptions | [`006-wrapper-classes-autoboxing.md`](006-wrapper-classes-autoboxing.md) | Essential | COMPLETE |
-| `P01-C007` | Local Variable Type Inference (var) and Limitations | [`007-local-variable-type-inference-var.md`](007-local-variable-type-inference-var.md) | Recommended | NOT_STARTED |
+| `P01-C007` | Local Variable Type Inference (var) and Limitations | [`007-local-variable-type-inference-var.md`](007-local-variable-type-inference-var.md) | Recommended | COMPLETE |
 | `P01-C008` | Operators, Precedence, and Short-Circuit Evaluation | [`008-operators-and-short-circuit-evaluation.md`](008-operators-and-short-circuit-evaluation.md) | Essential | NOT_STARTED |
 | `P01-C009` | Control Flow: Conditionals, Switch Statements, and Switch Expressions | [`009-control-flow-conditionals-switch.md`](009-control-flow-conditionals-switch.md) | Essential | NOT_STARTED |
 | `P01-C010` | Looping Constructs, Jump Statements, and Labels | [`010-loops-and-iteration.md`](010-loops-and-iteration.md) | Essential | NOT_STARTED |
@@ -112,7 +112,7 @@ Before marking Phase 01 as complete:
 ## 8. Status and Progress Reconciler
 
 - **Total Planned Concepts:** `15`
-- **Completed Concepts:** `6`
+- **Completed Concepts:** `7`
 - **In Progress:** `0`
-- **Completion Rate:** `40.0%`
+- **Completion Rate:** `46.7%`
 - **Last Verified Date:** `2026-10-29`
