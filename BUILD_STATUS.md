@@ -163,6 +163,7 @@
 - [x] `P06-C005` Stream API fundamentals: The three-stage pipeline lifecycle (Source $\rightarrow$ Intermediate $\rightarrow$ Terminal), Collection (data in memory) vs Stream (lazy computation), single-use invariant (`IllegalStateException` on reuse), loop fusion vertical execution proof (short-circuiting prior to evaluating unneeded elements), Java 9 bounded `iterate()`, and `AutoCloseable` I/O streams (`Files.lines()`) file descriptor cleanup verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 - [x] `P06-C006` Intermediate stream operations: Stateless operations (`filter`, `map`, `flatMap`, `peek`) vs stateful operations (`distinct`, `sorted`, `limit`, `skip`), loop fusion breaker mechanics (stateful operations buffering elements in `SpinedBuffer` / `TimSort`), relational flattening (`flatMap(c -> c.orders().stream())`), Java 9 `Optional.stream()` unwrapping, Java 9 time-series slicing (`takeWhile` / `dropWhile`), and primitive mapToInt performance verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 - [x] `P06-C007` Terminal stream operations: Lifecycle trigger and single-use closure (`linkedOrConsumed`), short-circuiting terminal operations (`anyMatch`, `allMatch`, `noneMatch`, `findFirst`, `findAny`) via `cancellationRequested()`, the three overloads of functional `reduce()`, associativity rules, mathematical vacuous truth security hazard (`allMatch` on empty streams returning `true`), and `Stream.toList()` (Java 16+) immutability verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
+- [x] `P06-C008` Collectors: `Collector<T, A, R>` interface contract (supplier, accumulator, combiner, finisher, characteristics), `groupingBy` with downstream multi-level composition, `partitioningBy` guaranteed boolean binary partitioning, production-hardened `toMap` key collision merge functions, Java 9 downstream `filtering` and `flatMapping`, and custom `Collector.of` ledger summarizer verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 
 ---
 
@@ -174,7 +175,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P06-C007` (Terminal Operations: forEach, collect, reduce, matchers, findFirst). 58.3% of Phase 06 complete!
+- **Current Stop Point:** Completed `P06-C008` (Collectors: groupingBy, partitioningBy, toMap, and Downstream Collectors). 66.7% of Phase 06 complete!
 - **Exact Next Milestone:**
-  - `P06-C008`: *Collectors: groupingBy, partitioningBy, toMap, and Downstream Collectors* (`curriculum/phase-06-functional-java/008-collectors-grouping-partitioning.md`)
   - `P06-C009`: *Primitive Streams: IntStream, LongStream, DoubleStream and Performance* (`curriculum/phase-06-functional-java/009-primitive-streams-performance.md`)
+  - `P06-C010`: *Stream Laziness, Short-Circuit Evaluation, and Side-Effect Dangers* (`curriculum/phase-06-functional-java/010-stream-laziness-side-effects.md`)
