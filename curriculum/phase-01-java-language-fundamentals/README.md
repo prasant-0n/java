@@ -50,7 +50,7 @@ By completing Phase 01, the learner will independently be able to:
 | `P01-C010` | Looping Constructs, Jump Statements, and Labels | [`010-loops-and-iteration.md`](010-loops-and-iteration.md) | Essential | COMPLETE |
 | `P01-C011` | Methods: Signatures, Contracts, and Varargs | [`011-methods-and-varargs.md`](011-methods-and-varargs.md) | Essential | COMPLETE |
 | `P01-C012` | Pass-by-Value Semantics in Java (Why References Are Passed by Value) | [`012-pass-by-value-semantics.md`](012-pass-by-value-semantics.md) | Essential | COMPLETE |
-| `P01-C013` | String Immutability, String Pool, and Memory Optimization | [`013-string-immutability-and-pool.md`](013-string-immutability-and-pool.md) | Essential | NOT_STARTED |
+| `P01-C013` | String Immutability, String Pool, and Memory Optimization | [`013-string-immutability-and-pool.md`](013-string-immutability-and-pool.md) | Essential | COMPLETE |
 | `P01-C014` | StringBuilder vs StringBuffer vs String Concatenation Mechanics | [`014-stringbuilder-and-concatenation.md`](014-stringbuilder-and-concatenation.md) | Essential | NOT_STARTED |
 | `P01-C015` | Arrays: Memory Layout, Multi-Dimensional Arrays, and Arrays Utility | [`015-arrays-memory-layout-and-utilities.md`](015-arrays-memory-layout-and-utilities.md) | Essential | NOT_STARTED |
 
@@ -112,7 +112,7 @@ Before marking Phase 01 as complete:
 ## 8. Status and Progress Reconciler
 
 - **Total Planned Concepts:** `15`
-- **Completed Concepts:** `12`
+- **Completed Concepts:** `13`
 - **In Progress:** `0`
-- **Completion Rate:** `80.0%`
+- **Completion Rate:** `86.7%`
 - **Last Verified Date:** `2026-10-29`

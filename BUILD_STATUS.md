@@ -93,6 +93,7 @@
 - [x] `P01-C010` loop desugaring (arrays vs iterators), labeled break/continue in multi-batch matrix search, second-to-last element CME anomaly, and exponential backoff retry verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P01-C011` method signature rules, 3-phase overload resolution hierarchy, varargs bytecode desugaring (`ACC_VARARGS`), null ambiguity resolution, and zero-allocation logging fast-path verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P01-C012` pass-by-value proofs (failed swap, nullification, primitive isolation), stack frame pointer copies vs heap mutation, and immutable defensive DTOs verified on HotSpot 64-Bit VM with exit code 0.
+- [x] `P01-C013` 4 pillars of String immutability, JEP 254 Compact Strings (Latin-1 vs UTF-16), SCP PermGen-to-Heap evolution, StringTable internals, and constant folding verified on HotSpot 64-Bit VM with exit code 0.
 
 ---
 
@@ -104,7 +105,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P01-C012`.
+- **Current Stop Point:** Completed `P01-C013`.
 - **Exact Next Queued Concept:**
-  - `P01-C013`: *String Immutability, String Pool, and Memory Optimization* (`curriculum/phase-01-java-language-fundamentals/013-string-immutability-and-pool.md`)
   - `P01-C014`: *StringBuilder vs StringBuffer vs String Concatenation Mechanics* (`curriculum/phase-01-java-language-fundamentals/014-stringbuilder-and-concatenation.md`)
+  - `P01-C015`: *Arrays: Memory Layout, Multi-Dimensional Arrays, and Arrays Utility* (`curriculum/phase-01-java-language-fundamentals/015-arrays-memory-layout-and-utilities.md`)
