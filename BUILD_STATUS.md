@@ -118,6 +118,7 @@
 - [x] `P03-C001` Java Collections Framework architecture (`Iterable`, `Collection`, `Map`), why `Map` does not extend `Collection`, Map collection view synchronization, Java 21 `SequencedCollection` operations (`addFirst`, `getLast`, `reversed`), and Queue special-value null contracts verified on HotSpot 64-Bit VM with exit code 0 (12/12 assertions passed).
 - [x] `P03-C002` `ArrayList` vs `LinkedList` dynamic array expansion ($1.5\times$ growth formula), CPU L1/L2 cache prefetching vs pointer-chasing cache misses, 4-8 byte vs 24-48 byte memory overhead per node under Compressed OOPs, Java 21 `SequencedCollection` integration, subList memory retention leaks, and fail-fast `modCount` mechanics verified on HotSpot 64-Bit VM with exit code 0 (18/18 assertions passed).
 - [x] `P03-C003` `Set` implementations (`HashSet`, `LinkedHashSet`, `TreeSet`) as Map adapter facades (`PRESENT` sentinel), $O(1)$ amortized deduplication, Java 21 `SequencedSet` integration (`getFirst`, `getLast`, `addFirst`, `reversed`), `NavigableSet` proximity searches (`lower`, `floor`, `ceiling`, `higher`, `subSet`), `TreeSet` duplicate rejection via `compareTo` vs `HashSet` via `equals()`, and mutable key memory leak hazards verified on HotSpot 64-Bit VM with exit code 0 (23/23 assertions passed).
+- [x] `P03-C004` `HashMap` internals, power-of-two bitwise masking (`(n - 1) & hash`), hash perturbation (`h ^ (h >>> 16)`), zero-rehash resize bit-test (`hash & oldCap`), Java 8 treeification threshold transition (9th item at capacity $\ge 64$ converting `Node` to `TreeNode`), and atomic in-place mutations (`computeIfAbsent`, `merge`) verified on HotSpot 64-Bit VM with exit code 0 (22/22 assertions passed).
 
 ---
 
@@ -129,7 +130,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P03-C003` (Set Implementations: HashSet, LinkedHashSet, and TreeSet).
+- **Current Stop Point:** Completed `P03-C004` (HashMap Internals: Hash Codes, Buckets, Treeification, and Rehashing).
 - **Exact Next Milestone:**
-  - `P03-C004`: *HashMap Internals: Hash Codes, Buckets, Treeification, and Rehashing* (`curriculum/phase-03-collections-framework-generics-type-safety/004-hashmap-internals-and-mechanics.md`)
   - `P03-C005`: *LinkedHashMap and TreeMap: Ordering, Red-Black Trees, and LRU Caches* (`curriculum/phase-03-collections-framework-generics-type-safety/005-linkedhashmap-treemap-ordering.md`)
+  - `P03-C006`: *Queue and Deque Implementations: ArrayDeque vs PriorityQueue* (`curriculum/phase-03-collections-framework-generics-type-safety/006-queues-and-deques.md`)
