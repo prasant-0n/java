@@ -144,6 +144,7 @@
 
 - [x] **Phase 04 Capstone Integration Project:** Resilient Financial Transfer Transaction Pipeline (`resilient-transaction-pipeline`) built, regression tested (10/10 assertions passing), packaged into standalone executable JAR (`resilient-transaction-pipeline-1.0.0.jar`), and executed with exit code 0.
 - [x] **Phase 04 Completion Gate:** Reconciled and marked `COMPLETE` (9/9 concepts complete + Capstone complete, 100%).
+- [x] `P05-C001` Java Time architecture (JSR-310): `Instant` (machine timeline point), `LocalDate` (calendar date), `LocalDateTime` (wall-clock time), `ZonedDateTime` (political time with DST rules), `OffsetDateTime` (fixed offset serialization), legacy `Date`/`Calendar` anti-patterns, UTC-everywhere-at-rest pattern, and DST spring-forward / fall-back resolution verified on HotSpot 64-Bit VM with exit code 0 (6/6 assertions passed).
 
 ---
 
@@ -155,7 +156,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Phase 04 100% COMPLETE. Launching Phase 05: Core Java APIs You Will Use in Production.
+- **Current Stop Point:** Completed `P05-C001` (Java Time Architecture: Instant, LocalDate, LocalDateTime, and ZonedDateTime).
 - **Exact Next Milestone:**
-  - `P05-C001`: *Java Time Architecture: Instant, LocalDate, LocalDateTime, and ZonedDateTime* (`curriculum/phase-05-core-java-apis-production/001-java-time-api-fundamentals.md`)
   - `P05-C002`: *Time Zones, UTC Storage, Daylight Saving Hazards, and ZoneId* (`curriculum/phase-05-core-java-apis-production/002-timezones-utc-and-dst.md`)
+  - `P05-C003`: *Periods, Durations, and DateTimeFormatter Parsing Patterns* (`curriculum/phase-05-core-java-apis-production/003-periods-durations-and-formatting.md`)
