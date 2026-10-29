@@ -133,6 +133,7 @@
 - [x] **Phase 03 Capstone Integration Project:** Generic In-Memory Evicting Cache with LRU eviction and TTL expiration (`generic-evicting-cache`) built, regression tested (32/32 assertions passing), packaged into standalone executable JAR (`generic-evicting-cache-1.0.0.jar`), and executed with exit code 0.
 - [x] **Phase 03 Completion Gate:** Reconciled and marked `COMPLETE` (15/15 concepts complete + Capstone complete, 100%).
 - [x] `P04-C001` The `Throwable` hierarchy, `Error` (fatal JVM conditions) vs `Exception` (application failures) vs `RuntimeException` (programming bugs/contract violations), stack trace creation cost (`fillInStackTrace()` crawling execution frames), high-throughput zero-cost exception optimization (`writableStackTrace = false`), bytecode exception tables (`from`, `to`, `target`, `type`) with zero happy-path overhead, HotSpot fast throw optimization (`-XX:+OmitStackTraceInFastThrow`), and causal chain preservation verified on HotSpot 64-Bit VM with exit code 0 (12/12 assertions passed).
+- [x] `P04-C002` Checked vs unchecked exceptions, JLS §11.2 "catch or specify" mandate, Anders Hejlsberg's versioning brittleness critique, Spring's unchecked data access revolution, Liskov Substitution Principle overriding exception rules (subclasses cannot declare new/broader checked exceptions), the bytecode non-existence of checked exceptions, and sneaky throws mechanics verified on HotSpot 64-Bit VM with exit code 0 (15/15 assertions passed).
 
 ---
 
@@ -144,7 +145,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P04-C001` (The Throwable Hierarchy: Error, Exception, and RuntimeException). Phase 04 is in progress!
+- **Current Stop Point:** Completed `P04-C002` (Checked vs Unchecked Exceptions: Architectural Philosophy and Debates).
 - **Exact Next Milestone:**
-  - `P04-C002`: *Checked vs Unchecked Exceptions: Architectural Philosophy and Debates* (`curriculum/phase-04-exception-handling-defensive-programming/002-checked-vs-unchecked-exceptions.md`)
   - `P04-C003`: *Exception Handling Blocks: try, catch, multi-catch, and finally Semantics* (`curriculum/phase-04-exception-handling-defensive-programming/003-try-catch-finally-semantics.md`)
+  - `P04-C004`: *Try-With-Resources, AutoCloseable, and Suppressed Exceptions* (`curriculum/phase-04-exception-handling-defensive-programming/004-try-with-resources-autocloseable.md`)

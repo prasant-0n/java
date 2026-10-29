@@ -112,7 +112,7 @@
 | Concept ID | Concept Title | Document Link | Status |
 |---|---|---|---|
 | `P04-C001` | The Throwable Hierarchy: Error, Exception, and RuntimeException | [`001-throwable-hierarchy.md`](curriculum/phase-04-exception-handling-defensive-programming/001-throwable-hierarchy.md) | `COMPLETE` |
-| `P04-C002` | Checked vs Unchecked Exceptions: Architectural Philosophy and Debates | [`002-checked-vs-unchecked-exceptions.md`](curriculum/phase-04-exception-handling-defensive-programming/002-checked-vs-unchecked-exceptions.md) | `NOT_STARTED` |
+| `P04-C002` | Checked vs Unchecked Exceptions: Architectural Philosophy and Debates | [`002-checked-vs-unchecked-exceptions.md`](curriculum/phase-04-exception-handling-defensive-programming/002-checked-vs-unchecked-exceptions.md) | `COMPLETE` |
 | `P04-C003` | Exception Handling Blocks: try, catch, multi-catch, and finally Semantics | [`003-try-catch-finally-semantics.md`](curriculum/phase-04-exception-handling-defensive-programming/003-try-catch-finally-semantics.md) | `NOT_STARTED` |
 | `P04-C004` | Try-With-Resources, AutoCloseable, and Suppressed Exceptions | [`004-try-with-resources-autocloseable.md`](curriculum/phase-04-exception-handling-defensive-programming/004-try-with-resources-autocloseable.md) | `NOT_STARTED` |
 | `P04-C005` | Custom Domain Exceptions, Error Envelopes, and Context Propagation | [`005-custom-domain-exceptions.md`](curriculum/phase-04-exception-handling-defensive-programming/005-custom-domain-exceptions.md) | `NOT_STARTED` |
