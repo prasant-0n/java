@@ -42,7 +42,7 @@ By completing Phase 02, the learner will independently be able to:
 | `P02-C003` | Access Modifiers, Encapsulation, and Package-Private Boundaries | [`003-access-modifiers-encapsulation.md`](003-access-modifiers-encapsulation.md) | Essential | COMPLETE |
 | `P02-C004` | The Four Pillars of OOP in Java Backend Design | [`004-four-pillars-of-oop.md`](004-four-pillars-of-oop.md) | Essential | COMPLETE |
 | `P02-C005` | Inheritance (extends) vs Subtyping vs Fragile Base Class Problem | [`005-inheritance-and-fragile-base-class.md`](005-inheritance-and-fragile-base-class.md) | Essential | COMPLETE |
-| `P02-C006` | Method Overriding, Upcasting/Downcasting, and Dynamic Dispatch | [`006-overriding-dynamic-dispatch.md`](006-overriding-dynamic-dispatch.md) | Essential | NOT_STARTED |
+| `P02-C006` | Method Overriding, Upcasting/Downcasting, and Dynamic Dispatch | [`006-overriding-dynamic-dispatch.md`](006-overriding-dynamic-dispatch.md) | Essential | COMPLETE |
 | `P02-C007` | Abstract Classes vs Interfaces: Contracts and Default Methods | [`007-abstract-classes-vs-interfaces.md`](007-abstract-classes-vs-interfaces.md) | Essential | NOT_STARTED |
 | `P02-C008` | Composition over Inheritance in Business Domain Services | [`008-composition-over-inheritance.md`](008-composition-over-inheritance.md) | Essential | NOT_STARTED |
 | `P02-C009` | Object Relationships: Association, Aggregation, and Composition | [`009-object-relationships.md`](009-object-relationships.md) | Essential | NOT_STARTED |
@@ -112,7 +112,7 @@ Before marking Phase 02 as complete:
 
 - **Phase Status:** `IN_PROGRESS`
 - **Total Planned Concepts:** `15`
-- **Completed Concepts:** `5`
+- **Completed Concepts:** `6`
 - **In Progress:** `0`
-- **Completion Rate:** `33.3%`
+- **Completion Rate:** `40.0%`
 - **Last Verified Date:** `2026-10-30`

@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 31 | 9.9% |
+| **Modules Complete (`COMPLETE`)** | 32 | 10.3% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 281 | 90.1% |
+| **Modules Not Started (`NOT_STARTED`)** | 280 | 89.7% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P02-C005` (Inheritance (extends) vs Subtyping vs Fragile Base Class Problem).
-- **Status:** Phase 02 in progress (5/15 concepts complete).
-- **Exact Next Milestone:** `P02-C006` — *Method Overriding, Upcasting/Downcasting, and Dynamic Dispatch* (`curriculum/phase-02-object-oriented-programming/006-overriding-dynamic-dispatch.md`).
-- **Following Concept:** `P02-C007` — *Abstract Classes vs Interfaces: Contracts and Default Methods*
+- **Current Focus:** Completed `P02-C006` (Method Overriding, Upcasting/Downcasting, and Dynamic Dispatch).
+- **Status:** Phase 02 in progress (6/15 concepts complete).
+- **Exact Next Milestone:** `P02-C007` — *Abstract Classes vs Interfaces: Contracts and Default Methods* (`curriculum/phase-02-object-oriented-programming/007-abstract-classes-vs-interfaces.md`).
+- **Following Concept:** `P02-C008` — *Composition over Inheritance in Business Domain Services*
 
 ---
 
@@ -33,7 +33,7 @@
 |---|---|---|---|---|---|
 | **Phase 00** | Development Environment and Java Execution | 11 | 11 | 0 | COMPLETE |
 | **Phase 01** | Java Language Fundamentals | 15 | 15 | 0 | COMPLETE |
-| **Phase 02** | Object-Oriented Programming | 15 | 5 | 0 | IN_PROGRESS |
+| **Phase 02** | Object-Oriented Programming | 15 | 6 | 0 | IN_PROGRESS |
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 0 | 0 | NOT_STARTED |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 0 | 0 | NOT_STARTED |
 | **Phase 05** | Core Java APIs You Will Use in Production | 10 | 0 | 0 | NOT_STARTED |

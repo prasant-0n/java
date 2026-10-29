@@ -103,6 +103,7 @@
 - [x] `P02-C003` package-private boundary protection, JLS §6.6.2 protected access constraints, Java 11 JEP 181 nestmates, defensive immutability, and rich domain model verification tested on HotSpot 64-Bit VM with exit code 0.
 - [x] `P02-C004` four pillars architecture, HotSpot vtable/itable dispatch mechanics, Monomorphic Inline Caching, synthetic bridge methods, and polymorphic payment router verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P02-C005` implementation inheritance vs interface subtyping, Bloch's HashSet double-counting defect reproduction, Forwarding Decorator pattern, field shadowing non-polymorphism, and `final` mechanics verified on HotSpot 64-Bit VM with exit code 0.
+- [x] `P02-C006` five overriding invariant rules, bytecode dispatch (`invokevirtual` vs `checkcast`), Java 16+ pattern matching downcasting, ClassCastException triggers, and static shadowing verified on HotSpot 64-Bit VM with exit code 0.
 
 ---
 
@@ -114,7 +115,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P02-C005` (Inheritance (extends) vs Subtyping vs Fragile Base Class Problem).
+- **Current Stop Point:** Completed `P02-C006` (Method Overriding, Upcasting/Downcasting, and Dynamic Dispatch).
 - **Exact Next Milestone:**
-  - `P02-C006`: *Method Overriding, Upcasting/Downcasting, and Dynamic Dispatch* (`curriculum/phase-02-object-oriented-programming/006-overriding-dynamic-dispatch.md`)
   - `P02-C007`: *Abstract Classes vs Interfaces: Contracts and Default Methods* (`curriculum/phase-02-object-oriented-programming/007-abstract-classes-vs-interfaces.md`)
+  - `P02-C008`: *Composition over Inheritance in Business Domain Services* (`curriculum/phase-02-object-oriented-programming/008-composition-over-inheritance.md`)
