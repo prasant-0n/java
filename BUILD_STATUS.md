@@ -159,6 +159,7 @@
 - [x] `P06-C001` Functional interfaces and `@FunctionalInterface`: Single Abstract Method (SAM) contract (JLS §9.8), default/static methods and `java.lang.Object` public method exclusion rules, target typing and type inference (JLS §15.27.3), `LambdaMetafactory` indy bytecode linking, non-capturing singleton zero-allocation vs capturing closure heap footprint, and `ThrowingConsumer` checked exception bridging verified on HotSpot 64-Bit VM with exit code 0 (4/4 test suites passed).
 - [x] `P06-C002` Core function types (`java.util.function`): The 4 foundational archetypes (`Predicate`, `Function`, `Consumer`, `Supplier`), short-circuiting composition (`and`, `or`, `negate`, `Predicate.not`), mathematical execution ordering in `compose` vs `andThen`, thread-safe double-checked `MemoizingSupplier`, and primitive specializations (`IntUnaryOperator`, `LongConsumer`) eliminating 320MB autoboxing GC churn (14.6x speedup) verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 - [x] `P06-C003` Lambda expressions mechanics: Parameter and body syntax forms (including Java 11 `var` annotations), lexical scoping vs anonymous inner class scope, prohibition of variable shadowing (JLS §15.27.2), lexical `this` resolution, JVM capture-by-value stack memory lifecycle, effectively final enforcement (JLS §4.12.4), and concurrency race condition proof (`LongAdder` capturing 50,000 increments vs array losing >30,000 updates) verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
+- [x] `P06-C004` Method references: The 4 canonical classifications (Static, Bound Instance, Unbound Instance, Object/Array Constructor), JLS §15.13 specification, direct `MethodHandle` bytecode linking, eager receiver evaluation in bound references (immediate NPE on null receivers), and multi-key `Comparator` pipelines verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 
 ---
 
@@ -170,7 +171,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P06-C003` (Lambda Expressions: Syntax, Scope, Lexical Scoping, and Effectively Final). 25% of Phase 06 complete!
+- **Current Stop Point:** Completed `P06-C004` (Method References: Static, Bound Instance, Unbound Instance, and Constructor). 33.3% of Phase 06 complete!
 - **Exact Next Milestone:**
-  - `P06-C004`: *Method References: Static, Bound Instance, Unbound Instance, and Constructor* (`curriculum/phase-06-functional-java/004-method-references.md`)
   - `P06-C005`: *Stream API Fundamentals: Source, Intermediate, and Terminal Operations* (`curriculum/phase-06-functional-java/005-stream-pipeline-lifecycle.md`)
+  - `P06-C006`: *Intermediate Operations: filter, map, flatMap, distinct, sorted, peek* (`curriculum/phase-06-functional-java/006-intermediate-stream-operations.md`)
