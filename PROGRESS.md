@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P01-C015` (Verified and committed).
-- **Status:** Phase 01 Concept Modules 100% Complete. Launching Phase 01 Capstone.
-- **Exact Next Milestone:** Phase 01 Capstone Integration Project (`curriculum/phase-01-java-language-fundamentals/capstone/`) & Phase Completion Gate Reconciler
-- **Following Phase:** Phase 02 — *Object-Oriented Programming* (`curriculum/phase-02-object-oriented-programming/`)
+- **Current Focus:** Phase 01 Capstone Integration Project complete and verified (100% test pass rate).
+- **Status:** Phase 00 (COMPLETE) & Phase 01 (COMPLETE). Ready for Phase 02 launch.
+- **Exact Next Milestone:** `P02-C001` — *Classes, Objects, and State Encapsulation* (`curriculum/phase-02-object-oriented-programming/001-classes-objects-encapsulation.md`).
+- **Following Concept:** `P02-C002` — *Constructors, Initialization Blocks, and Object Lifecycle*
 
 ---
 
@@ -32,7 +32,7 @@
 | Phase | Phase Name | Planned Concepts | Completed | In Progress | Status |
 |---|---|---|---|---|---|
 | **Phase 00** | Development Environment and Java Execution | 11 | 11 | 0 | COMPLETE |
-| **Phase 01** | Java Language Fundamentals | 15 | 15 | 0 | IN_PROGRESS |
+| **Phase 01** | Java Language Fundamentals | 15 | 15 | 0 | COMPLETE |
 | **Phase 02** | Object-Oriented Programming | 15 | 0 | 0 | NOT_STARTED |
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 0 | 0 | NOT_STARTED |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 0 | 0 | NOT_STARTED |
