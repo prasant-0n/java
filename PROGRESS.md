@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 80 | 25.6% |
+| **Modules Complete (`COMPLETE`)** | 81 | 26.0% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 232 | 74.4% |
+| **Modules Not Started (`NOT_STARTED`)** | 231 | 74.0% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P06-C005` (Stream API Fundamentals: Source, Intermediate, and Terminal Operations). 41.7% of Phase 06 complete!
-- **Status:** Phase 06 in progress (5/12 concepts complete).
-- **Exact Next Milestone:** `P06-C006` — *Intermediate Operations: filter, map, flatMap, distinct, sorted, peek* (`curriculum/phase-06-functional-java/006-intermediate-stream-operations.md`).
-- **Following Concept:** `P06-C007` — *Terminal Operations: forEach, collect, reduce, matchers, findFirst* (`curriculum/phase-06-functional-java/007-terminal-stream-operations.md`).
+- **Current Focus:** Completed `P06-C006` (Intermediate Operations: filter, map, flatMap, distinct, sorted, peek). 50.0% of Phase 06 complete!
+- **Status:** Phase 06 in progress (6/12 concepts complete).
+- **Exact Next Milestone:** `P06-C007` — *Terminal Operations: forEach, collect, reduce, matchers, findFirst* (`curriculum/phase-06-functional-java/007-terminal-stream-operations.md`).
+- **Following Concept:** `P06-C008` — *Collectors: groupingBy, partitioningBy, toMap, and Downstream Collectors* (`curriculum/phase-06-functional-java/008-collectors-grouping-partitioning.md`).
 
 ---
 
@@ -37,7 +37,7 @@
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 15 | 0 | COMPLETE |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 9 | 0 | COMPLETE |
 | **Phase 05** | Core Java APIs You Will Use in Production | 10 | 10 | 0 | COMPLETE |
-| **Phase 06** | Functional Java | 12 | 5 | 0 | IN_PROGRESS |
+| **Phase 06** | Functional Java | 12 | 6 | 0 | IN_PROGRESS |
 | **Phase 07** | File I/O, NIO, Configuration, and Data Formats | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 08** | JVM Internals and Memory Management | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 09** | Data Structures and Algorithms for Backend Developers | 13 | 0 | 0 | NOT_STARTED |

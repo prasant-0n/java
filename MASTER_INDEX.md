@@ -145,7 +145,7 @@
 | `P06-C003` | Lambda Expressions: Syntax, Scope, Lexical Scoping, and Effectively Final | [`003-lambda-expressions-mechanics.md`](curriculum/phase-06-functional-java/003-lambda-expressions-mechanics.md) | `COMPLETE` |
 | `P06-C004` | Method References: Static, Bound Instance, Unbound Instance, and Constructor | [`004-method-references.md`](curriculum/phase-06-functional-java/004-method-references.md) | `COMPLETE` |
 | `P06-C005` | Stream API Fundamentals: Source, Intermediate, and Terminal Operations | [`005-stream-pipeline-lifecycle.md`](curriculum/phase-06-functional-java/005-stream-pipeline-lifecycle.md) | `COMPLETE` |
-| `P06-C006` | Intermediate Operations: filter, map, flatMap, distinct, sorted, peek | [`006-intermediate-stream-operations.md`](curriculum/phase-06-functional-java/006-intermediate-stream-operations.md) | `NOT_STARTED` |
+| `P06-C006` | Intermediate Operations: filter, map, flatMap, distinct, sorted, peek | [`006-intermediate-stream-operations.md`](curriculum/phase-06-functional-java/006-intermediate-stream-operations.md) | `COMPLETE` |
 | `P06-C007` | Terminal Operations: forEach, collect, reduce, matchers, findFirst | [`007-terminal-stream-operations.md`](curriculum/phase-06-functional-java/007-terminal-stream-operations.md) | `NOT_STARTED` |
 | `P06-C008` | Collectors: groupingBy, partitioningBy, toMap, and Downstream Collectors | [`008-collectors-grouping-partitioning.md`](curriculum/phase-06-functional-java/008-collectors-grouping-partitioning.md) | `NOT_STARTED` |
 | `P06-C009` | Primitive Streams: IntStream, LongStream, DoubleStream and Performance | [`009-primitive-streams-performance.md`](curriculum/phase-06-functional-java/009-primitive-streams-performance.md) | `NOT_STARTED` |

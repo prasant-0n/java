@@ -42,7 +42,7 @@ By completing Phase 06, the learner will independently be able to:
 | `P06-C003` | Lambda Expressions: Syntax, Scope, Lexical Scoping, and Effectively Final | [`003-lambda-expressions-mechanics.md`](003-lambda-expressions-mechanics.md) | Essential | COMPLETE |
 | `P06-C004` | Method References: Static, Bound Instance, Unbound Instance, and Constructor | [`004-method-references.md`](004-method-references.md) | Essential | COMPLETE |
 | `P06-C005` | Stream API Fundamentals: Source, Intermediate, and Terminal Operations | [`005-stream-pipeline-lifecycle.md`](005-stream-pipeline-lifecycle.md) | Essential | COMPLETE |
-| `P06-C006` | Intermediate Operations: filter, map, flatMap, distinct, sorted, peek | [`006-intermediate-stream-operations.md`](006-intermediate-stream-operations.md) | Essential | NOT_STARTED |
+| `P06-C006` | Intermediate Operations: filter, map, flatMap, distinct, sorted, peek | [`006-intermediate-stream-operations.md`](006-intermediate-stream-operations.md) | Essential | COMPLETE |
 | `P06-C007` | Terminal Operations: forEach, collect, reduce, matchers, findFirst | [`007-terminal-stream-operations.md`](007-terminal-stream-operations.md) | Essential | NOT_STARTED |
 | `P06-C008` | Collectors: groupingBy, partitioningBy, toMap, and Downstream Collectors | [`008-collectors-grouping-partitioning.md`](008-collectors-grouping-partitioning.md) | Essential | NOT_STARTED |
 | `P06-C009` | Primitive Streams: IntStream, LongStream, DoubleStream and Performance | [`009-primitive-streams-performance.md`](009-primitive-streams-performance.md) | Essential | NOT_STARTED |
@@ -106,7 +106,7 @@ Before marking Phase 06 as complete:
 
 - **Phase Status:** `IN_PROGRESS`
 - **Total Planned Concepts:** `12`
-- **Completed Concepts:** `5`
+- **Completed Concepts:** `6`
 - **In Progress:** `0`
-- **Completion Rate:** `41.7%`
+- **Completion Rate:** `50.0%`
 - **Last Verified Date:** `2026-10-30`
