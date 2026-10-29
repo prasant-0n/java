@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 42 | 13.5% |
+| **Modules Complete (`COMPLETE`)** | 43 | 13.8% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 270 | 86.5% |
+| **Modules Not Started (`NOT_STARTED`)** | 269 | 86.2% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P03-C001` (Collections Framework Architecture: Iterable, Collection, and Map).
-- **Status:** Phase 03 in progress (1/15 concepts complete).
-- **Exact Next Milestone:** `P03-C002` — *List Implementations: ArrayList vs LinkedList Performance and Memory* (`curriculum/phase-03-collections-framework-generics-type-safety/002-arraylist-vs-linkedlist.md`).
-- **Following Concept:** `P03-C003` — *Set Implementations: HashSet, LinkedHashSet, and TreeSet*
+- **Current Focus:** Completed `P03-C002` (List Implementations: ArrayList vs LinkedList Performance and Memory).
+- **Status:** Phase 03 in progress (2/15 concepts complete).
+- **Exact Next Milestone:** `P03-C003` — *Set Implementations: HashSet, LinkedHashSet, and TreeSet* (`curriculum/phase-03-collections-framework-generics-type-safety/003-set-implementations.md`).
+- **Following Concept:** `P03-C004` — *HashMap Internals: Hash Codes, Buckets, Treeification, and Rehashing*
 
 ---
 
@@ -34,7 +34,7 @@
 | **Phase 00** | Development Environment and Java Execution | 11 | 11 | 0 | COMPLETE |
 | **Phase 01** | Java Language Fundamentals | 15 | 15 | 0 | COMPLETE |
 | **Phase 02** | Object-Oriented Programming | 15 | 15 | 0 | COMPLETE |
-| **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 1 | 0 | IN_PROGRESS |
+| **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 2 | 0 | IN_PROGRESS |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 0 | 0 | NOT_STARTED |
 | **Phase 05** | Core Java APIs You Will Use in Production | 10 | 0 | 0 | NOT_STARTED |
 | **Phase 06** | Functional Java | 12 | 0 | 0 | NOT_STARTED |
@@ -56,4 +56,4 @@
 | **Phase 22** | Performance, Scalability, and Reliability | 8 | 0 | 0 | NOT_STARTED |
 | **Phase 23** | Professional Engineering Habits | 7 | 0 | 0 | NOT_STARTED |
 | **Supplemental** | Advanced Tracks & Specializations | 19 | 0 | 0 | NOT_STARTED |
-| **Total** | **All Modules** | **312** | **42** | **0** | **IN_PROGRESS** |
+| **Total** | **All Modules** | **312** | **43** | **0** | **IN_PROGRESS** |

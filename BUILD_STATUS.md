@@ -116,6 +116,7 @@
 - [x] **Phase 02 Capstone Integration Project:** Clean Architecture Banking Domain Engine built, regression tested (31/31 assertions passing), packaged into standalone executable JAR (`banking-domain-engine-1.0.0.jar`), and executed with exit code 0.
 - [x] **Phase 02 Completion Gate:** Reconciled and marked `COMPLETE` (15/15 concepts complete + Capstone complete, 100%).
 - [x] `P03-C001` Java Collections Framework architecture (`Iterable`, `Collection`, `Map`), why `Map` does not extend `Collection`, Map collection view synchronization, Java 21 `SequencedCollection` operations (`addFirst`, `getLast`, `reversed`), and Queue special-value null contracts verified on HotSpot 64-Bit VM with exit code 0 (12/12 assertions passed).
+- [x] `P03-C002` `ArrayList` vs `LinkedList` dynamic array expansion ($1.5\times$ growth formula), CPU L1/L2 cache prefetching vs pointer-chasing cache misses, 4-8 byte vs 24-48 byte memory overhead per node under Compressed OOPs, Java 21 `SequencedCollection` integration, subList memory retention leaks, and fail-fast `modCount` mechanics verified on HotSpot 64-Bit VM with exit code 0 (18/18 assertions passed).
 
 ---
 
@@ -127,7 +128,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P03-C001` (Collections Framework Architecture: Iterable, Collection, and Map).
+- **Current Stop Point:** Completed `P03-C002` (List Implementations: ArrayList vs LinkedList Performance and Memory).
 - **Exact Next Milestone:**
-  - `P03-C002`: *List Implementations: ArrayList vs LinkedList Performance and Memory* (`curriculum/phase-03-collections-framework-generics-type-safety/002-arraylist-vs-linkedlist.md`)
   - `P03-C003`: *Set Implementations: HashSet, LinkedHashSet, and TreeSet* (`curriculum/phase-03-collections-framework-generics-type-safety/003-set-implementations.md`)
+  - `P03-C004`: *HashMap Internals: Hash Codes, Buckets, Treeification, and Rehashing* (`curriculum/phase-03-collections-framework-generics-type-safety/004-hashmap-internals-and-mechanics.md`)
