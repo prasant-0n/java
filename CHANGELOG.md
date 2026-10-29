@@ -32,3 +32,6 @@ and this project adheres to strict evidence-based curriculum versioning.
   - `BUILD_STATUS.md`: Environment verification and build logs.
   - `SOURCE_REGISTER.md`: Register of primary specifications (JLS, JVMS, JEPs, RFCs).
   - `GLOSSARY.md`: Deduplicated first-principles technical glossary.
+- **First Concept Module Authored & Verified:**
+  - `curriculum/phase-00-development-environment-java-execution/001-jdk-jre-jvm.md`: Complete 16-section concept module covering JDK vs JRE vs JVM architecture, history, modularity, containerization, and diagnostic CLI tools.
+  - Runtime verification test executed on OpenJDK 21 LTS (`exit code 0`).
