@@ -150,6 +150,7 @@
 - [x] `P05-C004` `BigDecimal` and `BigInteger`: IEEE 754 binary floating point inaccuracy proof (`0.1 + 0.2 != 0.3`), constructor trap (`new BigDecimal(double)` vs `String` vs `BigDecimal.valueOf`), scale vs precision, non-terminating division `ArithmeticException` defense, Banker's Rounding (`RoundingMode.HALF_EVEN`), the `equals()` (checks scale) vs `compareTo()` trap in `HashSet` vs `TreeSet`, and `BigInteger` modular exponentiation for cryptography verified on HotSpot 64-Bit VM with exit code 0 (7/7 assertions passed).
 - [x] `P05-C005` `Optional<T>`: Brian Goetz method return design intent, Tony Hoare "billion-dollar mistake" elimination, monadic pipeline (`map`, `flatMap`, `filter`), eager `orElse()` vs lazy `orElseGet()` evaluation performance, modern Java 9-11 methods (`ifPresentOrElse`, `or`, `stream`, `isEmpty`), the 7 deadly anti-patterns (e.g. parameter/field abuse, `null` returns, `Optional<List>`), and JEP 390 value-based class mechanics verified on HotSpot 64-Bit VM with exit code 0 (6/6 assertions passed).
 - [x] `P05-C006` UUID generation, structure, UUIDv4 vs UUIDv7, and database indexing: 128-bit layout (variant/version nibbles), UUIDv4 random entropy distribution vs B+ Tree leaf page splits and write throughput degradation, RFC 9562 UUIDv7 time-ordered specification (48-bit millisecond Unix timestamp + 74 bits entropy), K-sortability restoring sequential write performance, 16-byte binary packing (`ByteBuffer`) vs 36-char string storage (55% space savings), and custom UUIDv7 generator verified on HotSpot 64-Bit VM with exit code 0 (4/4 test suites passed).
+- [x] `P05-C007` `Objects` utility class: Fail-fast parameter validation (`requireNonNull`), zero-allocation lazy message formatting (`Supplier<String>`), nullish coalescing mechanics (`requireNonNullElse`, `requireNonNullElseGet`), `equals` vs array-aware `deepEquals`, compound hash allocation trap in `Objects.hash` vs primitive arithmetic, and JVM intrinsic bounds checks (`checkIndex`) verified on HotSpot 64-Bit VM with exit code 0 (6/6 test suites passed).
 
 ---
 
@@ -161,7 +162,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P05-C006` (UUID Generation, Structure, UUIDv4 vs UUIDv7, and Database Indexing). 60% of Phase 05 complete!
+- **Current Stop Point:** Completed `P05-C007` (Objects Utility Class: Null Checks, Equality, and RequireNonNull). 70% of Phase 05 complete!
 - **Exact Next Milestone:**
-  - `P05-C007`: *Objects Utility Class: Null Checks, Equality, and RequireNonNull* (`curriculum/phase-05-core-java-apis-production/007-objects-utility-class.md`)
   - `P05-C008`: *Random vs SecureRandom: PRNG Mechanics, Entropy, and Security Implications* (`curriculum/phase-05-core-java-apis-production/008-random-vs-securerandom.md`)
+  - `P05-C009`: *System Properties and Environment Variables in Java Applications* (`curriculum/phase-05-core-java-apis-production/009-system-properties-and-env.md`)

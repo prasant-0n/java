@@ -131,7 +131,7 @@
 | `P05-C004` | BigDecimal and BigInteger: Precision, Scale, and Rounding Modes | [`004-bigdecimal-and-financial-math.md`](curriculum/phase-05-core-java-apis-production/004-bigdecimal-and-financial-math.md) | `COMPLETE` |
 | `P05-C005` | Optional<T>: Purpose, Monadic Methods, and Anti-Patterns | [`005-optional-idioms-and-anti-patterns.md`](curriculum/phase-05-core-java-apis-production/005-optional-idioms-and-anti-patterns.md) | `COMPLETE` |
 | `P05-C006` | UUID Generation, Structure, UUIDv4 vs UUIDv7, and Database Indexing | [`006-uuid-generation-and-indexing.md`](curriculum/phase-05-core-java-apis-production/006-uuid-generation-and-indexing.md) | `COMPLETE` |
-| `P05-C007` | Objects Utility Class: Null Checks, Equality, and RequireNonNull | [`007-objects-utility-class.md`](curriculum/phase-05-core-java-apis-production/007-objects-utility-class.md) | `NOT_STARTED` |
+| `P05-C007` | Objects Utility Class: Null Checks, Equality, and RequireNonNull | [`007-objects-utility-class.md`](curriculum/phase-05-core-java-apis-production/007-objects-utility-class.md) | `COMPLETE` |
 | `P05-C008` | Random vs SecureRandom: PRNG Mechanics, Entropy, and Security Implications | [`008-random-vs-securerandom.md`](curriculum/phase-05-core-java-apis-production/008-random-vs-securerandom.md) | `NOT_STARTED` |
 | `P05-C009` | System Properties and Environment Variables in Java Applications | [`009-system-properties-and-env.md`](curriculum/phase-05-core-java-apis-production/009-system-properties-and-env.md) | `NOT_STARTED` |
 | `P05-C010` | Regular Expressions: Pattern, Matcher, Groups, and ReDoS Prevention | [`010-regex-pattern-matcher-redos.md`](curriculum/phase-05-core-java-apis-production/010-regex-pattern-matcher-redos.md) | `NOT_STARTED` |

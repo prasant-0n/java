@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 71 | 22.8% |
+| **Modules Complete (`COMPLETE`)** | 72 | 23.1% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 241 | 77.2% |
+| **Modules Not Started (`NOT_STARTED`)** | 240 | 76.9% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P05-C006` (UUID Generation, Structure, UUIDv4 vs UUIDv7, and Database Indexing). 60% of Phase 05 complete!
-- **Status:** Phase 05 in progress (6/10 concepts complete).
-- **Exact Next Milestone:** `P05-C007` — *Objects Utility Class: Null Checks, Equality, and RequireNonNull* (`curriculum/phase-05-core-java-apis-production/007-objects-utility-class.md`).
-- **Following Concept:** `P05-C008` — *Random vs SecureRandom: PRNG Mechanics, Entropy, and Security Implications* (`curriculum/phase-05-core-java-apis-production/008-random-vs-securerandom.md`).
+- **Current Focus:** Completed `P05-C007` (Objects Utility Class: Null Checks, Equality, and RequireNonNull). 70% of Phase 05 complete!
+- **Status:** Phase 05 in progress (7/10 concepts complete).
+- **Exact Next Milestone:** `P05-C008` — *Random vs SecureRandom: PRNG Mechanics, Entropy, and Security Implications* (`curriculum/phase-05-core-java-apis-production/008-random-vs-securerandom.md`).
+- **Following Concept:** `P05-C009` — *System Properties and Environment Variables in Java Applications* (`curriculum/phase-05-core-java-apis-production/009-system-properties-and-env.md`).
 
 ---
 
@@ -36,7 +36,7 @@
 | **Phase 02** | Object-Oriented Programming | 15 | 15 | 0 | COMPLETE |
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 15 | 0 | COMPLETE |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 9 | 0 | COMPLETE |
-| **Phase 05** | Core Java APIs You Will Use in Production | 10 | 6 | 0 | IN_PROGRESS |
+| **Phase 05** | Core Java APIs You Will Use in Production | 10 | 7 | 0 | IN_PROGRESS |
 | **Phase 06** | Functional Java | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 07** | File I/O, NIO, Configuration, and Data Formats | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 08** | JVM Internals and Memory Management | 12 | 0 | 0 | NOT_STARTED |
