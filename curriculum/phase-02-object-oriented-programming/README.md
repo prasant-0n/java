@@ -38,7 +38,7 @@ By completing Phase 02, the learner will independently be able to:
 | Concept ID | Concept Title | File Name | Importance | Status |
 |---|---|---|---|---|
 | `P02-C001` | Classes, Objects, Fields, and Constructor Chaining | [`001-classes-objects-constructors.md`](001-classes-objects-constructors.md) | Essential | COMPLETE |
-| `P02-C002` | Static State, Class Loading, and Initialization Order Hazards | [`002-static-members-and-initialization.md`](002-static-members-and-initialization.md) | Essential | NOT_STARTED |
+| `P02-C002` | Static State, Class Loading, and Initialization Order Hazards | [`002-static-members-and-initialization.md`](002-static-members-and-initialization.md) | Essential | COMPLETE |
 | `P02-C003` | Access Modifiers, Encapsulation, and Package-Private Boundaries | [`003-access-modifiers-encapsulation.md`](003-access-modifiers-encapsulation.md) | Essential | NOT_STARTED |
 | `P02-C004` | The Four Pillars of OOP in Java Backend Design | [`004-four-pillars-of-oop.md`](004-four-pillars-of-oop.md) | Essential | NOT_STARTED |
 | `P02-C005` | Inheritance (extends) vs Subtyping vs Fragile Base Class Problem | [`005-inheritance-and-fragile-base-class.md`](005-inheritance-and-fragile-base-class.md) | Essential | NOT_STARTED |
@@ -112,7 +112,7 @@ Before marking Phase 02 as complete:
 
 - **Phase Status:** `IN_PROGRESS`
 - **Total Planned Concepts:** `15`
-- **Completed Concepts:** `1`
+- **Completed Concepts:** `2`
 - **In Progress:** `0`
-- **Completion Rate:** `6.7%`
+- **Completion Rate:** `13.3%`
 - **Last Verified Date:** `2026-10-30`
