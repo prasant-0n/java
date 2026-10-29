@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 73 | 23.4% |
+| **Modules Complete (`COMPLETE`)** | 74 | 23.7% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 239 | 76.6% |
+| **Modules Not Started (`NOT_STARTED`)** | 238 | 76.3% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P05-C008` (Random vs SecureRandom: PRNG Mechanics, Entropy, and Security Implications). 80% of Phase 05 complete!
-- **Status:** Phase 05 in progress (8/10 concepts complete).
-- **Exact Next Milestone:** `P05-C009` — *System Properties and Environment Variables in Java Applications* (`curriculum/phase-05-core-java-apis-production/009-system-properties-and-env.md`).
-- **Following Concept:** `P05-C010` — *Regular Expressions: Pattern, Matcher, Groups, and ReDoS Prevention* (`curriculum/phase-05-core-java-apis-production/010-regex-pattern-matcher-redos.md`).
+- **Current Focus:** Completed `P05-C009` (System Properties and Environment Variables in Java Applications). 90% of Phase 05 complete!
+- **Status:** Phase 05 in progress (9/10 concepts complete).
+- **Exact Next Milestone:** `P05-C010` — *Regular Expressions: Pattern, Matcher, Groups, and ReDoS Prevention* (`curriculum/phase-05-core-java-apis-production/010-regex-pattern-matcher-redos.md`).
+- **Following Concept:** Phase 05 Capstone Integration Project.
 
 ---
 
@@ -36,7 +36,7 @@
 | **Phase 02** | Object-Oriented Programming | 15 | 15 | 0 | COMPLETE |
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 15 | 0 | COMPLETE |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 9 | 0 | COMPLETE |
-| **Phase 05** | Core Java APIs You Will Use in Production | 10 | 8 | 0 | IN_PROGRESS |
+| **Phase 05** | Core Java APIs You Will Use in Production | 10 | 9 | 0 | IN_PROGRESS |
 | **Phase 06** | Functional Java | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 07** | File I/O, NIO, Configuration, and Data Formats | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 08** | JVM Internals and Memory Management | 12 | 0 | 0 | NOT_STARTED |
