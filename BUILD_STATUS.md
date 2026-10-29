@@ -162,6 +162,7 @@
 - [x] `P06-C004` Method references: The 4 canonical classifications (Static, Bound Instance, Unbound Instance, Object/Array Constructor), JLS §15.13 specification, direct `MethodHandle` bytecode linking, eager receiver evaluation in bound references (immediate NPE on null receivers), and multi-key `Comparator` pipelines verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 - [x] `P06-C005` Stream API fundamentals: The three-stage pipeline lifecycle (Source $\rightarrow$ Intermediate $\rightarrow$ Terminal), Collection (data in memory) vs Stream (lazy computation), single-use invariant (`IllegalStateException` on reuse), loop fusion vertical execution proof (short-circuiting prior to evaluating unneeded elements), Java 9 bounded `iterate()`, and `AutoCloseable` I/O streams (`Files.lines()`) file descriptor cleanup verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 - [x] `P06-C006` Intermediate stream operations: Stateless operations (`filter`, `map`, `flatMap`, `peek`) vs stateful operations (`distinct`, `sorted`, `limit`, `skip`), loop fusion breaker mechanics (stateful operations buffering elements in `SpinedBuffer` / `TimSort`), relational flattening (`flatMap(c -> c.orders().stream())`), Java 9 `Optional.stream()` unwrapping, Java 9 time-series slicing (`takeWhile` / `dropWhile`), and primitive mapToInt performance verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
+- [x] `P06-C007` Terminal stream operations: Lifecycle trigger and single-use closure (`linkedOrConsumed`), short-circuiting terminal operations (`anyMatch`, `allMatch`, `noneMatch`, `findFirst`, `findAny`) via `cancellationRequested()`, the three overloads of functional `reduce()`, associativity rules, mathematical vacuous truth security hazard (`allMatch` on empty streams returning `true`), and `Stream.toList()` (Java 16+) immutability verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 
 ---
 
@@ -173,7 +174,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P06-C006` (Intermediate Operations: filter, map, flatMap, distinct, sorted, peek). 50.0% of Phase 06 complete!
+- **Current Stop Point:** Completed `P06-C007` (Terminal Operations: forEach, collect, reduce, matchers, findFirst). 58.3% of Phase 06 complete!
 - **Exact Next Milestone:**
-  - `P06-C007`: *Terminal Operations: forEach, collect, reduce, matchers, findFirst* (`curriculum/phase-06-functional-java/007-terminal-stream-operations.md`)
   - `P06-C008`: *Collectors: groupingBy, partitioningBy, toMap, and Downstream Collectors* (`curriculum/phase-06-functional-java/008-collectors-grouping-partitioning.md`)
+  - `P06-C009`: *Primitive Streams: IntStream, LongStream, DoubleStream and Performance* (`curriculum/phase-06-functional-java/009-primitive-streams-performance.md`)
