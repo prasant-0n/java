@@ -103,7 +103,7 @@
 | `P03-C010` | Comparable and Comparator: Natural Ordering, Custom Sorts, and Null Safety | [`010-comparable-and-comparator.md`](curriculum/phase-03-collections-framework-generics-type-safety/010-comparable-and-comparator.md) | `COMPLETE` |
 | `P03-C011` | Iterators, Fail-Fast vs Fail-Safe Mechanics, and Safe Removal | [`011-iterators-fail-fast-mechanics.md`](curriculum/phase-03-collections-framework-generics-type-safety/011-iterators-fail-fast-mechanics.md) | `COMPLETE` |
 | `P03-C012` | Generics Fundamentals: Type Parameters, Generic Classes, and Methods | [`012-generics-classes-and-methods.md`](curriculum/phase-03-collections-framework-generics-type-safety/012-generics-classes-and-methods.md) | `COMPLETE` |
-| `P03-C013` | Bounded Type Parameters and Multiple Bounds | [`013-bounded-type-parameters.md`](curriculum/phase-03-collections-framework-generics-type-safety/013-bounded-type-parameters.md) | `NOT_STARTED` |
+| `P03-C013` | Bounded Type Parameters and Multiple Bounds | [`013-bounded-type-parameters.md`](curriculum/phase-03-collections-framework-generics-type-safety/013-bounded-type-parameters.md) | `COMPLETE` |
 | `P03-C014` | Wildcards and PECS (Producer Extends, Consumer Super) Principle | [`014-wildcards-and-pecs.md`](curriculum/phase-03-collections-framework-generics-type-safety/014-wildcards-and-pecs.md) | `NOT_STARTED` |
 | `P03-C015` | Type Erasure, Bridge Methods, Heap Pollution, and Reifiable Types | [`015-type-erasure-and-heap-pollution.md`](curriculum/phase-03-collections-framework-generics-type-safety/015-type-erasure-and-heap-pollution.md) | `NOT_STARTED` |
 
