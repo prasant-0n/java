@@ -152,7 +152,7 @@
 | `P06-C009` | Primitive Streams: IntStream, LongStream, DoubleStream and Performance | [`009-primitive-streams-performance.md`](curriculum/phase-06-functional-java/009-primitive-streams-performance.md) | `COMPLETE` |
 | `P06-C010` | Stream Laziness, Short-Circuit Evaluation, and Side-Effect Dangers | [`010-stream-laziness-side-effects.md`](curriculum/phase-06-functional-java/010-stream-laziness-side-effects.md) | `COMPLETE` |
 | `P06-C011` | Sequential vs Parallel Streams: Spliterators, ForkJoinPool, and Overhead | [`011-parallel-streams-and-forkjoin.md`](curriculum/phase-06-functional-java/011-parallel-streams-and-forkjoin.md) | `COMPLETE` |
-| `P06-C012` | Stream vs Imperative Loops: Readability, Debuggability, and Benchmarks | [`012-stream-vs-imperative-benchmarks.md`](curriculum/phase-06-functional-java/012-stream-vs-imperative-benchmarks.md) | `NOT_STARTED` |
+| `P06-C012` | Stream vs Imperative Loops: Readability, Debuggability, and Benchmarks | [`012-stream-vs-imperative-benchmarks.md`](curriculum/phase-06-functional-java/012-stream-vs-imperative-benchmarks.md) | `COMPLETE` |
 
 ### [Phase 07: File I/O, NIO, Configuration, and Data Formats](curriculum/phase-07-file-io-nio-configuration-data-formats/README.md)
 

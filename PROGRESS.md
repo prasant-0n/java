@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 86 | 27.6% |
+| **Modules Complete (`COMPLETE`)** | 87 | 27.9% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 226 | 72.4% |
+| **Modules Not Started (`NOT_STARTED`)** | 225 | 72.1% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P06-C011` (Sequential vs Parallel Streams: Spliterators, ForkJoinPool, and Overhead). 91.7% of Phase 06 complete!
-- **Status:** Phase 06 in progress (11/12 concepts complete).
-- **Exact Next Milestone:** `P06-C012` — *Stream vs Imperative Loops: Readability, Debuggability, and Benchmarks* (`curriculum/phase-06-functional-java/012-stream-vs-imperative-benchmarks.md`).
-- **Following Milestone:** **Phase 06 Capstone Integration Project:** Real-Time Analytical Fraud and Revenue Aggregation Engine (`curriculum/phase-06-functional-java/capstone/`).
+- **Current Focus:** Completed `P06-C012` (Stream vs Imperative Loops: Readability, Debuggability, and Benchmarks). All 12 concepts in Phase 06 complete (100%)!
+- **Status:** Phase 06 concept modules complete; ready for Capstone Integration Project.
+- **Exact Next Milestone:** **Phase 06 Capstone Integration Project:** Real-Time Analytical Fraud and Revenue Aggregation Engine (`curriculum/phase-06-functional-java/capstone/`).
+- **Following Milestone:** Phase 07 launch (`curriculum/phase-07-file-io-nio-configuration-data-formats/`).
 
 ---
 
@@ -37,7 +37,7 @@
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 15 | 0 | COMPLETE |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 9 | 0 | COMPLETE |
 | **Phase 05** | Core Java APIs You Will Use in Production | 10 | 10 | 0 | COMPLETE |
-| **Phase 06** | Functional Java | 12 | 11 | 0 | IN_PROGRESS |
+| **Phase 06** | Functional Java | 12 | 12 | 0 | IN_PROGRESS |
 | **Phase 07** | File I/O, NIO, Configuration, and Data Formats | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 08** | JVM Internals and Memory Management | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 09** | Data Structures and Algorithms for Backend Developers | 13 | 0 | 0 | NOT_STARTED |
