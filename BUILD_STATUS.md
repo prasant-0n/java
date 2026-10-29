@@ -135,6 +135,7 @@
 - [x] `P04-C001` The `Throwable` hierarchy, `Error` (fatal JVM conditions) vs `Exception` (application failures) vs `RuntimeException` (programming bugs/contract violations), stack trace creation cost (`fillInStackTrace()` crawling execution frames), high-throughput zero-cost exception optimization (`writableStackTrace = false`), bytecode exception tables (`from`, `to`, `target`, `type`) with zero happy-path overhead, HotSpot fast throw optimization (`-XX:+OmitStackTraceInFastThrow`), and causal chain preservation verified on HotSpot 64-Bit VM with exit code 0 (12/12 assertions passed).
 - [x] `P04-C002` Checked vs unchecked exceptions, JLS §11.2 "catch or specify" mandate, Anders Hejlsberg's versioning brittleness critique, Spring's unchecked data access revolution, Liskov Substitution Principle overriding exception rules (subclasses cannot declare new/broader checked exceptions), the bytecode non-existence of checked exceptions, and sneaky throws mechanics verified on HotSpot 64-Bit VM with exit code 0 (15/15 assertions passed).
 - [x] `P04-C003` `try`, `catch`, `finally` control flow, subclass-before-superclass catch ordering (unreachable code rejection), Java 7 multi-catch syntax (`catch (IOException | SQLException e)`), disjoint types constraint, implicitly final catch parameters, `finally` execution guarantees across normal/caught/early-return paths, `finally` bytecode compilation via code inlining and synthetic `any` exception tables, and dangerous `finally` return/throw traps verified on HotSpot 64-Bit VM with exit code 0 (15/15 assertions passed).
+- [x] `P04-C004` Try-with-resources statement (JEP 105), `AutoCloseable` vs `Closeable` contracts, reverse LIFO resource closing order, suppressed exceptions preservation (`Throwable.addSuppressed` and `Throwable.getSuppressed`), `javac` synthetic desugaring tree, and Java 9 effectively final resource references verified on HotSpot 64-Bit VM with exit code 0 (12/12 assertions passed).
 
 ---
 
@@ -146,7 +147,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P04-C003` (Exception Handling Blocks: try, catch, multi-catch, and finally Semantics).
+- **Current Stop Point:** Completed `P04-C004` (Try-With-Resources, AutoCloseable, and Suppressed Exceptions).
 - **Exact Next Milestone:**
-  - `P04-C004`: *Try-With-Resources, AutoCloseable, and Suppressed Exceptions* (`curriculum/phase-04-exception-handling-defensive-programming/004-try-with-resources-autocloseable.md`)
   - `P04-C005`: *Custom Domain Exceptions, Error Envelopes, and Context Propagation* (`curriculum/phase-04-exception-handling-defensive-programming/005-custom-domain-exceptions.md`)
+  - `P04-C006`: *Exception Chaining, Root Causes, and Preserving Stack Traces* (`curriculum/phase-04-exception-handling-defensive-programming/006-exception-chaining-and-causes.md`)
