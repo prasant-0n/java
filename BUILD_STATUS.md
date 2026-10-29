@@ -86,6 +86,7 @@
 - [x] `P01-C003` reference aliasing demonstrator, footprint calculator, and safe DTO patcher verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P01-C004` variable scope/lifecycle demo, definite assignment analysis, and stack confinement verified on HotSpot 64-Bit VM with exit code 0.
 - [x] `P01-C005` bit-shearing math, compound assignment narrowing trap, unsigned byte decoding, and Math.toIntExact() verified on HotSpot 64-Bit VM with exit code 0.
+- [x] `P01-C006` IntegerCache flyweight bounds, autounboxing NPE triggers, ternary operator desugaring, and safe DTO null checks verified on HotSpot 64-Bit VM with exit code 0.
 
 ---
 
@@ -97,7 +98,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P01-C005`.
+- **Current Stop Point:** Completed `P01-C006`.
 - **Exact Next Queued Concept:**
-  - `P01-C006`: *Wrapper Classes, Autoboxing, and NullPointerExceptions* (`curriculum/phase-01-java-language-fundamentals/006-wrapper-classes-autoboxing.md`)
   - `P01-C007`: *Local Variable Type Inference (var) and Limitations* (`curriculum/phase-01-java-language-fundamentals/007-local-variable-type-inference-var.md`)
+  - `P01-C008`: *Operators, Precedence, and Short-Circuit Evaluation* (`curriculum/phase-01-java-language-fundamentals/008-operators-and-short-circuit-evaluation.md`)
