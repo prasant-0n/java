@@ -120,6 +120,7 @@
 - [x] `P03-C003` `Set` implementations (`HashSet`, `LinkedHashSet`, `TreeSet`) as Map adapter facades (`PRESENT` sentinel), $O(1)$ amortized deduplication, Java 21 `SequencedSet` integration (`getFirst`, `getLast`, `addFirst`, `reversed`), `NavigableSet` proximity searches (`lower`, `floor`, `ceiling`, `higher`, `subSet`), `TreeSet` duplicate rejection via `compareTo` vs `HashSet` via `equals()`, and mutable key memory leak hazards verified on HotSpot 64-Bit VM with exit code 0 (23/23 assertions passed).
 - [x] `P03-C004` `HashMap` internals, power-of-two bitwise masking (`(n - 1) & hash`), hash perturbation (`h ^ (h >>> 16)`), zero-rehash resize bit-test (`hash & oldCap`), Java 8 treeification threshold transition (9th item at capacity $\ge 64$ converting `Node` to `TreeNode`), and atomic in-place mutations (`computeIfAbsent`, `merge`) verified on HotSpot 64-Bit VM with exit code 0 (22/22 assertions passed).
 - [x] `P03-C005` `LinkedHashMap` and `TreeMap` architectures, doubly-linked list hash table entry mechanics, LRU cache eviction via `removeEldestEntry()`, access-order concurrency mutation hazards, Red-Black tree self-balancing invariants ($h \le 2\log_2(N+1)$), Java 21 `SequencedMap` API, `NavigableMap` proximity searches, and `compareTo` vs `equals` overwrite traps verified on HotSpot 64-Bit VM with exit code 0 (24/24 assertions passed).
+- [x] `P03-C006` `ArrayDeque` circular ring buffer and `PriorityQueue` complete binary min-heap architectures, method duality contract (throwing vs special-value), stack LIFO operations replacing legacy `Stack`, Floyd linear heapify ($O(N)$), heap parent-child index formulas, non-sorted iterator traps, in-place mutation corruption hazards, and null element prohibition verified on HotSpot 64-Bit VM with exit code 0 (21/21 assertions passed).
 
 ---
 
@@ -131,7 +132,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P03-C005` (LinkedHashMap and TreeMap: Ordering, Red-Black Trees, and LRU Caches).
+- **Current Stop Point:** Completed `P03-C006` (Queue and Deque Implementations: ArrayDeque vs PriorityQueue).
 - **Exact Next Milestone:**
-  - `P03-C006`: *Queue and Deque Implementations: ArrayDeque vs PriorityQueue* (`curriculum/phase-03-collections-framework-generics-type-safety/006-queues-and-deques.md`)
   - `P03-C007`: *Concurrent Collections Introduction: ConcurrentHashMap vs Collections.synchronizedMap* (`curriculum/phase-03-collections-framework-generics-type-safety/007-concurrenthashmap-overview.md`)
+  - `P03-C008`: *Immutable Collections (List.of, Set.of, Map.of) vs Unmodifiable Views* (`curriculum/phase-03-collections-framework-generics-type-safety/008-immutable-collections-and-views.md`)
