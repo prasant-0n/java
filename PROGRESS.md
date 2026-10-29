@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 38 | 12.2% |
+| **Modules Complete (`COMPLETE`)** | 39 | 12.5% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 274 | 87.8% |
+| **Modules Not Started (`NOT_STARTED`)** | 273 | 87.5% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P02-C012` (Records: Immutable Data Carriers, Compact Constructors, and DTOs).
-- **Status:** Phase 02 in progress (12/15 concepts complete).
-- **Exact Next Milestone:** `P02-C013` — *Sealed Classes, Sealed Interfaces, and Algebraic Data Types* (`curriculum/phase-02-object-oriented-programming/013-sealed-classes-and-interfaces.md`).
-- **Following Concept:** `P02-C014` — *Pattern Matching for instanceof and Switch Expressions*
+- **Current Focus:** Completed `P02-C013` (Sealed Classes, Sealed Interfaces, and Algebraic Data Types).
+- **Status:** Phase 02 in progress (13/15 concepts complete).
+- **Exact Next Milestone:** `P02-C014` — *Pattern Matching for instanceof and Switch Expressions* (`curriculum/phase-02-object-oriented-programming/014-pattern-matching-oop.md`).
+- **Following Concept:** `P02-C015` — *The Object Superclass Contract: equals(), hashCode(), toString(), clone()*
 
 ---
 
@@ -33,7 +33,7 @@
 |---|---|---|---|---|---|
 | **Phase 00** | Development Environment and Java Execution | 11 | 11 | 0 | COMPLETE |
 | **Phase 01** | Java Language Fundamentals | 15 | 15 | 0 | COMPLETE |
-| **Phase 02** | Object-Oriented Programming | 15 | 12 | 0 | IN_PROGRESS |
+| **Phase 02** | Object-Oriented Programming | 15 | 13 | 0 | IN_PROGRESS |
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 0 | 0 | NOT_STARTED |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 0 | 0 | NOT_STARTED |
 | **Phase 05** | Core Java APIs You Will Use in Production | 10 | 0 | 0 | NOT_STARTED |
@@ -56,4 +56,4 @@
 | **Phase 22** | Performance, Scalability, and Reliability | 8 | 0 | 0 | NOT_STARTED |
 | **Phase 23** | Professional Engineering Habits | 7 | 0 | 0 | NOT_STARTED |
 | **Supplemental** | Advanced Tracks & Specializations | 19 | 0 | 0 | NOT_STARTED |
-| **Total** | **All Modules** | **312** | **38** | **0** | **IN_PROGRESS** |
+| **Total** | **All Modules** | **312** | **39** | **0** | **IN_PROGRESS** |
