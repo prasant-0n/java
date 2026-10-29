@@ -105,7 +105,7 @@
 | `P03-C012` | Generics Fundamentals: Type Parameters, Generic Classes, and Methods | [`012-generics-classes-and-methods.md`](curriculum/phase-03-collections-framework-generics-type-safety/012-generics-classes-and-methods.md) | `COMPLETE` |
 | `P03-C013` | Bounded Type Parameters and Multiple Bounds | [`013-bounded-type-parameters.md`](curriculum/phase-03-collections-framework-generics-type-safety/013-bounded-type-parameters.md) | `COMPLETE` |
 | `P03-C014` | Wildcards and PECS (Producer Extends, Consumer Super) Principle | [`014-wildcards-and-pecs.md`](curriculum/phase-03-collections-framework-generics-type-safety/014-wildcards-and-pecs.md) | `COMPLETE` |
-| `P03-C015` | Type Erasure, Bridge Methods, Heap Pollution, and Reifiable Types | [`015-type-erasure-and-heap-pollution.md`](curriculum/phase-03-collections-framework-generics-type-safety/015-type-erasure-and-heap-pollution.md) | `NOT_STARTED` |
+| `P03-C015` | Type Erasure, Bridge Methods, Heap Pollution, and Reifiable Types | [`015-type-erasure-and-heap-pollution.md`](curriculum/phase-03-collections-framework-generics-type-safety/015-type-erasure-and-heap-pollution.md) | `COMPLETE` |
 
 ### [Phase 04: Exception Handling and Defensive Programming](curriculum/phase-04-exception-handling-defensive-programming/README.md)
 
