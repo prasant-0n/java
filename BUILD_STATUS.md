@@ -164,6 +164,7 @@
 - [x] `P06-C006` Intermediate stream operations: Stateless operations (`filter`, `map`, `flatMap`, `peek`) vs stateful operations (`distinct`, `sorted`, `limit`, `skip`), loop fusion breaker mechanics (stateful operations buffering elements in `SpinedBuffer` / `TimSort`), relational flattening (`flatMap(c -> c.orders().stream())`), Java 9 `Optional.stream()` unwrapping, Java 9 time-series slicing (`takeWhile` / `dropWhile`), and primitive mapToInt performance verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 - [x] `P06-C007` Terminal stream operations: Lifecycle trigger and single-use closure (`linkedOrConsumed`), short-circuiting terminal operations (`anyMatch`, `allMatch`, `noneMatch`, `findFirst`, `findAny`) via `cancellationRequested()`, the three overloads of functional `reduce()`, associativity rules, mathematical vacuous truth security hazard (`allMatch` on empty streams returning `true`), and `Stream.toList()` (Java 16+) immutability verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 - [x] `P06-C008` Collectors: `Collector<T, A, R>` interface contract (supplier, accumulator, combiner, finisher, characteristics), `groupingBy` with downstream multi-level composition, `partitioningBy` guaranteed boolean binary partitioning, production-hardened `toMap` key collision merge functions, Java 9 downstream `filtering` and `flatMapping`, and custom `Collector.of` ledger summarizer verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
+- [x] `P06-C009` Primitive streams and performance: `IntStream`, `LongStream`, and `DoubleStream` zero-overhead architectures, heap object overhead analysis (16-24 bytes per `Integer` vs 4 bytes raw primitive, 5x memory overhead), CPU L1/L2 cache line packing (16 ints per 64-byte line) and HotSpot C2 SIMD auto-vectorization, single-pass `summaryStatistics()`, 32-bit silent overflow defense via `asLongStream()`, and Unicode surrogate pair handling via `codePoints()` verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 
 ---
 
@@ -175,7 +176,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P06-C008` (Collectors: groupingBy, partitioningBy, toMap, and Downstream Collectors). 66.7% of Phase 06 complete!
+- **Current Stop Point:** Completed `P06-C009` (Primitive Streams: IntStream, LongStream, DoubleStream and Performance). 75.0% of Phase 06 complete!
 - **Exact Next Milestone:**
-  - `P06-C009`: *Primitive Streams: IntStream, LongStream, DoubleStream and Performance* (`curriculum/phase-06-functional-java/009-primitive-streams-performance.md`)
   - `P06-C010`: *Stream Laziness, Short-Circuit Evaluation, and Side-Effect Dangers* (`curriculum/phase-06-functional-java/010-stream-laziness-side-effects.md`)
+  - `P06-C011`: *Sequential vs Parallel Streams: Spliterators, ForkJoinPool, and Overhead* (`curriculum/phase-06-functional-java/011-parallel-streams-and-forkjoin.md`)
