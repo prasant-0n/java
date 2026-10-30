@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 124 | 39.7% |
+| **Modules Complete (`COMPLETE`)** | 125 | 40.1% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 188 | 60.3% |
+| **Modules Not Started (`NOT_STARTED`)** | 187 | 59.9% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed Phase 09 Capstone Integration Project and Phase Gate. Phase 09 is 100% COMPLETE! Total Curriculum Progress: 124 Modules Complete (39.7%) and 10 Complete Capstones (Phases 00 through 09)!
-- **Status:** Phase 09 COMPLETE. Phase 10 (Professional Java Development Workflow) ready to begin.
-- **Exact Next Milestone:** Phase 10: Author and verify `P10-C001`: *Build Automation: Ant, Maven, and Gradle Fundamentals* (`curriculum/phase-10-professional-development-workflow/001-build-automation-maven-gradle.md`).
-- **Following Milestone:** `P10-C002`: *Maven Lifecycle, Plugins, and Multi-Module Projects*.
+- **Current Focus:** Completed `P10-C001` (Maven Build Lifecycle: clean, compile, test, package, install, and deploy). Phase 10 in progress (1/11 complete, 9.1%)! Curriculum surpasses 40% milestone: 125 Modules Complete (40.1%)!
+- **Status:** Phase 10 in progress (1/11 complete, 9.1%).
+- **Exact Next Milestone:** Author and verify `P10-C002`: *Maven Dependency Management: Coordinates, Scopes (compile, test, provided, runtime)* (`curriculum/phase-10-professional-java-development-workflow/002-maven-dependency-scopes.md`).
+- **Following Milestone:** `P10-C003`: *Transitive Dependencies, Conflict Resolution (Nearest Wins), and Exclusions*.
 
 ---
 
@@ -41,7 +41,7 @@
 | **Phase 07** | File I/O, NIO, Configuration, and Data Formats | 12 | 12 | 0 | COMPLETE |
 | **Phase 08** | JVM Internals and Memory Management | 12 | 12 | 0 | COMPLETE |
 | **Phase 09** | Data Structures and Algorithms for Backend Developers | 13 | 13 | 0 | COMPLETE |
-| **Phase 10** | Professional Java Development Workflow | 11 | 0 | 0 | NOT_STARTED |
+| **Phase 10** | Professional Java Development Workflow | 11 | 1 | 0 | IN_PROGRESS |
 | **Phase 11** | Unit Testing and Software Quality | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 12** | Concurrency and Multithreading | 17 | 0 | 0 | NOT_STARTED |
 | **Phase 13** | SQL and Relational Database Fundamentals | 16 | 0 | 0 | NOT_STARTED |
