@@ -44,7 +44,7 @@ By completing Phase 09, the learner will independently be able to:
 | `P09-C005` | Hash Tables: Hash Functions, Bucket Arrays, Open Addressing vs Chaining | [`005-hash-tables-collision-resolution.md`](005-hash-tables-collision-resolution.md) | Essential | COMPLETE |
 | `P09-C006` | Binary Trees and Binary Search Trees (BST): Insertion, Deletion, and Balancing | [`006-binary-search-trees.md`](006-binary-search-trees.md) | Essential | COMPLETE |
 | `P09-C007` | Heaps and Priority Queues: Binary Heaps, Sift-Up/Sift-Down, and Top-K | [`007-heaps-and-priority-queues.md`](007-heaps-and-priority-queues.md) | Essential | COMPLETE |
-| `P09-C008` | Graph Representations: Adjacency Matrix vs Adjacency List and Edge Lists | [`008-graph-representations.md`](008-graph-representations.md) | Essential | NOT_STARTED |
+| `P09-C008` | Graph Representations: Adjacency Matrix vs Adjacency List and Edge Lists | [`008-graph-representations.md`](008-graph-representations.md) | Essential | COMPLETE |
 | `P09-C009` | Linear Search vs Binary Search and Bisect Techniques | [`009-binary-search-techniques.md`](009-binary-search-techniques.md) | Essential | NOT_STARTED |
 | `P09-C010` | Comparison Sorts: QuickSort, MergeSort, TimSort, and Space-Time Trade-offs | [`010-comparison-sorting-algorithms.md`](010-comparison-sorting-algorithms.md) | Essential | NOT_STARTED |
 | `P09-C011` | Algorithm Patterns: Two Pointers and Sliding Window for Stream Processing | [`011-two-pointers-sliding-window.md`](011-two-pointers-sliding-window.md) | Essential | NOT_STARTED |
@@ -108,7 +108,7 @@ Before marking Phase 09 as complete:
 
 - **Phase Status:** `IN_PROGRESS`
 - **Total Planned Concepts:** `13`
-- **Completed Concepts:** `7`
+- **Completed Concepts:** `8`
 - **In Progress:** `0`
-- **Completion Rate:** `53.8%`
+- **Completion Rate:** `61.5%`
 - **Last Verified Date:** `2026-10-30`
