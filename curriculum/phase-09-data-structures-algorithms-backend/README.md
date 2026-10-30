@@ -38,7 +38,7 @@ By completing Phase 09, the learner will independently be able to:
 | Concept ID | Concept Title | File Name | Importance | Status |
 |---|---|---|---|---|
 | `P09-C001` | Algorithmic Complexity: Big-O, Big-Omega, Big-Theta, and Amortized Analysis | [`001-big-o-complexity-amortized.md`](001-big-o-complexity-amortized.md) | Essential | COMPLETE |
-| `P09-C002` | Dynamic Arrays and Resizing Mechanics: Capacity vs Size and Growth Factors | [`002-dynamic-arrays-resizing.md`](002-dynamic-arrays-resizing.md) | Essential | NOT_STARTED |
+| `P09-C002` | Dynamic Arrays and Resizing Mechanics: Capacity vs Size and Growth Factors | [`002-dynamic-arrays-resizing.md`](002-dynamic-arrays-resizing.md) | Essential | COMPLETE |
 | `P09-C003` | Linked Lists: Singly, Doubly, Circular Lists, and Pointer Manipulation | [`003-linked-lists-implementation.md`](003-linked-lists-implementation.md) | Essential | NOT_STARTED |
 | `P09-C004` | Stacks and Queues: LIFO, FIFO, Monotonic Stacks, and Array-Backed Buffers | [`004-stacks-and-queues.md`](004-stacks-and-queues.md) | Essential | NOT_STARTED |
 | `P09-C005` | Hash Tables: Hash Functions, Bucket Arrays, Open Addressing vs Chaining | [`005-hash-tables-collision-resolution.md`](005-hash-tables-collision-resolution.md) | Essential | NOT_STARTED |
@@ -108,7 +108,7 @@ Before marking Phase 09 as complete:
 
 - **Phase Status:** `IN_PROGRESS`
 - **Total Planned Concepts:** `13`
-- **Completed Concepts:** `1`
+- **Completed Concepts:** `2`
 - **In Progress:** `0`
-- **Completion Rate:** `7.7%`
+- **Completion Rate:** `15.4%`
 - **Last Verified Date:** `2026-10-30`

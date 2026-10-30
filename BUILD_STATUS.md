@@ -199,6 +199,7 @@
 - [x] **Phase 08 Capstone Integration Project:** JVM Memory & Performance Profiling Simulator (`jvm-profiling-simulator`) built, regression tested (10/10 assertions passing), packaged into standalone executable JAR (`jvm-profiling-simulator-1.0.0.jar`), and executed with exit code 0.
 - [x] **Phase 08 Completion Gate:** Reconciled and marked `COMPLETE` (12/12 concepts complete + Capstone complete, 100%).
 - [x] `P09-C001` Algorithmic complexity and amortized analysis: Asymptotic bounding definitions ($O, \Omega, \Theta, o, \omega$), best vs average vs worst cases, the three classical amortized analysis techniques (aggregate, accounting, potential $\Phi(D_i)$ methods) and mathematical proof of dynamic array doubling $\le 3$ operations per append, Jeff Dean's latency hierarchy (L1/L2/L3 cache vs RAM vs NVMe vs network roundtrips), contiguous array 64-byte cache line prefetching vs pointer-chasing linked node latency stalls, space complexity (auxiliary vs input), and eliminating backend $O(N^2)$ anti-patterns (nested contains, string concatenation, Cartesian joins, N+1 queries) verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
+- [x] `P09-C002` Dynamic arrays and resizing mechanics: Logical size vs physical capacity, contiguous virtual memory offset arithmetic ($O(1)$ random access), OpenJDK HotSpot 1.5x growth factor (`oldCapacity + (oldCapacity >> 1)`) vs 2.0x theoretical doubling, allocator memory reusability and Golden Ratio boundary ($\gamma \le 1.618$), amortized geometric progression proof ($< 4$ operations per append), lazy empty array initialization (`DEFAULTCAPACITY_EMPTY_ELEMENTDATA`), native SIMD memory shifting via `System.arraycopy`, defensive slot nulling preventing object loitering memory leaks, compaction via `trimToSize()`, and `MAX_ARRAY_SIZE` boundaries verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 
 ---
 
@@ -210,7 +211,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P09-C001` (Algorithmic Complexity: Big-O, Big-Omega, Big-Theta, and Amortized Analysis). **112 Modules Complete (35.9%)! Phase 09 Launched!**
+- **Current Stop Point:** Completed `P09-C002` (Dynamic Arrays and Resizing Mechanics: Capacity vs Size and Growth Factors). **113 Modules Complete (36.2%)!**
 - **Exact Next Milestone:**
-  - Author and verify `P09-C002`: *Dynamic Arrays and Resizing Mechanics: Capacity vs Size and Growth Factors* (`curriculum/phase-09-data-structures-algorithms-backend/002-dynamic-arrays-resizing.md`)
   - Author and verify `P09-C003`: *Linked Lists: Singly, Doubly, Circular Lists, and Pointer Manipulation* (`curriculum/phase-09-data-structures-algorithms-backend/003-linked-lists-implementation.md`)
+  - Author and verify `P09-C004`: *Stacks and Queues: LIFO, FIFO, Monotonic Stacks, and Array-Backed Buffers* (`curriculum/phase-09-data-structures-algorithms-backend/004-stacks-and-queues.md`)

@@ -192,7 +192,7 @@
 | Concept ID | Concept Title | Document Link | Status |
 |---|---|---|---|
 | `P09-C001` | Algorithmic Complexity: Big-O, Big-Omega, Big-Theta, and Amortized Analysis | [`001-big-o-complexity-amortized.md`](curriculum/phase-09-data-structures-algorithms-backend/001-big-o-complexity-amortized.md) | `COMPLETE` |
-| `P09-C002` | Dynamic Arrays and Resizing Mechanics: Capacity vs Size and Growth Factors | [`002-dynamic-arrays-resizing.md`](curriculum/phase-09-data-structures-algorithms-backend/002-dynamic-arrays-resizing.md) | `NOT_STARTED` |
+| `P09-C002` | Dynamic Arrays and Resizing Mechanics: Capacity vs Size and Growth Factors | [`002-dynamic-arrays-resizing.md`](curriculum/phase-09-data-structures-algorithms-backend/002-dynamic-arrays-resizing.md) | `COMPLETE` |
 | `P09-C003` | Linked Lists: Singly, Doubly, Circular Lists, and Pointer Manipulation | [`003-linked-lists-implementation.md`](curriculum/phase-09-data-structures-algorithms-backend/003-linked-lists-implementation.md) | `NOT_STARTED` |
 | `P09-C004` | Stacks and Queues: LIFO, FIFO, Monotonic Stacks, and Array-Backed Buffers | [`004-stacks-and-queues.md`](curriculum/phase-09-data-structures-algorithms-backend/004-stacks-and-queues.md) | `NOT_STARTED` |
 | `P09-C005` | Hash Tables: Hash Functions, Bucket Arrays, Open Addressing vs Chaining | [`005-hash-tables-collision-resolution.md`](curriculum/phase-09-data-structures-algorithms-backend/005-hash-tables-collision-resolution.md) | `NOT_STARTED` |
