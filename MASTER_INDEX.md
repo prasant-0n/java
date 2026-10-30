@@ -174,7 +174,7 @@
 
 | Concept ID | Concept Title | Document Link | Status |
 |---|---|---|---|
-| `P08-C001` | JVM Architecture Overview: Class Loader, Runtime Data Areas, and Execution Engine | [`001-jvm-architecture-overview.md`](curriculum/phase-08-jvm-internals-memory-management/001-jvm-architecture-overview.md) | `NOT_STARTED` |
+| `P08-C001` | JVM Architecture Overview: Class Loader, Runtime Data Areas, and Execution Engine | [`001-jvm-architecture-overview.md`](curriculum/phase-08-jvm-internals-memory-management/001-jvm-architecture-overview.md) | `COMPLETE` |
 | `P08-C002` | Class Loading Subsystem: Loading, Linking, Initialization, and Hierarchies | [`002-class-loading-subsystem.md`](curriculum/phase-08-jvm-internals-memory-management/002-class-loading-subsystem.md) | `NOT_STARTED` |
 | `P08-C003` | Runtime Data Areas: Thread Stacks, Frame Structure, and Program Counter | [`003-thread-stacks-and-stack-frames.md`](curriculum/phase-08-jvm-internals-memory-management/003-thread-stacks-and-stack-frames.md) | `NOT_STARTED` |
 | `P08-C004` | JVM Heap Memory Layout: Young Gen, Old Gen, and Object Allocation | [`004-heap-memory-layout-generations.md`](curriculum/phase-08-jvm-internals-memory-management/004-heap-memory-layout-generations.md) | `NOT_STARTED` |
