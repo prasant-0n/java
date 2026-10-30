@@ -168,7 +168,7 @@
 | `P07-C009` | Configuration Management: Properties Files and System Environment Overrides | [`009-properties-files-configuration.md`](curriculum/phase-07-file-io-nio-configuration-data-formats/009-properties-files-configuration.md) | `COMPLETE` |
 | `P07-C010` | Structured Data: Safe CSV Parsing, Escaping, and Validation | [`010-csv-parsing-and-validation.md`](curriculum/phase-07-file-io-nio-configuration-data-formats/010-csv-parsing-and-validation.md) | `COMPLETE` |
 | `P07-C011` | JSON Processing in Java: Jackson Object Mapper, Streaming API, and Records | [`011-json-processing-jackson.md`](curriculum/phase-07-file-io-nio-configuration-data-formats/011-json-processing-jackson.md) | `COMPLETE` |
-| `P07-C012` | Java Native Serialization Security Vulnerabilities and Modern Alternatives | [`012-serialization-vulnerabilities.md`](curriculum/phase-07-file-io-nio-configuration-data-formats/012-serialization-vulnerabilities.md) | `NOT_STARTED` |
+| `P07-C012` | Java Native Serialization Security Vulnerabilities and Modern Alternatives | [`012-serialization-vulnerabilities.md`](curriculum/phase-07-file-io-nio-configuration-data-formats/012-serialization-vulnerabilities.md) | `COMPLETE` |
 
 ### [Phase 08: JVM Internals and Memory Management](curriculum/phase-08-jvm-internals-memory-management/README.md)
 

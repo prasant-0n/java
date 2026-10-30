@@ -181,6 +181,7 @@
 - [x] `P07-C009` Configuration management, properties files, and environment overrides: `.properties` file syntax (`=`, `:`, whitespace, `\`, `#`, `!`), UTF-8 `Reader` decoding vs legacy ISO-8859-1, `Properties extends Hashtable` type-safety inheritance hazard (`put` vs `setProperty`), 12-Factor cascading precedence (System Properties > OS Environment Variables > External File > Classpath Defaults), POSIX key normalization (`server.read-timeout` $\to$ `SERVER_READ_TIMEOUT`), and recursive placeholder interpolation (`${key:default}`) with cycle detection verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 - [x] `P07-C010` Structured data, safe CSV parsing, escaping, and validation: RFC 4180 specification, the four fatal failure modes of naive `line.split(",")` (escaped commas, quote escaping, multiline embedded CRLF, trailing empty cells), deterministic 4-state parsing machine, CSV formula / spreadsheet injection defense (CWE-1236, neutralizing `=`, `+`, `-`, `@`), strongly typed Java Records schema validation, and Dead-Letter Queue (DLQ) error isolation verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 - [x] `P07-C011` JSON processing in Java: Jackson Object Mapper, Streaming API, and Records: Three processing paradigms (Data Binding, Tree Model, Streaming API), token lifecycle (`START_OBJECT`, `FIELD_NAME`, `VALUE_*`, `END_OBJECT`), Java 21 Record canonical constructor reflection binding, `JsonNode` DOM navigation and NPE-safe `path()` semantics, polymorphic deserialization security (mitigating CVE-2017-7525 gadget chains via `@JsonSubTypes` allowlists), and Jackson 2.15+ `StreamReadConstraints` max nesting depth DoS defense verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
+- [x] `P07-C012` Java native serialization security vulnerabilities and modern alternatives: Extralinguistic object creation bypassing constructors, magic method execution (`readObject`, `readResolve`), gadget chain analysis (Apache Commons Collections `InvokerTransformer` RCE), deserialization bombs ($O(2^N)$ CPU denial of service), JEP 290 serialization filtering (`ObjectInputFilter` pattern allowlists, max depth/references limits), `serialVersionUID` binary incompatibility, and safe modern binary alternatives (zero-gadget `ByteBuffer` packing) verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 
 ---
 
@@ -192,7 +193,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P07-C011` (JSON Processing in Java: Jackson Object Mapper, Streaming API, and Records). 11 of 12 Phase 07 modules complete (91.7%)!
+- **Current Stop Point:** Completed `P07-C012` (Java Native Serialization Security Vulnerabilities and Modern Alternatives). All 12 Phase 07 concept modules complete (100%)!
 - **Exact Next Milestone:**
-  - Author and verify `P07-C012`: *Java Native Serialization Security Vulnerabilities and Modern Alternatives* (`012-serialization-vulnerabilities.md`)
-  - Phase 07 Capstone Integration Project: *Streaming High-Performance ETL Batch Processing Engine*
+  - Implement Phase 07 Capstone Integration Project: *Streaming High-Performance ETL Batch Processing Engine* (`curriculum/phase-07-file-io-nio-configuration-data-formats/capstone/`)
+  - Reconcile Phase 07 gate to 100% COMPLETE and launch Phase 08 (*JVM Internals and Memory Management*)
