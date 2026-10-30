@@ -44,7 +44,7 @@ By completing Phase 08, the learner will independently be able to:
 | `P08-C005` | Metaspace Architecture vs Legacy PermGen, Dynamic Class Generation Risks | [`005-metaspace-architecture-permgen.md`](005-metaspace-architecture-permgen.md) | Essential | COMPLETE |
 | `P08-C006` | Interpreter vs JIT Compilation: Tiered Compilation, C1, C2, and On-Stack Replacement | [`006-jit-compiler-tiered-compilation.md`](006-jit-compiler-tiered-compilation.md) | Essential | COMPLETE |
 | `P08-C007` | Object Reachability, GC Roots, and Reference Types (Soft, Weak, Phantom) | [`007-gc-roots-and-reference-types.md`](007-gc-roots-and-reference-types.md) | Essential | COMPLETE |
-| `P08-C008` | Garbage Collection Fundamentals: Mark-Sweep, Compact, Generational Hypothesis | [`008-garbage-collection-fundamentals.md`](008-garbage-collection-fundamentals.md) | Essential | NOT_STARTED |
+| `P08-C008` | Garbage Collection Fundamentals: Mark-Sweep, Compact, Generational Hypothesis | [`008-garbage-collection-fundamentals.md`](008-garbage-collection-fundamentals.md) | Essential | COMPLETE |
 | `P08-C009` | Modern Garbage Collectors: G1GC, ZGC, Parallel GC, and Tuning Baselines | [`009-modern-collectors-g1-zgc.md`](009-modern-collectors-g1-zgc.md) | Essential | NOT_STARTED |
 | `P08-C010` | Memory Leaks in Java: Static References, Unclosed Resources, and ThreadLocals | [`010-java-memory-leaks-patterns.md`](010-java-memory-leaks-patterns.md) | Essential | NOT_STARTED |
 | `P08-C011` | Diagnosing OutOfMemoryError and StackOverflowError: Heap Dumps and Analysis | [`011-oom-and-stack-overflow-diagnosis.md`](011-oom-and-stack-overflow-diagnosis.md) | Essential | NOT_STARTED |
@@ -106,7 +106,7 @@ Before marking Phase 08 as complete:
 
 - **Phase Status:** `IN_PROGRESS`
 - **Total Planned Concepts:** `12`
-- **Completed Concepts:** `7`
+- **Completed Concepts:** `8`
 - **In Progress:** `0`
-- **Completion Rate:** `58.3%`
+- **Completion Rate:** `66.7%`
 - **Last Verified Date:** `2026-10-30`
