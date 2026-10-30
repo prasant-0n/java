@@ -218,7 +218,7 @@
 | `P10-C007` | Logging Best Practices: Log Levels, Parameterized Logging, and MDC Context | [`007-logging-best-practices-mdc.md`](curriculum/phase-10-professional-java-development-workflow/007-logging-best-practices-mdc.md) | `COMPLETE` |
 | `P10-C008` | Preventing Sensitive Data (PII/Tokens) Leaks in Log Streams | [`008-preventing-pii-log-leaks.md`](curriculum/phase-10-professional-java-development-workflow/008-preventing-pii-log-leaks.md) | `COMPLETE` |
 | `P10-C009` | Advanced Debugging Techniques: Conditional Breakpoints, Watchpoints, and Thread Dumps | [`009-ide-debugging-techniques.md`](curriculum/phase-10-professional-java-development-workflow/009-ide-debugging-techniques.md) | `COMPLETE` |
-| `P10-C010` | Static Code Analysis: Checkstyle, SpotBugs, and Error Prone Integration | [`010-static-analysis-spotbugs.md`](curriculum/phase-10-professional-java-development-workflow/010-static-analysis-spotbugs.md) | `NOT_STARTED` |
+| `P10-C010` | Static Code Analysis: Checkstyle, SpotBugs, and Error Prone Integration | [`010-static-analysis-spotbugs.md`](curriculum/phase-10-professional-java-development-workflow/010-static-analysis-spotbugs.md) | `COMPLETE` |
 | `P10-C011` | Professional Git Workflows: Semantic Commits, Branching, and Hygiene | [`011-git-workflows-and-hygiene.md`](curriculum/phase-10-professional-java-development-workflow/011-git-workflows-and-hygiene.md) | `NOT_STARTED` |
 
 ### [Phase 11: Unit Testing and Software Quality](curriculum/phase-11-unit-testing-software-quality/README.md)
