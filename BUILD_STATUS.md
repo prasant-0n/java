@@ -179,6 +179,7 @@
 - [x] `P07-C007` Large-file streaming processing vs in-memory buffering: In-memory loading anti-patterns (`readAllBytes`, `readAllLines`) causing 2.5x-3x heap amplification and JVM `OutOfMemoryError` on files exceeding heap capacity, $O(1)$ memory streaming architectures via `Files.lines()` and `BufferedReader.readLine()`, chunked binary processing via NIO `FileChannel` and fixed-size `ByteBuffer` pipelines, line bomb denial-of-service vulnerability and defensive character-bounded line readers, mandatory `AutoCloseable` try-with-resources file descriptor closure preventing file descriptor exhaustion, and memory-mapped files (`mmap` via `FileChannel.map`) with multi-gigabyte sliding-window slicing overcoming the 2GB integer indexing limit verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 - [x] `P07-C008` Classpath resources vs filesystem paths in packaged JARs: Classpath virtual archive boundary vs host OS filesystem, `Class.getResourceAsStream` (leading-slash root delegation vs package relative) vs `ClassLoader.getResourceAsStream` (non-leading slash root requirement), defensive `null` validation, the `Paths.get(url.toURI())` trap and `FileSystemNotFoundException` on `jar:file:...` URIs, NIO `ZipFileSystemProvider` mounting, and safe temporary file extraction pattern verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 - [x] `P07-C009` Configuration management, properties files, and environment overrides: `.properties` file syntax (`=`, `:`, whitespace, `\`, `#`, `!`), UTF-8 `Reader` decoding vs legacy ISO-8859-1, `Properties extends Hashtable` type-safety inheritance hazard (`put` vs `setProperty`), 12-Factor cascading precedence (System Properties > OS Environment Variables > External File > Classpath Defaults), POSIX key normalization (`server.read-timeout` $\to$ `SERVER_READ_TIMEOUT`), and recursive placeholder interpolation (`${key:default}`) with cycle detection verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
+- [x] `P07-C010` Structured data, safe CSV parsing, escaping, and validation: RFC 4180 specification, the four fatal failure modes of naive `line.split(",")` (escaped commas, quote escaping, multiline embedded CRLF, trailing empty cells), deterministic 4-state parsing machine, CSV formula / spreadsheet injection defense (CWE-1236, neutralizing `=`, `+`, `-`, `@`), strongly typed Java Records schema validation, and Dead-Letter Queue (DLQ) error isolation verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 
 ---
 
@@ -190,7 +191,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P07-C009` (Configuration Management: Properties Files and System Environment Overrides). Three-quarters of Phase 07 complete (75.0%)!
+- **Current Stop Point:** Completed `P07-C010` (Structured Data: Safe CSV Parsing, Escaping, and Validation). Over 83% of Phase 07 complete (83.3%)!
 - **Exact Next Milestone:**
-  - Author and verify `P07-C010`: *Structured Data: Safe CSV Parsing, Escaping, and Validation* (`010-csv-parsing-and-validation.md`)
   - Author and verify `P07-C011`: *JSON Processing in Java: Jackson Object Mapper, Streaming API, and Records* (`011-json-processing-jackson.md`)
+  - Author and verify `P07-C012`: *Java Native Serialization Security Vulnerabilities and Modern Alternatives* (`012-serialization-vulnerabilities.md`)

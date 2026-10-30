@@ -166,7 +166,7 @@
 | `P07-C007` | Large-File Streaming Processing vs In-Memory Buffering | [`007-large-file-streaming-processing.md`](curriculum/phase-07-file-io-nio-configuration-data-formats/007-large-file-streaming-processing.md) | `COMPLETE` |
 | `P07-C008` | ClassPath Resources vs Filesystem Paths in Packaged JARs | [`008-classpath-resources-in-jars.md`](curriculum/phase-07-file-io-nio-configuration-data-formats/008-classpath-resources-in-jars.md) | `COMPLETE` |
 | `P07-C009` | Configuration Management: Properties Files and System Environment Overrides | [`009-properties-files-configuration.md`](curriculum/phase-07-file-io-nio-configuration-data-formats/009-properties-files-configuration.md) | `COMPLETE` |
-| `P07-C010` | Structured Data: Safe CSV Parsing, Escaping, and Validation | [`010-csv-parsing-and-validation.md`](curriculum/phase-07-file-io-nio-configuration-data-formats/010-csv-parsing-and-validation.md) | `NOT_STARTED` |
+| `P07-C010` | Structured Data: Safe CSV Parsing, Escaping, and Validation | [`010-csv-parsing-and-validation.md`](curriculum/phase-07-file-io-nio-configuration-data-formats/010-csv-parsing-and-validation.md) | `COMPLETE` |
 | `P07-C011` | JSON Processing in Java: Jackson Object Mapper, Streaming API, and Records | [`011-json-processing-jackson.md`](curriculum/phase-07-file-io-nio-configuration-data-formats/011-json-processing-jackson.md) | `NOT_STARTED` |
 | `P07-C012` | Java Native Serialization Security Vulnerabilities and Modern Alternatives | [`012-serialization-vulnerabilities.md`](curriculum/phase-07-file-io-nio-configuration-data-formats/012-serialization-vulnerabilities.md) | `NOT_STARTED` |
 
