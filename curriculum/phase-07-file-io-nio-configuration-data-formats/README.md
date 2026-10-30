@@ -38,7 +38,7 @@ By completing Phase 07, the learner will independently be able to:
 |---|---|---|---|---|
 | `P07-C001` | Legacy java.io.File Limitations vs Modern java.nio.file (Path, Files, Paths) | [`001-legacy-io-vs-modern-nio.md`](001-legacy-io-vs-modern-nio.md) | Essential | COMPLETE |
 | `P07-C002` | Byte Streams vs Character Streams, Encodings, and UTF-8 Guarantees | [`002-byte-streams-vs-readers-writers.md`](002-byte-streams-vs-readers-writers.md) | Essential | COMPLETE |
-| `P07-C003` | Buffered Streams, Buffer Sizes, Flushing, and File Descriptor Leaks | [`003-buffered-streams-and-leaks.md`](003-buffered-streams-and-leaks.md) | Essential | NOT_STARTED |
+| `P07-C003` | Buffered Streams, Buffer Sizes, Flushing, and File Descriptor Leaks | [`003-buffered-streams-and-leaks.md`](003-buffered-streams-and-leaks.md) | Essential | COMPLETE |
 | `P07-C004` | File Operations: Reading, Writing, Atomic Moves, and File Attributes | [`004-file-operations-atomic-moves.md`](004-file-operations-atomic-moves.md) | Essential | NOT_STARTED |
 | `P07-C005` | Directory Traversal: DirectoryStream, Files.walk, and Resource Cleanup | [`005-directory-traversal-and-streams.md`](005-directory-traversal-and-streams.md) | Essential | NOT_STARTED |
 | `P07-C006` | Java NIO Architecture: Channels, Buffers, Selectors, and Direct Memory | [`006-nio-channels-buffers-direct-memory.md`](006-nio-channels-buffers-direct-memory.md) | Essential | NOT_STARTED |
@@ -105,7 +105,7 @@ Before marking Phase 07 as complete:
 
 - **Phase Status:** `IN_PROGRESS`
 - **Total Planned Concepts:** `12`
-- **Completed Concepts:** `2`
+- **Completed Concepts:** `3`
 - **In Progress:** `0`
-- **Completion Rate:** `16.7%`
+- **Completion Rate:** `25.0%`
 - **Last Verified Date:** `2026-10-30`

@@ -172,6 +172,7 @@
 - [x] **Phase 06 Completion Gate:** Reconciled and marked `COMPLETE` (12/12 concepts complete + Capstone complete, 100%).
 - [x] `P07-C001` Legacy `java.io.File` limitations vs modern `java.nio.file` (`Path`, `Files`, `Paths`): Five legacy failure modes (silent boolean returns, missing atomic moves, multi-syscall TOCTOU overhead, heap exhaustion on `listFiles()`, no virtual filesystem SPI), JSR 203 NIO.2 architecture decoupling (`Path` locator vs `Files` static engine vs `FileSystemProvider`), atomic file swap via `StandardCopyOption.ATOMIC_MOVE`, single-syscall bulk attribute harvesting (`BasicFileAttributes`), $O(1)$ memory streaming directory iteration (`DirectoryStream`), and path traversal / "Zip Slip" root containment validation (`path.normalize().startsWith(root)`) verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 - [x] `P07-C002` Byte streams vs character streams, encodings, and UTF-8 guarantees: 8-bit octet streams (`InputStream`/`OutputStream`) vs 16-bit Unicode character streams (`Reader`/`Writer`), the translation bridge (`InputStreamReader`/`OutputStreamWriter`), Unicode code points (21-bit) vs UTF-16 code units (16-bit surrogate pairs), JEP 400 UTF-8 by default mandate and explicit charset defense, safe read loop mechanics with `-1` EOF sentinel vs `available()` anti-pattern, Windows UTF-8 Byte Order Mark (BOM) stripping via `PushbackInputStream`, and strict `CharsetDecoder` malformed sequence rejection verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
+- [x] `P07-C003` Buffered streams, buffer sizes, flushing, and file descriptor leaks: OS system call context-switch penalty (`sysenter`/`syscall`), Decorator pattern in I/O (`BufferedInputStream`, `BufferedReader`), 8KB page-cache alignment and virtual thread (Loom) memory footprint tuning, three storage and flush tiers (JVM heap buffer vs OS page cache vs physical `fsync`/`FileChannel.force(true)` durability), POSIX file descriptor table limits (`ulimit -n`) and `Too many open files` leak diagnosis, reverse-order decorator teardown, and try-with-resources suppressed exception preservation verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 
 ---
 
@@ -183,7 +184,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P07-C002` (Byte Streams vs Character Streams, Encodings, and UTF-8 Guarantees).
+- **Current Stop Point:** Completed `P07-C003` (Buffered Streams, Buffer Sizes, Flushing, and File Descriptor Leaks). Milestone 90/312 complete!
 - **Exact Next Milestone:**
-  - Author and verify `P07-C003`: *Buffered Streams, Buffer Sizes, Flushing, and File Descriptor Leaks* (`003-buffered-streams-and-leaks.md`)
   - Author and verify `P07-C004`: *File Operations: Reading, Writing, Atomic Moves, and File Attributes* (`004-file-operations-atomic-moves.md`)
+  - Author and verify `P07-C005`: *Directory Traversal: DirectoryStream, Files.walk, and Resource Cleanup* (`005-directory-traversal-and-streams.md`)
