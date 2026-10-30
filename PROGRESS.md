@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P06-C012` (Stream vs Imperative Loops: Readability, Debuggability, and Benchmarks). All 12 concepts in Phase 06 complete (100%)!
-- **Status:** Phase 06 concept modules complete; ready for Capstone Integration Project.
-- **Exact Next Milestone:** **Phase 06 Capstone Integration Project:** Real-Time Analytical Fraud and Revenue Aggregation Engine (`curriculum/phase-06-functional-java/capstone/`).
-- **Following Milestone:** Phase 07 launch (`curriculum/phase-07-file-io-nio-configuration-data-formats/`).
+- **Current Focus:** Phase 06 Capstone Integration Project and Phase Gate Reconciled to 100% COMPLETE!
+- **Status:** Phase 06 complete; ready to launch Phase 07: File I/O, NIO, Configuration, and Data Formats.
+- **Exact Next Milestone:** Launch Phase 07 (`curriculum/phase-07-file-io-nio-configuration-data-formats/`) with `P07-C001`: *Legacy java.io.File Limitations vs Modern java.nio.file (Path, Files, Paths)*.
+- **Following Milestone:** `P07-C002`: *Byte Streams vs Character Streams, Encodings, and UTF-8 Guarantees*.
 
 ---
 
@@ -37,7 +37,7 @@
 | **Phase 03** | Collections Framework, Generics, and Type Safety | 15 | 15 | 0 | COMPLETE |
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 9 | 0 | COMPLETE |
 | **Phase 05** | Core Java APIs You Will Use in Production | 10 | 10 | 0 | COMPLETE |
-| **Phase 06** | Functional Java | 12 | 12 | 0 | IN_PROGRESS |
+| **Phase 06** | Functional Java | 12 | 12 | 0 | COMPLETE |
 | **Phase 07** | File I/O, NIO, Configuration, and Data Formats | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 08** | JVM Internals and Memory Management | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 09** | Data Structures and Algorithms for Backend Developers | 13 | 0 | 0 | NOT_STARTED |

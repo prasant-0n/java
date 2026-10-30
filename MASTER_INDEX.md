@@ -147,8 +147,7 @@
 | `P06-C005` | Stream API Fundamentals: Source, Intermediate, and Terminal Operations | [`005-stream-pipeline-lifecycle.md`](curriculum/phase-06-functional-java/005-stream-pipeline-lifecycle.md) | `COMPLETE` |
 | `P06-C006` | Intermediate Operations: filter, map, flatMap, distinct, sorted, peek | [`006-intermediate-stream-operations.md`](curriculum/phase-06-functional-java/006-intermediate-stream-operations.md) | `COMPLETE` |
 | `P06-C007` | Terminal Operations: forEach, collect, reduce, matchers, findFirst | [`007-terminal-stream-operations.md`](curriculum/phase-06-functional-java/007-terminal-stream-operations.md) | `COMPLETE` |
-| `P06add .git to commit each single thing you have completed
--C008` | Collectors: groupingBy, partitioningBy, toMap, and Downstream Collectors | [`008-collectors-grouping-partitioning.md`](curriculum/phase-06-functional-java/008-collectors-grouping-partitioning.md) | `COMPLETE` |
+| `P06-C008` | Collectors: groupingBy, partitioningBy, toMap, and Downstream Collectors | [`008-collectors-grouping-partitioning.md`](curriculum/phase-06-functional-java/008-collectors-grouping-partitioning.md) | `COMPLETE` |
 | `P06-C009` | Primitive Streams: IntStream, LongStream, DoubleStream and Performance | [`009-primitive-streams-performance.md`](curriculum/phase-06-functional-java/009-primitive-streams-performance.md) | `COMPLETE` |
 | `P06-C010` | Stream Laziness, Short-Circuit Evaluation, and Side-Effect Dangers | [`010-stream-laziness-side-effects.md`](curriculum/phase-06-functional-java/010-stream-laziness-side-effects.md) | `COMPLETE` |
 | `P06-C011` | Sequential vs Parallel Streams: Spliterators, ForkJoinPool, and Overhead | [`011-parallel-streams-and-forkjoin.md`](curriculum/phase-06-functional-java/011-parallel-streams-and-forkjoin.md) | `COMPLETE` |
