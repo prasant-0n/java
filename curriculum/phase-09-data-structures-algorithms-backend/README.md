@@ -46,7 +46,7 @@ By completing Phase 09, the learner will independently be able to:
 | `P09-C007` | Heaps and Priority Queues: Binary Heaps, Sift-Up/Sift-Down, and Top-K | [`007-heaps-and-priority-queues.md`](007-heaps-and-priority-queues.md) | Essential | COMPLETE |
 | `P09-C008` | Graph Representations: Adjacency Matrix vs Adjacency List and Edge Lists | [`008-graph-representations.md`](008-graph-representations.md) | Essential | COMPLETE |
 | `P09-C009` | Linear Search vs Binary Search and Bisect Techniques | [`009-binary-search-techniques.md`](009-binary-search-techniques.md) | Essential | COMPLETE |
-| `P09-C010` | Comparison Sorts: QuickSort, MergeSort, TimSort, and Space-Time Trade-offs | [`010-comparison-sorting-algorithms.md`](010-comparison-sorting-algorithms.md) | Essential | NOT_STARTED |
+| `P09-C010` | Comparison Sorts: QuickSort, MergeSort, TimSort, and Space-Time Trade-offs | [`010-comparison-sorting-algorithms.md`](010-comparison-sorting-algorithms.md) | Essential | COMPLETE |
 | `P09-C011` | Algorithm Patterns: Two Pointers and Sliding Window for Stream Processing | [`011-two-pointers-sliding-window.md`](011-two-pointers-sliding-window.md) | Essential | NOT_STARTED |
 | `P09-C012` | Graph Algorithms: Breadth-First Search (BFS) and Depth-First Search (DFS) | [`012-bfs-dfs-graph-traversal.md`](012-bfs-dfs-graph-traversal.md) | Essential | NOT_STARTED |
 | `P09-C013` | Dynamic Programming Fundamentals: Memoization, Tabulation, and Subproblems | [`013-dynamic-programming-fundamentals.md`](013-dynamic-programming-fundamentals.md) | Recommended | NOT_STARTED |
@@ -108,7 +108,7 @@ Before marking Phase 09 as complete:
 
 - **Phase Status:** `IN_PROGRESS`
 - **Total Planned Concepts:** `13`
-- **Completed Concepts:** `9`
+- **Completed Concepts:** `10`
 - **In Progress:** `0`
-- **Completion Rate:** `69.2%`
+- **Completion Rate:** `76.9%`
 - **Last Verified Date:** `2026-10-30`
