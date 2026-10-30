@@ -176,7 +176,7 @@
 |---|---|---|---|
 | `P08-C001` | JVM Architecture Overview: Class Loader, Runtime Data Areas, and Execution Engine | [`001-jvm-architecture-overview.md`](curriculum/phase-08-jvm-internals-memory-management/001-jvm-architecture-overview.md) | `COMPLETE` |
 | `P08-C002` | Class Loading Subsystem: Loading, Linking, Initialization, and Hierarchies | [`002-class-loading-subsystem.md`](curriculum/phase-08-jvm-internals-memory-management/002-class-loading-subsystem.md) | `COMPLETE` |
-| `P08-C003` | Runtime Data Areas: Thread Stacks, Frame Structure, and Program Counter | [`003-thread-stacks-and-stack-frames.md`](curriculum/phase-08-jvm-internals-memory-management/003-thread-stacks-and-stack-frames.md) | `NOT_STARTED` |
+| `P08-C003` | Runtime Data Areas: Thread Stacks, Frame Structure, and Program Counter | [`003-thread-stacks-and-stack-frames.md`](curriculum/phase-08-jvm-internals-memory-management/003-thread-stacks-and-stack-frames.md) | `COMPLETE` |
 | `P08-C004` | JVM Heap Memory Layout: Young Gen, Old Gen, and Object Allocation | [`004-heap-memory-layout-generations.md`](curriculum/phase-08-jvm-internals-memory-management/004-heap-memory-layout-generations.md) | `NOT_STARTED` |
 | `P08-C005` | Metaspace Architecture vs Legacy PermGen, Dynamic Class Generation Risks | [`005-metaspace-architecture-permgen.md`](curriculum/phase-08-jvm-internals-memory-management/005-metaspace-architecture-permgen.md) | `NOT_STARTED` |
 | `P08-C006` | Interpreter vs JIT Compilation: Tiered Compilation, C1, C2, and On-Stack Replacement | [`006-jit-compiler-tiered-compilation.md`](curriculum/phase-08-jvm-internals-memory-management/006-jit-compiler-tiered-compilation.md) | `NOT_STARTED` |

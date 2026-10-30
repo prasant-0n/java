@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 101 | 32.4% |
+| **Modules Complete (`COMPLETE`)** | 102 | 32.7% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 211 | 67.6% |
+| **Modules Not Started (`NOT_STARTED`)** | 210 | 67.3% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P08-C002` (Class Loading Subsystem: Loading, Linking, Initialization, and Hierarchies).
-- **Status:** Phase 08 in progress (2/12 complete, 16.7%).
-- **Exact Next Milestone:** Author and verify `P08-C003`: *Runtime Data Areas: Thread Stacks, Frame Structure, and Program Counter* (`curriculum/phase-08-jvm-internals-memory-management/003-thread-stacks-and-stack-frames.md`).
-- **Following Milestone:** `P08-C004`: *JVM Heap Memory Layout: Young Gen, Old Gen, and Object Allocation*.
+- **Current Focus:** Completed `P08-C003` (Runtime Data Areas: Thread Stacks, Frame Structure, and Program Counter).
+- **Status:** Phase 08 in progress (3/12 complete, 25.0%).
+- **Exact Next Milestone:** Author and verify `P08-C004`: *JVM Heap Memory Layout: Young Gen, Old Gen, and Object Allocation* (`curriculum/phase-08-jvm-internals-memory-management/004-heap-memory-layout-generations.md`).
+- **Following Milestone:** `P08-C005`: *Metaspace Architecture vs Legacy PermGen, Dynamic Class Generation Risks*.
 
 ---
 
@@ -39,7 +39,7 @@
 | **Phase 05** | Core Java APIs You Will Use in Production | 10 | 10 | 0 | COMPLETE |
 | **Phase 06** | Functional Java | 12 | 12 | 0 | COMPLETE |
 | **Phase 07** | File I/O, NIO, Configuration, and Data Formats | 12 | 12 | 0 | COMPLETE |
-| **Phase 08** | JVM Internals and Memory Management | 12 | 2 | 0 | IN_PROGRESS |
+| **Phase 08** | JVM Internals and Memory Management | 12 | 3 | 0 | IN_PROGRESS |
 | **Phase 09** | Data Structures and Algorithms for Backend Developers | 13 | 0 | 0 | NOT_STARTED |
 | **Phase 10** | Professional Java Development Workflow | 11 | 0 | 0 | NOT_STARTED |
 | **Phase 11** | Unit Testing and Software Quality | 12 | 0 | 0 | NOT_STARTED |
