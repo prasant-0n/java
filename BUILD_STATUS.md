@@ -200,6 +200,7 @@
 - [x] **Phase 08 Completion Gate:** Reconciled and marked `COMPLETE` (12/12 concepts complete + Capstone complete, 100%).
 - [x] `P09-C001` Algorithmic complexity and amortized analysis: Asymptotic bounding definitions ($O, \Omega, \Theta, o, \omega$), best vs average vs worst cases, the three classical amortized analysis techniques (aggregate, accounting, potential $\Phi(D_i)$ methods) and mathematical proof of dynamic array doubling $\le 3$ operations per append, Jeff Dean's latency hierarchy (L1/L2/L3 cache vs RAM vs NVMe vs network roundtrips), contiguous array 64-byte cache line prefetching vs pointer-chasing linked node latency stalls, space complexity (auxiliary vs input), and eliminating backend $O(N^2)$ anti-patterns (nested contains, string concatenation, Cartesian joins, N+1 queries) verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 - [x] `P09-C002` Dynamic arrays and resizing mechanics: Logical size vs physical capacity, contiguous virtual memory offset arithmetic ($O(1)$ random access), OpenJDK HotSpot 1.5x growth factor (`oldCapacity + (oldCapacity >> 1)`) vs 2.0x theoretical doubling, allocator memory reusability and Golden Ratio boundary ($\gamma \le 1.618$), amortized geometric progression proof ($< 4$ operations per append), lazy empty array initialization (`DEFAULTCAPACITY_EMPTY_ELEMENTDATA`), native SIMD memory shifting via `System.arraycopy`, defensive slot nulling preventing object loitering memory leaks, compaction via `trimToSize()`, and `MAX_ARRAY_SIZE` boundaries verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
+- [x] `P09-C003` Linked lists (singly, doubly, circular lists, and pointer manipulation): Singly linked node reference topology, in-place pointer reversal ($O(N)$ time, $O(1)$ auxiliary space), sentinel (dummy head/tail) design pattern eliminating boundary null checks, Floyd's Tortoise and Hare Cycle Detection Algorithm ($2(F+a) = F+a+nC \implies F = (n-1)C + (C-a)$), fast/slow pointer middle-node discovery in a single pass, circular list round-robin traversal, and cache line miss penalties vs contiguous dynamic arrays verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 
 ---
 
@@ -211,7 +212,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P09-C002` (Dynamic Arrays and Resizing Mechanics: Capacity vs Size and Growth Factors). **113 Modules Complete (36.2%)!**
+- **Current Stop Point:** Completed `P09-C003` (Linked Lists: Singly, Doubly, Circular Lists, and Pointer Manipulation). **114 Modules Complete (36.5%)!**
 - **Exact Next Milestone:**
-  - Author and verify `P09-C003`: *Linked Lists: Singly, Doubly, Circular Lists, and Pointer Manipulation* (`curriculum/phase-09-data-structures-algorithms-backend/003-linked-lists-implementation.md`)
   - Author and verify `P09-C004`: *Stacks and Queues: LIFO, FIFO, Monotonic Stacks, and Array-Backed Buffers* (`curriculum/phase-09-data-structures-algorithms-backend/004-stacks-and-queues.md`)
+  - Author and verify `P09-C005`: *Hash Tables: Hash Functions, Bucket Arrays, Open Addressing vs Chaining* (`curriculum/phase-09-data-structures-algorithms-backend/005-hash-tables-collision-resolution.md`)
