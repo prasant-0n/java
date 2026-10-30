@@ -210,7 +210,7 @@
 | Concept ID | Concept Title | Document Link | Status |
 |---|---|---|---|
 | `P10-C001` | Maven Build Lifecycle: clean, compile, test, package, install, and deploy | [`001-maven-build-lifecycle.md`](curriculum/phase-10-professional-java-development-workflow/001-maven-build-lifecycle.md) | `COMPLETE` |
-| `P10-C002` | Maven Dependency Management: Coordinates, Scopes (compile, test, provided, runtime) | [`002-maven-dependency-scopes.md`](curriculum/phase-10-professional-java-development-workflow/002-maven-dependency-scopes.md) | `NOT_STARTED` |
+| `P10-C002` | Maven Dependency Management: Coordinates, Scopes (compile, test, provided, runtime) | [`002-maven-dependency-scopes.md`](curriculum/phase-10-professional-java-development-workflow/002-maven-dependency-scopes.md) | `COMPLETE` |
 | `P10-C003` | Transitive Dependencies, Conflict Resolution (Nearest Wins), and Exclusions | [`003-transitive-dependencies-conflicts.md`](curriculum/phase-10-professional-java-development-workflow/003-transitive-dependencies-conflicts.md) | `NOT_STARTED` |
 | `P10-C004` | Maven Plugins: Compiler, Surefire, Failsafe, Jar, and Shade Plugins | [`004-maven-plugins-and-surefire.md`](curriculum/phase-10-professional-java-development-workflow/004-maven-plugins-and-surefire.md) | `NOT_STARTED` |
 | `P10-C005` | Maven Wrapper (mvnw) for Deterministic Environment Builds | [`005-maven-wrapper-reproducible-builds.md`](curriculum/phase-10-professional-java-development-workflow/005-maven-wrapper-reproducible-builds.md) | `NOT_STARTED` |

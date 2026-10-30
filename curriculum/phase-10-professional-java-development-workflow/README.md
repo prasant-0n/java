@@ -38,7 +38,7 @@ By completing Phase 10, the learner will independently be able to:
 | Concept ID | Concept Title | File Name | Importance | Status |
 |---|---|---|---|---|
 | `P10-C001` | Maven Build Lifecycle: clean, compile, test, package, install, and deploy | [`001-maven-build-lifecycle.md`](001-maven-build-lifecycle.md) | Essential | COMPLETE |
-| `P10-C002` | Maven Dependency Management: Coordinates, Scopes (compile, test, provided, runtime) | [`002-maven-dependency-scopes.md`](002-maven-dependency-scopes.md) | Essential | NOT_STARTED |
+| `P10-C002` | Maven Dependency Management: Coordinates, Scopes (compile, test, provided, runtime) | [`002-maven-dependency-scopes.md`](002-maven-dependency-scopes.md) | Essential | COMPLETE |
 | `P10-C003` | Transitive Dependencies, Conflict Resolution (Nearest Wins), and Exclusions | [`003-transitive-dependencies-conflicts.md`](003-transitive-dependencies-conflicts.md) | Essential | NOT_STARTED |
 | `P10-C004` | Maven Plugins: Compiler, Surefire, Failsafe, Jar, and Shade Plugins | [`004-maven-plugins-and-surefire.md`](004-maven-plugins-and-surefire.md) | Essential | NOT_STARTED |
 | `P10-C005` | Maven Wrapper (mvnw) for Deterministic Environment Builds | [`005-maven-wrapper-reproducible-builds.md`](005-maven-wrapper-reproducible-builds.md) | Essential | NOT_STARTED |
@@ -104,7 +104,7 @@ Before marking Phase 10 as complete:
 
 - **Phase Status:** `IN_PROGRESS`
 - **Total Planned Concepts:** `11`
-- **Completed Concepts:** `1`
+- **Completed Concepts:** `2`
 - **In Progress:** `0`
-- **Completion Rate:** `9.1%`
+- **Completion Rate:** `18.2%`
 - **Last Verified Date:** `2026-10-31`
