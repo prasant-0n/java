@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 105 | 33.7% |
+| **Modules Complete (`COMPLETE`)** | 106 | 34.0% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 207 | 66.3% |
+| **Modules Not Started (`NOT_STARTED`)** | 206 | 66.0% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P08-C006` (Interpreter vs JIT Compilation: Tiered Compilation, C1, C2, and On-Stack Replacement). **Phase 08 Halfway Milestone (50% Complete)!**
-- **Status:** Phase 08 in progress (6/12 complete, 50.0%).
-- **Exact Next Milestone:** Author and verify `P08-C007`: *Object Reachability, GC Roots, and Reference Types (Soft, Weak, Phantom)* (`curriculum/phase-08-jvm-internals-memory-management/007-gc-roots-and-reference-types.md`).
-- **Following Milestone:** `P08-C008`: *Garbage Collection Fundamentals: Mark-Sweep, Compact, Generational Hypothesis*.
+- **Current Focus:** Completed `P08-C007` (Object Reachability, GC Roots, and Reference Types [Soft, Weak, Phantom]).
+- **Status:** Phase 08 in progress (7/12 complete, 58.3%).
+- **Exact Next Milestone:** Author and verify `P08-C008`: *Garbage Collection Fundamentals: Mark-Sweep, Compact, Generational Hypothesis* (`curriculum/phase-08-jvm-internals-memory-management/008-garbage-collection-fundamentals.md`).
+- **Following Milestone:** `P08-C009`: *Modern Garbage Collectors: G1GC, ZGC, Parallel GC, and Tuning Baselines*.
 
 ---
 
@@ -39,7 +39,7 @@
 | **Phase 05** | Core Java APIs You Will Use in Production | 10 | 10 | 0 | COMPLETE |
 | **Phase 06** | Functional Java | 12 | 12 | 0 | COMPLETE |
 | **Phase 07** | File I/O, NIO, Configuration, and Data Formats | 12 | 12 | 0 | COMPLETE |
-| **Phase 08** | JVM Internals and Memory Management | 12 | 6 | 0 | IN_PROGRESS |
+| **Phase 08** | JVM Internals and Memory Management | 12 | 7 | 0 | IN_PROGRESS |
 | **Phase 09** | Data Structures and Algorithms for Backend Developers | 13 | 0 | 0 | NOT_STARTED |
 | **Phase 10** | Professional Java Development Workflow | 11 | 0 | 0 | NOT_STARTED |
 | **Phase 11** | Unit Testing and Software Quality | 12 | 0 | 0 | NOT_STARTED |
