@@ -41,7 +41,7 @@ By completing Phase 10, the learner will independently be able to:
 | `P10-C002` | Maven Dependency Management: Coordinates, Scopes (compile, test, provided, runtime) | [`002-maven-dependency-scopes.md`](002-maven-dependency-scopes.md) | Essential | COMPLETE |
 | `P10-C003` | Transitive Dependencies, Conflict Resolution (Nearest Wins), and Exclusions | [`003-transitive-dependencies-conflicts.md`](003-transitive-dependencies-conflicts.md) | Essential | COMPLETE |
 | `P10-C004` | Maven Plugins: Compiler, Surefire, Failsafe, Jar, and Shade Plugins | [`004-maven-plugins-and-surefire.md`](004-maven-plugins-and-surefire.md) | Essential | COMPLETE |
-| `P10-C005` | Maven Wrapper (mvnw) for Deterministic Environment Builds | [`005-maven-wrapper-reproducible-builds.md`](005-maven-wrapper-reproducible-builds.md) | Essential | NOT_STARTED |
+| `P10-C005` | Maven Wrapper (mvnw) for Deterministic Environment Builds | [`005-maven-wrapper-reproducible-builds.md`](005-maven-wrapper-reproducible-builds.md) | Essential | COMPLETE |
 | `P10-C006` | Structured Logging with SLF4J and Logback: Appenders, Encoders, and Layouts | [`006-slf4j-and-logback-architecture.md`](006-slf4j-and-logback-architecture.md) | Essential | NOT_STARTED |
 | `P10-C007` | Logging Best Practices: Log Levels, Parameterized Logging, and MDC Context | [`007-logging-best-practices-mdc.md`](007-logging-best-practices-mdc.md) | Essential | NOT_STARTED |
 | `P10-C008` | Preventing Sensitive Data (PII/Tokens) Leaks in Log Streams | [`008-preventing-pii-log-leaks.md`](008-preventing-pii-log-leaks.md) | Essential | NOT_STARTED |
@@ -104,7 +104,7 @@ Before marking Phase 10 as complete:
 
 - **Phase Status:** `IN_PROGRESS`
 - **Total Planned Concepts:** `11`
-- **Completed Concepts:** `4`
+- **Completed Concepts:** `5`
 - **In Progress:** `0`
-- **Completion Rate:** `36.4%`
+- **Completion Rate:** `45.5%`
 - **Last Verified Date:** `2026-10-31`
