@@ -202,7 +202,7 @@
 | `P09-C009` | Linear Search vs Binary Search and Bisect Techniques | [`009-binary-search-techniques.md`](curriculum/phase-09-data-structures-algorithms-backend/009-binary-search-techniques.md) | `COMPLETE` |
 | `P09-C010` | Comparison Sorts: QuickSort, MergeSort, TimSort, and Space-Time Trade-offs | [`010-comparison-sorting-algorithms.md`](curriculum/phase-09-data-structures-algorithms-backend/010-comparison-sorting-algorithms.md) | `COMPLETE` |
 | `P09-C011` | Algorithm Patterns: Two Pointers and Sliding Window for Stream Processing | [`011-two-pointers-sliding-window.md`](curriculum/phase-09-data-structures-algorithms-backend/011-two-pointers-sliding-window.md) | `COMPLETE` |
-| `P09-C012` | Graph Algorithms: Breadth-First Search (BFS) and Depth-First Search (DFS) | [`012-bfs-dfs-graph-traversal.md`](curriculum/phase-09-data-structures-algorithms-backend/012-bfs-dfs-graph-traversal.md) | `NOT_STARTED` |
+| `P09-C012` | Graph Algorithms: Breadth-First Search (BFS) and Depth-First Search (DFS) | [`012-bfs-dfs-graph-traversal.md`](curriculum/phase-09-data-structures-algorithms-backend/012-bfs-dfs-graph-traversal.md) | `COMPLETE` |
 | `P09-C013` | Dynamic Programming Fundamentals: Memoization, Tabulation, and Subproblems | [`013-dynamic-programming-fundamentals.md`](curriculum/phase-09-data-structures-algorithms-backend/013-dynamic-programming-fundamentals.md) | `NOT_STARTED` |
 
 ### [Phase 10: Professional Java Development Workflow](curriculum/phase-10-professional-java-development-workflow/README.md)
