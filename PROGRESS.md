@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 116 | 37.2% |
+| **Modules Complete (`COMPLETE`)** | 117 | 37.5% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 196 | 62.8% |
+| **Modules Not Started (`NOT_STARTED`)** | 195 | 62.5% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P09-C005` (Hash Tables: Hash Functions, Bucket Arrays, Open Addressing vs Chaining). Total Curriculum Progress: 116 Modules Complete (37.2%)!
-- **Status:** Phase 09 in progress (5/13 complete, 38.5%).
-- **Exact Next Milestone:** Author and verify `P09-C006`: *Binary Trees and Binary Search Trees (BST): Insertion, Deletion, and Balancing* (`curriculum/phase-09-data-structures-algorithms-backend/006-binary-search-trees.md`).
-- **Following Milestone:** `P09-C007`: *Heaps and Priority Queues: Binary Heaps, Sift-Up/Sift-Down, and Top-K*.
+- **Current Focus:** Completed `P09-C006` (Binary Trees and Binary Search Trees (BST): Insertion, Deletion, and Balancing). Total Curriculum Progress: 117 Modules Complete (37.5%)!
+- **Status:** Phase 09 in progress (6/13 complete, 46.2%).
+- **Exact Next Milestone:** Author and verify `P09-C007`: *Heaps and Priority Queues: Binary Heaps, Sift-Up/Sift-Down, and Top-K* (`curriculum/phase-09-data-structures-algorithms-backend/007-heaps-and-priority-queues.md`).
+- **Following Milestone:** `P09-C008`: *Graph Representations: Adjacency Matrix vs Adjacency List and Edge Lists*.
 
 ---
 
@@ -40,7 +40,7 @@
 | **Phase 06** | Functional Java | 12 | 12 | 0 | COMPLETE |
 | **Phase 07** | File I/O, NIO, Configuration, and Data Formats | 12 | 12 | 0 | COMPLETE |
 | **Phase 08** | JVM Internals and Memory Management | 12 | 12 | 0 | COMPLETE |
-| **Phase 09** | Data Structures and Algorithms for Backend Developers | 13 | 5 | 0 | IN_PROGRESS |
+| **Phase 09** | Data Structures and Algorithms for Backend Developers | 13 | 6 | 0 | IN_PROGRESS |
 | **Phase 10** | Professional Java Development Workflow | 11 | 0 | 0 | NOT_STARTED |
 | **Phase 11** | Unit Testing and Software Quality | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 12** | Concurrency and Multithreading | 17 | 0 | 0 | NOT_STARTED |
