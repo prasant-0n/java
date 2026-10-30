@@ -41,7 +41,7 @@ By completing Phase 08, the learner will independently be able to:
 | `P08-C002` | Class Loading Subsystem: Loading, Linking, Initialization, and Hierarchies | [`002-class-loading-subsystem.md`](002-class-loading-subsystem.md) | Essential | COMPLETE |
 | `P08-C003` | Runtime Data Areas: Thread Stacks, Frame Structure, and Program Counter | [`003-thread-stacks-and-stack-frames.md`](003-thread-stacks-and-stack-frames.md) | Essential | COMPLETE |
 | `P08-C004` | JVM Heap Memory Layout: Young Gen, Old Gen, and Object Allocation | [`004-heap-memory-layout-generations.md`](004-heap-memory-layout-generations.md) | Essential | COMPLETE |
-| `P08-C005` | Metaspace Architecture vs Legacy PermGen, Dynamic Class Generation Risks | [`005-metaspace-architecture-permgen.md`](005-metaspace-architecture-permgen.md) | Essential | NOT_STARTED |
+| `P08-C005` | Metaspace Architecture vs Legacy PermGen, Dynamic Class Generation Risks | [`005-metaspace-architecture-permgen.md`](005-metaspace-architecture-permgen.md) | Essential | COMPLETE |
 | `P08-C006` | Interpreter vs JIT Compilation: Tiered Compilation, C1, C2, and On-Stack Replacement | [`006-jit-compiler-tiered-compilation.md`](006-jit-compiler-tiered-compilation.md) | Essential | NOT_STARTED |
 | `P08-C007` | Object Reachability, GC Roots, and Reference Types (Soft, Weak, Phantom) | [`007-gc-roots-and-reference-types.md`](007-gc-roots-and-reference-types.md) | Essential | NOT_STARTED |
 | `P08-C008` | Garbage Collection Fundamentals: Mark-Sweep, Compact, Generational Hypothesis | [`008-garbage-collection-fundamentals.md`](008-garbage-collection-fundamentals.md) | Essential | NOT_STARTED |
@@ -106,7 +106,7 @@ Before marking Phase 08 as complete:
 
 - **Phase Status:** `IN_PROGRESS`
 - **Total Planned Concepts:** `12`
-- **Completed Concepts:** `4`
+- **Completed Concepts:** `5`
 - **In Progress:** `0`
-- **Completion Rate:** `33.3%`
+- **Completion Rate:** `41.7%`
 - **Last Verified Date:** `2026-10-30`
