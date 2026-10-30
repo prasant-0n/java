@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 91 | 29.2% |
+| **Modules Complete (`COMPLETE`)** | 92 | 29.5% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 221 | 70.8% |
+| **Modules Not Started (`NOT_STARTED`)** | 220 | 70.5% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Completed `P07-C004` (File Operations: Reading, Writing, Atomic Moves, and File Attributes).
-- **Status:** Phase 07 in progress (4/12 complete, 33.3%).
-- **Exact Next Milestone:** Author and verify `P07-C005`: *Directory Traversal: DirectoryStream, Files.walk, and Resource Cleanup* (`curriculum/phase-07-file-io-nio-configuration-data-formats/005-directory-traversal-and-streams.md`).
-- **Following Milestone:** `P07-C006`: *Java NIO Architecture: Channels, Buffers, Selectors, and Direct Memory*.
+- **Current Focus:** Completed `P07-C005` (Directory Traversal: DirectoryStream, Files.walk, and Resource Cleanup).
+- **Status:** Phase 07 in progress (5/12 complete, 41.7%).
+- **Exact Next Milestone:** Author and verify `P07-C006`: *Java NIO Architecture: Channels, Buffers, Selectors, and Direct Memory* (`curriculum/phase-07-file-io-nio-configuration-data-formats/006-nio-channels-buffers-direct-memory.md`).
+- **Following Milestone:** `P07-C007`: *Large-File Streaming Processing vs In-Memory Buffering*.
 
 ---
 
@@ -38,7 +38,7 @@
 | **Phase 04** | Exception Handling and Defensive Programming | 9 | 9 | 0 | COMPLETE |
 | **Phase 05** | Core Java APIs You Will Use in Production | 10 | 10 | 0 | COMPLETE |
 | **Phase 06** | Functional Java | 12 | 12 | 0 | COMPLETE |
-| **Phase 07** | File I/O, NIO, Configuration, and Data Formats | 12 | 4 | 0 | IN_PROGRESS |
+| **Phase 07** | File I/O, NIO, Configuration, and Data Formats | 12 | 5 | 0 | IN_PROGRESS |
 | **Phase 08** | JVM Internals and Memory Management | 12 | 0 | 0 | NOT_STARTED |
 | **Phase 09** | Data Structures and Algorithms for Backend Developers | 13 | 0 | 0 | NOT_STARTED |
 | **Phase 10** | Professional Java Development Workflow | 11 | 0 | 0 | NOT_STARTED |

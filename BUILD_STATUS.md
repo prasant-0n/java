@@ -174,6 +174,7 @@
 - [x] `P07-C002` Byte streams vs character streams, encodings, and UTF-8 guarantees: 8-bit octet streams (`InputStream`/`OutputStream`) vs 16-bit Unicode character streams (`Reader`/`Writer`), the translation bridge (`InputStreamReader`/`OutputStreamWriter`), Unicode code points (21-bit) vs UTF-16 code units (16-bit surrogate pairs), JEP 400 UTF-8 by default mandate and explicit charset defense, safe read loop mechanics with `-1` EOF sentinel vs `available()` anti-pattern, Windows UTF-8 Byte Order Mark (BOM) stripping via `PushbackInputStream`, and strict `CharsetDecoder` malformed sequence rejection verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 - [x] `P07-C003` Buffered streams, buffer sizes, flushing, and file descriptor leaks: OS system call context-switch penalty (`sysenter`/`syscall`), Decorator pattern in I/O (`BufferedInputStream`, `BufferedReader`), 8KB page-cache alignment and virtual thread (Loom) memory footprint tuning, three storage and flush tiers (JVM heap buffer vs OS page cache vs physical `fsync`/`FileChannel.force(true)` durability), POSIX file descriptor table limits (`ulimit -n`) and `Too many open files` leak diagnosis, reverse-order decorator teardown, and try-with-resources suppressed exception preservation verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 - [x] `P07-C004` File operations, atomic moves, and file attributes: Lifecycle orchestration (`createFile`, `createDirectories`, `createTempFile`, `deleteIfExists`), small file convenience (`readString`, `writeString`, `readAllBytes`) vs streaming threshold (<10MB), `StandardOpenOption` bitmask flags (`CREATE_NEW`, `TRUNCATE_EXISTING`, `APPEND`, `SYNC`), crash-safe atomic staging-and-swap pattern via `StandardCopyOption.ATOMIC_MOVE` and `rename(2)` inode pointer swap, cross-mount `AtomicMoveNotSupportedException` fallback handling, single-syscall `BasicFileAttributes` inspection, and atomic POSIX `0600` permission masking verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
+- [x] `P07-C005` Directory traversal, `DirectoryStream`, `Files.walk`, and resource cleanup: Operational trade-offs of the directory traversal triad (flat cursor `DirectoryStream` vs functional lazy stream `Files.walk`/`Files.find` vs visitor pattern `Files.walkFileTree`), OS directory descriptor (`DIR*`) release via try-with-resources, circular symbolic link cycle defense (`FileSystemLoopException`), bottom-up post-order recursive deletion eliminating `DirectoryNotEmptyException`, single-pass `Files.find` attribute harvesting, and `SimpleFileVisitor.visitFileFailed` graceful error recovery verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 
 ---
 
@@ -185,7 +186,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P07-C004` (File Operations: Reading, Writing, Atomic Moves, and File Attributes).
+- **Current Stop Point:** Completed `P07-C005` (Directory Traversal: DirectoryStream, Files.walk, and Resource Cleanup).
 - **Exact Next Milestone:**
-  - Author and verify `P07-C005`: *Directory Traversal: DirectoryStream, Files.walk, and Resource Cleanup* (`005-directory-traversal-and-streams.md`)
   - Author and verify `P07-C006`: *Java NIO Architecture: Channels, Buffers, Selectors, and Direct Memory* (`006-nio-channels-buffers-direct-memory.md`)
+  - Author and verify `P07-C007`: *Large-File Streaming Processing vs In-Memory Buffering* (`007-large-file-streaming-processing.md`)
