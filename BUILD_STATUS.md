@@ -187,6 +187,7 @@
 - [x] `P08-C001` JVM architecture overview: Class Loader Subsystem (Loading, Linking [Verify, Prepare, Resolve], Initialization), Runtime Data Areas (JVM-wide Heap & Metaspace vs Thread-local Stacks, PC Registers, Native Stacks), and Execution Engine (Template Interpreter, Tiered Compilation [C1/C2], JIT Warmup and On-Stack Replacement [OSR], Automated Garbage Collection) verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 - [x] `P08-C002` Class loading subsystem: Loading, Linking (Verification, Preparation [zero-initialization], Resolution [symbolic to direct references, lazy vs eager]), and Initialization (`<clinit>` trigger boundaries, static constant inlining bypass), Delegation Hierarchy (Bootstrap, Platform, Application), Custom ClassLoader isolation and sandbox containment via `defineClass`, class identity 2-tuple $(L, N)$, and thread-safe class initialization race protection verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 - [x] `P08-C003` Runtime data areas, thread stacks, frame structure, and program counter: JVM Stack Frame anatomy (Local Variable Array [32-bit vs 64-bit slots, lexical scope reuse], Operand Stack [statically bounded `max_stack`], Frame Data [runtime constant pool dynamic linking, normal/abrupt exception dispatch]), Program Counter (PC) Register (bytecode offset vs native undefined), HotSpot guard pages (Yellow soft guard headroom vs Red fatal guard page), `StackOverflowError` recovery vs `OutOfMemoryError: unable to create new native thread`, low-overhead caller introspection via `StackWalker` API (JEP 259), Project Loom Virtual Thread continuations vs 1MB platform threads (`-Xss`), and tail-recursive Trampoline execution in constant $O(1)$ stack frames verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
+- [x] `P08-C004` JVM heap memory layout, young gen, old gen, and object allocation: Weak Generational Hypothesis, Young Generation (Eden [TLAB bump-the-pointer fast allocation], Survivor semispaces S0/S1 copying), Old Generation (Tenured space, `MaxTenuringThreshold`, dynamic age calculation, G1 Humongous objects $\ge 50\%$ region size), 64-bit object header anatomy (8-byte Mark Word, Compressed OOPs 4-byte Klass pointer vs 8-byte uncompressed, 8-byte alignment padding), 32 GB Compressed OOPs performance cliff, Card Table write barriers for cross-generational pointers, and primitive vs boxed allocation pressure verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 
 ---
 
@@ -198,7 +199,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P08-C003` (Runtime Data Areas: Thread Stacks, Frame Structure, and Program Counter). **102 Modules Complete (32.7%)!**
+- **Current Stop Point:** Completed `P08-C004` (JVM Heap Memory Layout: Young Gen, Old Gen, and Object Allocation). **103 Modules Complete (33.0%)!**
 - **Exact Next Milestone:**
-  - Author and verify `P08-C004`: *JVM Heap Memory Layout: Young Gen, Old Gen, and Object Allocation* (`curriculum/phase-08-jvm-internals-memory-management/004-heap-memory-layout-generations.md`)
   - Author and verify `P08-C005`: *Metaspace Architecture vs Legacy PermGen, Dynamic Class Generation Risks* (`curriculum/phase-08-jvm-internals-memory-management/005-metaspace-architecture-permgen.md`)
+  - Author and verify `P08-C006`: *Interpreter vs JIT Compilation: Tiered Compilation, C1, C2, and On-Stack Replacement* (`curriculum/phase-08-jvm-internals-memory-management/006-jit-compiler-tiered-compilation.md`)
