@@ -185,7 +185,7 @@
 | `P08-C009` | Modern Garbage Collectors: G1GC, ZGC, Parallel GC, and Tuning Baselines | [`009-modern-collectors-g1-zgc.md`](curriculum/phase-08-jvm-internals-memory-management/009-modern-collectors-g1-zgc.md) | `COMPLETE` |
 | `P08-C010` | Memory Leaks in Java: Static References, Unclosed Resources, and ThreadLocals | [`010-java-memory-leaks-patterns.md`](curriculum/phase-08-jvm-internals-memory-management/010-java-memory-leaks-patterns.md) | `COMPLETE` |
 | `P08-C011` | Diagnosing OutOfMemoryError and StackOverflowError: Heap Dumps and Analysis | [`011-oom-and-stack-overflow-diagnosis.md`](curriculum/phase-08-jvm-internals-memory-management/011-oom-and-stack-overflow-diagnosis.md) | `COMPLETE` |
-| `P08-C012` | JVM Diagnostic CLI Tooling: jcmd, jstack, jmap, and Java Flight Recorder (JFR) | [`012-jvm-cli-diagnostics-jfr.md`](curriculum/phase-08-jvm-internals-memory-management/012-jvm-cli-diagnostics-jfr.md) | `NOT_STARTED` |
+| `P08-C012` | JVM Diagnostic CLI Tooling: jcmd, jstack, jmap, and Java Flight Recorder (JFR) | [`012-jvm-cli-diagnostics-jfr.md`](curriculum/phase-08-jvm-internals-memory-management/012-jvm-cli-diagnostics-jfr.md) | `COMPLETE` |
 
 ### [Phase 09: Data Structures and Algorithms for Backend Developers](curriculum/phase-09-data-structures-algorithms-backend/README.md)
 
