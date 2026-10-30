@@ -46,7 +46,7 @@ By completing Phase 07, the learner will independently be able to:
 | `P07-C008` | ClassPath Resources vs Filesystem Paths in Packaged JARs | [`008-classpath-resources-in-jars.md`](008-classpath-resources-in-jars.md) | Essential | COMPLETE |
 | `P07-C009` | Configuration Management: Properties Files and System Environment Overrides | [`009-properties-files-configuration.md`](009-properties-files-configuration.md) | Essential | COMPLETE |
 | `P07-C010` | Structured Data: Safe CSV Parsing, Escaping, and Validation | [`010-csv-parsing-and-validation.md`](010-csv-parsing-and-validation.md) | Essential | COMPLETE |
-| `P07-C011` | JSON Processing in Java: Jackson Object Mapper, Streaming API, and Records | [`011-json-processing-jackson.md`](011-json-processing-jackson.md) | Essential | NOT_STARTED |
+| `P07-C011` | JSON Processing in Java: Jackson Object Mapper, Streaming API, and Records | [`011-json-processing-jackson.md`](011-json-processing-jackson.md) | Essential | COMPLETE |
 | `P07-C012` | Java Native Serialization Security Vulnerabilities and Modern Alternatives | [`012-serialization-vulnerabilities.md`](012-serialization-vulnerabilities.md) | Essential | NOT_STARTED |
 
 
@@ -105,7 +105,7 @@ Before marking Phase 07 as complete:
 
 - **Phase Status:** `IN_PROGRESS`
 - **Total Planned Concepts:** `12`
-- **Completed Concepts:** `10`
+- **Completed Concepts:** `11`
 - **In Progress:** `0`
-- **Completion Rate:** `83.3%`
+- **Completion Rate:** `91.7%`
 - **Last Verified Date:** `2026-10-30`
