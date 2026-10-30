@@ -198,6 +198,7 @@
 - [x] `P08-C012` JVM diagnostic CLI tooling and JFR: Dynamic Attach API UNIX domain socket mechanics (`/tmp/.java_pid<PID>`) and Attach Listener lifecycle, lock-free PerfMemory shared memory (`/tmp/hsperfdata_<user>/<PID>`) for zero-overhead `jstat` sampling, complete `jcmd` command catalogue (`Thread.print`, `GC.class_histogram`, `VM.native_memory` NMT, `GC.heap_dump`, `VM.flags`), `jstack` monitor and AQS lock inspection, `jmap` live object histograms, `jstat -gcutil` generational telemetry column deconstruction (`S0`, `S1`, `E`, `O`, `M`, `CCS`, `YGC`, `FGC`, `GCT`), Java Flight Recorder (JFR JEP 328) circular buffer architecture (TLB $\to$ global ring buffer $\to$ disk `.jfr`), continuous recording (<1% overhead), custom `@Name` business JFR events, and programmatic recording analysis via `RecordingFile` verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed). All 12 concept modules of Phase 08 are now complete.
 - [x] **Phase 08 Capstone Integration Project:** JVM Memory & Performance Profiling Simulator (`jvm-profiling-simulator`) built, regression tested (10/10 assertions passing), packaged into standalone executable JAR (`jvm-profiling-simulator-1.0.0.jar`), and executed with exit code 0.
 - [x] **Phase 08 Completion Gate:** Reconciled and marked `COMPLETE` (12/12 concepts complete + Capstone complete, 100%).
+- [x] `P09-C001` Algorithmic complexity and amortized analysis: Asymptotic bounding definitions ($O, \Omega, \Theta, o, \omega$), best vs average vs worst cases, the three classical amortized analysis techniques (aggregate, accounting, potential $\Phi(D_i)$ methods) and mathematical proof of dynamic array doubling $\le 3$ operations per append, Jeff Dean's latency hierarchy (L1/L2/L3 cache vs RAM vs NVMe vs network roundtrips), contiguous array 64-byte cache line prefetching vs pointer-chasing linked node latency stalls, space complexity (auxiliary vs input), and eliminating backend $O(N^2)$ anti-patterns (nested contains, string concatenation, Cartesian joins, N+1 queries) verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 
 ---
 
@@ -209,7 +210,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed Phase 08 (JVM Internals and Memory Management) in its entirety (12/12 Concepts + Capstone Project + Gate Reconciliation). **Total Curriculum: 111 Concepts Complete (35.6%) across 9 completed phases (Phases 00 through 08)!**
+- **Current Stop Point:** Completed `P09-C001` (Algorithmic Complexity: Big-O, Big-Omega, Big-Theta, and Amortized Analysis). **112 Modules Complete (35.9%)! Phase 09 Launched!**
 - **Exact Next Milestone:**
-  - Launch Phase 09: *Data Structures and Algorithms for Backend Developers*
-  - Author and verify `P09-C001`: *Complexity Analysis in Practice: Big-O, Big-Omega, Big-Theta, and Latency Math* (`curriculum/phase-09-data-structures-algorithms/001-complexity-analysis-practice.md`)
+  - Author and verify `P09-C002`: *Dynamic Arrays and Resizing Mechanics: Capacity vs Size and Growth Factors* (`curriculum/phase-09-data-structures-algorithms-backend/002-dynamic-arrays-resizing.md`)
+  - Author and verify `P09-C003`: *Linked Lists: Singly, Doubly, Circular Lists, and Pointer Manipulation* (`curriculum/phase-09-data-structures-algorithms-backend/003-linked-lists-implementation.md`)
