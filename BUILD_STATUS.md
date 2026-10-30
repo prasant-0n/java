@@ -170,6 +170,7 @@
 - [x] `P06-C012` Stream vs imperative loops: Joshua Bloch *Effective Java* Item 45 ("Use streams judiciously"), stack trace depth and synthetic lambda frame debugging penalties, imperative control flow advantages (`break`, `continue`, enclosing `return`), checked exception resilience, and microbenchmarks comparing raw primitive loop JIT unrolling vs `IntStream` verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 - [x] **Phase 06 Capstone Integration Project:** Real-Time Analytical Order & Fraud Aggregation Engine (`analytical-order-aggregator`) built, regression tested (10/10 assertions passing), packaged into standalone executable JAR (`analytical-order-aggregator-1.0.0.jar`), and executed with exit code 0.
 - [x] **Phase 06 Completion Gate:** Reconciled and marked `COMPLETE` (12/12 concepts complete + Capstone complete, 100%).
+- [x] `P07-C001` Legacy `java.io.File` limitations vs modern `java.nio.file` (`Path`, `Files`, `Paths`): Five legacy failure modes (silent boolean returns, missing atomic moves, multi-syscall TOCTOU overhead, heap exhaustion on `listFiles()`, no virtual filesystem SPI), JSR 203 NIO.2 architecture decoupling (`Path` locator vs `Files` static engine vs `FileSystemProvider`), atomic file swap via `StandardCopyOption.ATOMIC_MOVE`, single-syscall bulk attribute harvesting (`BasicFileAttributes`), $O(1)$ memory streaming directory iteration (`DirectoryStream`), and path traversal / "Zip Slip" root containment validation (`path.normalize().startsWith(root)`) verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 
 ---
 
@@ -181,8 +182,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed Phase 06 Capstone Integration Project and Phase Gate Reconciled to 100% COMPLETE!
+- **Current Stop Point:** Completed `P07-C001` (Legacy `java.io.File` Limitations vs Modern `java.nio.file` (`Path`, `Files`, `Paths`)). Phase 07 launched!
 - **Exact Next Milestone:**
-  - Phase 07 Launch: *File I/O, NIO, Configuration, and Data Formats* (`curriculum/phase-07-file-io-nio-configuration-data-formats/`)
-  - Author and verify `P07-C001`: *Legacy java.io.File Limitations vs Modern java.nio.file (Path, Files, Paths)* (`001-legacy-io-vs-modern-nio.md`)
   - Author and verify `P07-C002`: *Byte Streams vs Character Streams, Encodings, and UTF-8 Guarantees* (`002-byte-streams-vs-readers-writers.md`)
+  - Author and verify `P07-C003`: *Buffered Streams, Buffer Sizes, Flushing, and File Descriptor Leaks* (`003-buffered-streams-and-leaks.md`)

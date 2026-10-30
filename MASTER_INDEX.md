@@ -157,7 +157,7 @@
 
 | Concept ID | Concept Title | Document Link | Status |
 |---|---|---|---|
-| `P07-C001` | Legacy java.io.File Limitations vs Modern java.nio.file (Path, Files, Paths) | [`001-legacy-io-vs-modern-nio.md`](curriculum/phase-07-file-io-nio-configuration-data-formats/001-legacy-io-vs-modern-nio.md) | `NOT_STARTED` |
+| `P07-C001` | Legacy java.io.File Limitations vs Modern java.nio.file (Path, Files, Paths) | [`001-legacy-io-vs-modern-nio.md`](curriculum/phase-07-file-io-nio-configuration-data-formats/001-legacy-io-vs-modern-nio.md) | `COMPLETE` |
 | `P07-C002` | Byte Streams vs Character Streams, Encodings, and UTF-8 Guarantees | [`002-byte-streams-vs-readers-writers.md`](curriculum/phase-07-file-io-nio-configuration-data-formats/002-byte-streams-vs-readers-writers.md) | `NOT_STARTED` |
 | `P07-C003` | Buffered Streams, Buffer Sizes, Flushing, and File Descriptor Leaks | [`003-buffered-streams-and-leaks.md`](curriculum/phase-07-file-io-nio-configuration-data-formats/003-buffered-streams-and-leaks.md) | `NOT_STARTED` |
 | `P07-C004` | File Operations: Reading, Writing, Atomic Moves, and File Attributes | [`004-file-operations-atomic-moves.md`](curriculum/phase-07-file-io-nio-configuration-data-formats/004-file-operations-atomic-moves.md) | `NOT_STARTED` |
