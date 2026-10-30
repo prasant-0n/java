@@ -185,6 +185,7 @@
 - [x] **Phase 07 Capstone Integration Project:** Streaming High-Performance ETL Batch Processing Engine (`streaming-etl-engine`) built, regression tested (10/10 assertions passing), packaged into standalone executable JAR (`streaming-etl-engine-1.0.0.jar`), and verified under a strict 64MB heap ceiling (`-Xmx64m`) processing 10,000 records in 329 ms (30,395 records/sec, ~15.9 MB heap delta) with exit code 0.
 - [x] **Phase 07 Completion Gate:** Reconciled and marked `COMPLETE` (12/12 concepts complete + Capstone complete, 100%).
 - [x] `P08-C001` JVM architecture overview: Class Loader Subsystem (Loading, Linking [Verify, Prepare, Resolve], Initialization), Runtime Data Areas (JVM-wide Heap & Metaspace vs Thread-local Stacks, PC Registers, Native Stacks), and Execution Engine (Template Interpreter, Tiered Compilation [C1/C2], JIT Warmup and On-Stack Replacement [OSR], Automated Garbage Collection) verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
+- [x] `P08-C002` Class loading subsystem: Loading, Linking (Verification, Preparation [zero-initialization], Resolution [symbolic to direct references, lazy vs eager]), and Initialization (`<clinit>` trigger boundaries, static constant inlining bypass), Delegation Hierarchy (Bootstrap, Platform, Application), Custom ClassLoader isolation and sandbox containment via `defineClass`, class identity 2-tuple $(L, N)$, and thread-safe class initialization race protection verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed).
 
 ---
 
@@ -196,7 +197,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed `P08-C001` (JVM Architecture Overview: Class Loader, Runtime Data Areas, and Execution Engine). **100th Concept Module Golden Milestone Reached!**
+- **Current Stop Point:** Completed `P08-C002` (Class Loading Subsystem: Loading, Linking, Initialization, and Hierarchies). **101 Modules Complete (32.4%)!**
 - **Exact Next Milestone:**
-  - Author and verify `P08-C002`: *Class Loading Subsystem: Loading, Linking, Initialization, and Hierarchies* (`curriculum/phase-08-jvm-internals-memory-management/002-class-loading-subsystem.md`)
   - Author and verify `P08-C003`: *Runtime Data Areas: Thread Stacks, Frame Structure, and Program Counter* (`curriculum/phase-08-jvm-internals-memory-management/003-thread-stacks-and-stack-frames.md`)
+  - Author and verify `P08-C004`: *JVM Heap Memory Layout: Young Gen, Old Gen, and Object Allocation* (`curriculum/phase-08-jvm-internals-memory-management/004-heap-memory-layout-generations.md`)
