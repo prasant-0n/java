@@ -232,7 +232,7 @@
 | `P11-C005` | Parameterized Tests in JUnit 5: @ValueSource, @CsvSource, @MethodSource | [`005-parameterized-tests.md`](curriculum/phase-11-unit-testing-software-quality/005-parameterized-tests.md) | `COMPLETE` |
 | `P11-C006` | Testing Exceptions and Boundary Conditions Defensively | [`006-testing-exceptions-and-boundaries.md`](curriculum/phase-11-unit-testing-software-quality/006-testing-exceptions-and-boundaries.md) | `COMPLETE` |
 | `P11-C007` | Test Isolation, Determinism, and Flaky Test Prevention | [`007-test-isolation-and-flakiness.md`](curriculum/phase-11-unit-testing-software-quality/007-test-isolation-and-flakiness.md) | `COMPLETE` |
-| `P11-C008` | Mockito Fundamentals: Mocks, Spies, Stubs, and when()/thenReturn() | [`008-mockito-fundamentals.md`](curriculum/phase-11-unit-testing-software-quality/008-mockito-fundamentals.md) | `NOT_STARTED` |
+| `P11-C008` | Mockito Fundamentals: Mocks, Spies, Stubs, and when()/thenReturn() | [`008-mockito-fundamentals.md`](curriculum/phase-11-unit-testing-software-quality/008-mockito-fundamentals.md) | `COMPLETE` |
 | `P11-C009` | Argument Matching, Verification, and ArgumentCaptor Mechanics | [`009-argument-matching-and-verification.md`](curriculum/phase-11-unit-testing-software-quality/009-argument-matching-and-verification.md) | `NOT_STARTED` |
 | `P11-C010` | Over-Mocking Anti-Pattern: What to Mock and What NOT to Mock | [`010-over-mocking-anti-patterns.md`](curriculum/phase-11-unit-testing-software-quality/010-over-mocking-anti-patterns.md) | `NOT_STARTED` |
 | `P11-C011` | Integration Testing with Real Databases: Testcontainers Fundamentals | [`011-testcontainers-fundamentals.md`](curriculum/phase-11-unit-testing-software-quality/011-testcontainers-fundamentals.md) | `NOT_STARTED` |
