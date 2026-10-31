@@ -226,7 +226,7 @@
 | Concept ID | Concept Title | Document Link | Status |
 |---|---|---|---|
 | `P11-C001` | Testing Pyramid: Unit, Component, Integration, Contract, and E2E Tests | [`001-testing-pyramid-and-scopes.md`](curriculum/phase-11-unit-testing-software-quality/001-testing-pyramid-and-scopes.md) | `COMPLETE` |
-| `P11-C002` | JUnit 5 Architecture: Jupiter, Vintage, and Platform | [`002-junit-5-architecture.md`](curriculum/phase-11-unit-testing-software-quality/002-junit-5-architecture.md) | `NOT_STARTED` |
+| `P11-C002` | JUnit 5 Architecture: Jupiter, Vintage, and Platform | [`002-junit-5-architecture.md`](curriculum/phase-11-unit-testing-software-quality/002-junit-5-architecture.md) | `COMPLETE` |
 | `P11-C003` | JUnit 5 Lifecycle: @Test, @BeforeEach, @AfterEach, @BeforeAll, @AfterAll | [`003-junit-5-lifecycle-annotations.md`](curriculum/phase-11-unit-testing-software-quality/003-junit-5-lifecycle-annotations.md) | `NOT_STARTED` |
 | `P11-C004` | Fluent Assertions with AssertJ: Collections, Exceptions, and Custom Assertions | [`004-assertj-fluent-assertions.md`](curriculum/phase-11-unit-testing-software-quality/004-assertj-fluent-assertions.md) | `NOT_STARTED` |
 | `P11-C005` | Parameterized Tests in JUnit 5: @ValueSource, @CsvSource, @MethodSource | [`005-parameterized-tests.md`](curriculum/phase-11-unit-testing-software-quality/005-parameterized-tests.md) | `NOT_STARTED` |
