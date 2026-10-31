@@ -235,7 +235,7 @@
 | `P11-C008` | Mockito Fundamentals: Mocks, Spies, Stubs, and when()/thenReturn() | [`008-mockito-fundamentals.md`](curriculum/phase-11-unit-testing-software-quality/008-mockito-fundamentals.md) | `COMPLETE` |
 | `P11-C009` | Argument Matching, Verification, and ArgumentCaptor Mechanics | [`009-argument-matching-and-verification.md`](curriculum/phase-11-unit-testing-software-quality/009-argument-matching-and-verification.md) | `COMPLETE` |
 | `P11-C010` | Over-Mocking Anti-Pattern: What to Mock and What NOT to Mock | [`010-over-mocking-anti-patterns.md`](curriculum/phase-11-unit-testing-software-quality/010-over-mocking-anti-patterns.md) | `COMPLETE` |
-| `P11-C011` | Integration Testing with Real Databases: Testcontainers Fundamentals | [`011-testcontainers-fundamentals.md`](curriculum/phase-11-unit-testing-software-quality/011-testcontainers-fundamentals.md) | `NOT_STARTED` |
+| `P11-C011` | Integration Testing with Real Databases: Testcontainers Fundamentals | [`011-testcontainers-fundamentals.md`](curriculum/phase-11-unit-testing-software-quality/011-testcontainers-fundamentals.md) | `COMPLETE` |
 | `P11-C012` | Code Coverage vs Mutation Testing: Jacoco, PIT, and Assertion Quality | [`012-code-coverage-and-mutation-testing.md`](curriculum/phase-11-unit-testing-software-quality/012-code-coverage-and-mutation-testing.md) | `NOT_STARTED` |
 
 ### [Phase 12: Concurrency and Multithreading](curriculum/phase-12-concurrency-multithreading/README.md)
