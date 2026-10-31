@@ -43,7 +43,7 @@ By completing Phase 11, the learner will independently be able to:
 | `P11-C004` | Fluent Assertions with AssertJ: Collections, Exceptions, and Custom Assertions | [`004-assertj-fluent-assertions.md`](004-assertj-fluent-assertions.md) | Essential | COMPLETE |
 | `P11-C005` | Parameterized Tests in JUnit 5: @ValueSource, @CsvSource, @MethodSource | [`005-parameterized-tests.md`](005-parameterized-tests.md) | Essential | COMPLETE |
 | `P11-C006` | Testing Exceptions and Boundary Conditions Defensively | [`006-testing-exceptions-and-boundaries.md`](006-testing-exceptions-and-boundaries.md) | Essential | COMPLETE |
-| `P11-C007` | Test Isolation, Determinism, and Flaky Test Prevention | [`007-test-isolation-and-flakiness.md`](007-test-isolation-and-flakiness.md) | Essential | NOT_STARTED |
+| `P11-C007` | Test Isolation, Determinism, and Flaky Test Prevention | [`007-test-isolation-and-flakiness.md`](007-test-isolation-and-flakiness.md) | Essential | COMPLETE |
 | `P11-C008` | Mockito Fundamentals: Mocks, Spies, Stubs, and when()/thenReturn() | [`008-mockito-fundamentals.md`](008-mockito-fundamentals.md) | Essential | NOT_STARTED |
 | `P11-C009` | Argument Matching, Verification, and ArgumentCaptor Mechanics | [`009-argument-matching-and-verification.md`](009-argument-matching-and-verification.md) | Essential | NOT_STARTED |
 | `P11-C010` | Over-Mocking Anti-Pattern: What to Mock and What NOT to Mock | [`010-over-mocking-anti-patterns.md`](010-over-mocking-anti-patterns.md) | Essential | NOT_STARTED |
@@ -106,7 +106,7 @@ Before marking Phase 11 as complete:
 
 - **Phase Status:** `IN_PROGRESS`
 - **Total Planned Concepts:** `12`
-- **Completed Concepts:** `6`
+- **Completed Concepts:** `7`
 - **In Progress:** `0`
-- **Completion Rate:** `50.0%`
+- **Completion Rate:** `58.3%`
 - **Last Verified Date:** `2026-10-31`
