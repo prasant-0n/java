@@ -225,6 +225,7 @@
 - [x] `P10-C011` Professional Git workflows (semantic commits, branching, and hygiene): Deconstruction of the Git Object Model (blobs, trees, commits, tags as an immutable DAG), Trunk-Based Development with short-lived feature branches vs legacy GitFlow, Conventional Commits 1.0.0 specification driving automated Semantic Versioning (`MAJOR.MINOR.PATCH`) increments, interactive rebasing (`git rebase -i`) squashing WIP commits, Java `.gitignore` exclusion discipline (`target/`, `*.class`, `.idea/`), and pre-commit secret scanning hooks verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed). All 11 Phase 10 core concepts complete (100%)!
 - [x] `Phase 10 Capstone` DevOps Workflow Engine (`devops-workflow-engine`): Complete synthesis of all 11 Phase 10 concepts: reproducible build descriptor (`pom.xml`) with modern `--release 21` compilation and scoped dependencies (`compile`, `runtime`, `provided`, `test`), Maven Wrapper (`mvnw`) with SHA-256 archive digest validation, structured JSON logging with CRLF log forging defense and ThreadLocal MDC request context scoping, PCI-DSS compliant credit card PAN masking (BIN first 6 and last 4 preservation) and Bearer token / SSN scrubbing, programmatic JVM deadlock detection and thread dump inspection via `ThreadMXBean`, SpotBugs `EI_EXPOSE_REP` defensive array cloning, Conventional Commits 1.0.0 parsing with automated SemVer bump calculation, Git DAG Fast-Forward and 3-way merge resolution, and executable pre-commit secret scanning hook packaged into executable JAR (`devops-workflow-engine-1.0.0.jar`) with clean CLI simulation and 10-point assertion test suite verified with exit code 0 on OpenJDK 21 LTS.
 - [x] **Phase 10 Completion Gate:** Reconciled and marked `COMPLETE` (11/11 concepts complete + Capstone complete, 100%).
+- [x] `P11-C001` Testing pyramid (unit, component, integration, contract, and E2E tests): The five testing tiers and scopes, cost-speed-isolation trade-offs, Mike Cohn's Testing Pyramid vs the "Ice Cream Cone" and "Testing Hourglass" anti-patterns, Maven build pipeline segregation (Surefire `test` for fast unit tests vs Failsafe `integration-test`/`verify` for out-of-process container tests), Spring TestContext caching mechanics and `@DirtiesContext` build degradation risks, test concurrency isolation, and consumer-driven contract testing catching breaking schema drift verified on HotSpot 64-Bit VM with exit code 0 (5/5 test suites passed). Phase 11 begins!
 
 ---
 
@@ -236,7 +237,7 @@
 
 ## 5. Resumable Queue and Next Milestone
 
-- **Current Stop Point:** Completed Phase 10 (Professional Java Development Workflow) - all 11 concepts + Capstone Integration Project complete (100%). **135 Modules Complete (43.3%)! 11 Capstones Complete (Phases 00 through 10)!**
+- **Current Stop Point:** Completed `P11-C001` (Testing Pyramid: Unit, Component, Integration, Contract, and E2E Tests). **136 Modules Complete (43.6%)!** Phase 11 reaches 8.3% completion!
 - **Exact Next Milestone:**
-  - Author and verify `P11-C001`: *Testing Pyramid: Unit, Component, Integration, Contract, and E2E Tests* (`curriculum/phase-11-unit-testing-software-quality/001-testing-pyramid-and-scopes.md`).
   - Author and verify `P11-C002`: *JUnit 5 Architecture: Jupiter, Vintage, and Platform* (`curriculum/phase-11-unit-testing-software-quality/002-junit-5-architecture.md`).
+  - Author and verify `P11-C003`: *JUnit 5 Lifecycle: @Test, @BeforeEach, @AfterEach, @BeforeAll, @AfterAll* (`curriculum/phase-11-unit-testing-software-quality/003-junit-5-lifecycle-annotations.md`).
