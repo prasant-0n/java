@@ -238,5 +238,5 @@
 
 - **Current Stop Point:** Completed Phase 10 (Professional Java Development Workflow) - all 11 concepts + Capstone Integration Project complete (100%). **135 Modules Complete (43.3%)! 11 Capstones Complete (Phases 00 through 10)!**
 - **Exact Next Milestone:**
-  - Author and verify `P11-C001`: *Unit Testing Fundamentals: JUnit 5 Architecture, Test Lifecycle, Assertions, and Assumptions* (`curriculum/phase-11-unit-testing-and-software-quality/001-unit-testing-fundamentals.md`).
-  - Author and verify `P11-C002`: *Parameterized Tests, ValueSource, CsvSource, MethodSource, and ArgumentsProvider in JUnit 5* (`curriculum/phase-11-unit-testing-and-software-quality/002-parameterized-tests-data-driven.md`).
+  - Author and verify `P11-C001`: *Testing Pyramid: Unit, Component, Integration, Contract, and E2E Tests* (`curriculum/phase-11-unit-testing-software-quality/001-testing-pyramid-and-scopes.md`).
+  - Author and verify `P11-C002`: *JUnit 5 Architecture: Jupiter, Vintage, and Platform* (`curriculum/phase-11-unit-testing-software-quality/002-junit-5-architecture.md`).
