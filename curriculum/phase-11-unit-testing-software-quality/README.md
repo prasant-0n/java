@@ -40,7 +40,7 @@ By completing Phase 11, the learner will independently be able to:
 | `P11-C001` | Testing Pyramid: Unit, Component, Integration, Contract, and E2E Tests | [`001-testing-pyramid-and-scopes.md`](001-testing-pyramid-and-scopes.md) | Essential | COMPLETE |
 | `P11-C002` | JUnit 5 Architecture: Jupiter, Vintage, and Platform | [`002-junit-5-architecture.md`](002-junit-5-architecture.md) | Essential | COMPLETE |
 | `P11-C003` | JUnit 5 Lifecycle: @Test, @BeforeEach, @AfterEach, @BeforeAll, @AfterAll | [`003-junit-5-lifecycle-annotations.md`](003-junit-5-lifecycle-annotations.md) | Essential | COMPLETE |
-| `P11-C004` | Fluent Assertions with AssertJ: Collections, Exceptions, and Custom Assertions | [`004-assertj-fluent-assertions.md`](004-assertj-fluent-assertions.md) | Essential | NOT_STARTED |
+| `P11-C004` | Fluent Assertions with AssertJ: Collections, Exceptions, and Custom Assertions | [`004-assertj-fluent-assertions.md`](004-assertj-fluent-assertions.md) | Essential | COMPLETE |
 | `P11-C005` | Parameterized Tests in JUnit 5: @ValueSource, @CsvSource, @MethodSource | [`005-parameterized-tests.md`](005-parameterized-tests.md) | Essential | NOT_STARTED |
 | `P11-C006` | Testing Exceptions and Boundary Conditions Defensively | [`006-testing-exceptions-and-boundaries.md`](006-testing-exceptions-and-boundaries.md) | Essential | NOT_STARTED |
 | `P11-C007` | Test Isolation, Determinism, and Flaky Test Prevention | [`007-test-isolation-and-flakiness.md`](007-test-isolation-and-flakiness.md) | Essential | NOT_STARTED |
@@ -106,7 +106,7 @@ Before marking Phase 11 as complete:
 
 - **Phase Status:** `IN_PROGRESS`
 - **Total Planned Concepts:** `12`
-- **Completed Concepts:** `3`
+- **Completed Concepts:** `4`
 - **In Progress:** `0`
-- **Completion Rate:** `25.0%`
+- **Completion Rate:** `33.3%`
 - **Last Verified Date:** `2026-10-31`

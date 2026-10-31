@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 138 | 44.2% |
+| **Modules Complete (`COMPLETE`)** | 139 | 44.6% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 174 | 55.8% |
+| **Modules Not Started (`NOT_STARTED`)** | 173 | 55.4% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Phase 11 (Unit Testing and Software Quality)! Completed `P11-C003` (JUnit 5 Lifecycle: @Test, @BeforeEach, @AfterEach, @BeforeAll, @AfterAll). Phase 11 in progress (3/12 complete, 25.0%)! Total Curriculum: 138 Modules Complete (44.2%)!
-- **Status:** Phase 11 in progress (3/12 complete, 25.0%).
-- **Exact Next Milestone:** Author and verify `P11-C004`: *Fluent Assertions with AssertJ: Collections, Exceptions, and Custom Assertions* (`curriculum/phase-11-unit-testing-software-quality/004-assertj-fluent-assertions.md`).
-- **Following Milestone:** `P11-C005`: *Parameterized Tests in JUnit 5: @ValueSource, @CsvSource, @MethodSource*.
+- **Current Focus:** Phase 11 (Unit Testing and Software Quality)! Completed `P11-C004` (Fluent Assertions with AssertJ: Collections, Exceptions, and Custom Assertions). Phase 11 in progress (4/12 complete, 33.3%)! Total Curriculum: 139 Modules Complete (44.6%)!
+- **Status:** Phase 11 in progress (4/12 complete, 33.3%).
+- **Exact Next Milestone:** Author and verify `P11-C005`: *Parameterized Tests in JUnit 5: @ValueSource, @CsvSource, @MethodSource* (`curriculum/phase-11-unit-testing-software-quality/005-parameterized-tests.md`).
+- **Following Milestone:** `P11-C006`: *Testing Exceptions and Boundary Conditions Defensively*.
 
 ---
 
@@ -42,7 +42,7 @@
 | **Phase 08** | JVM Internals and Memory Management | 12 | 12 | 0 | COMPLETE |
 | **Phase 09** | Data Structures and Algorithms for Backend Developers | 13 | 13 | 0 | COMPLETE |
 | **Phase 10** | Professional Java Development Workflow | 11 | 11 | 0 | COMPLETE |
-| **Phase 11** | Unit Testing and Software Quality | 12 | 3 | 0 | IN_PROGRESS |
+| **Phase 11** | Unit Testing and Software Quality | 12 | 4 | 0 | IN_PROGRESS |
 | **Phase 12** | Concurrency and Multithreading | 17 | 0 | 0 | NOT_STARTED |
 | **Phase 13** | SQL and Relational Database Fundamentals | 16 | 0 | 0 | NOT_STARTED |
 | **Phase 14** | JDBC and Java Database Connectivity | 12 | 0 | 0 | NOT_STARTED |
@@ -56,4 +56,4 @@
 | **Phase 22** | Performance, Scalability, and Reliability | 8 | 0 | 0 | NOT_STARTED |
 | **Phase 23** | Professional Engineering Habits | 7 | 0 | 0 | NOT_STARTED |
 | **Supplemental** | Advanced Tracks & Specializations | 19 | 0 | 0 | NOT_STARTED |
-| **Total** | **All Modules** | **312** | **138** | **0** | **IN_PROGRESS** |
+| **Total** | **All Modules** | **312** | **139** | **0** | **IN_PROGRESS** |
