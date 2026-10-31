@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Pre-Commit Hook: Rejecting Sensitive Keywords and Hardcoded Secrets
+# Satisfies Phase 10 Capstone Requirement
+
+set -e
+
+echo "[HOOK] Running pre-commit security and hygiene verification..."
+
+# Search staged changes or input files for forbidden patterns
+FORBIDDEN_PATTERNS="AKIA[0-9A-Z]{16}|BEGIN RSA PRIVATE KEY|4[0-9]{3}[- ]?[0-9]{4}[- ]?[0-9]{4}[- ]?[0-9]{4}|password\s*=\s*['\"][^'\"]+['\"]"
+
+if git diff --cached 2>/dev/null | grep -E "$FORBIDDEN_PATTERNS" > /dev/null; then
+    echo "[SECURITY ALERT] Commit rejected! Found potential raw secret (AWS Key, RSA Private Key, or Credit Card PAN) in staged files."
+    exit 1
+fi
+
+echo "[HOOK] Security scan clean. Commit approved."
+exit 0

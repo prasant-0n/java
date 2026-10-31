@@ -1,0 +1,19 @@
+# Maven Build Artifacts
+target/
+out/
+*.class
+*.jar
+*.war
+
+# IDE Metadata
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# OS and Logs
+*.log
+.DS_Store
