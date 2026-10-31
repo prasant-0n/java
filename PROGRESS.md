@@ -10,9 +10,9 @@
 | **Total Planned Core Concept Modules** | 293 | - |
 | **Total Planned Supplemental Modules** | 19 | - |
 | **Total Planned Modules** | 312 | 100% |
-| **Modules Complete (`COMPLETE`)** | 140 | 44.9% |
+| **Modules Complete (`COMPLETE`)** | 141 | 45.2% |
 | **Modules in Progress (`IN_PROGRESS`)** | 0 | 0.0% |
-| **Modules Not Started (`NOT_STARTED`)** | 172 | 55.1% |
+| **Modules Not Started (`NOT_STARTED`)** | 171 | 54.8% |
 
 *Note: Initial library infrastructure, templates, and 24 phase READMEs are 100% established.*
 
@@ -20,10 +20,10 @@
 
 ## 2. Active Working Queue
 
-- **Current Focus:** Phase 11 (Unit Testing and Software Quality)! Completed `P11-C005` (Parameterized Tests in JUnit 5: @ValueSource, @CsvSource, @MethodSource). Phase 11 in progress (5/12 complete, 41.7%)! Total Curriculum: 140 Modules Complete (44.9%)!
-- **Status:** Phase 11 in progress (5/12 complete, 41.7%).
-- **Exact Next Milestone:** Author and verify `P11-C006`: *Testing Exceptions and Boundary Conditions Defensively* (`curriculum/phase-11-unit-testing-software-quality/006-testing-exceptions-and-boundaries.md`).
-- **Following Milestone:** `P11-C007`: *Test Isolation, Determinism, and Flaky Test Prevention*.
+- **Current Focus:** Phase 11 (Unit Testing and Software Quality)! Completed `P11-C006` (Testing Exceptions and Boundary Conditions Defensively). Phase 11 reaches HALFWAY milestone (6/12 complete, 50.0%)! Total Curriculum: 141 Modules Complete (45.2%)!
+- **Status:** Phase 11 in progress (6/12 complete, 50.0%).
+- **Exact Next Milestone:** Author and verify `P11-C007`: *Test Isolation, Determinism, and Flaky Test Prevention* (`curriculum/phase-11-unit-testing-software-quality/007-test-isolation-and-flakiness.md`).
+- **Following Milestone:** `P11-C008`: *Mockito Fundamentals: Mocks, Spies, Stubs, and when()/thenReturn()*.
 
 ---
 
@@ -42,7 +42,7 @@
 | **Phase 08** | JVM Internals and Memory Management | 12 | 12 | 0 | COMPLETE |
 | **Phase 09** | Data Structures and Algorithms for Backend Developers | 13 | 13 | 0 | COMPLETE |
 | **Phase 10** | Professional Java Development Workflow | 11 | 11 | 0 | COMPLETE |
-| **Phase 11** | Unit Testing and Software Quality | 12 | 5 | 0 | IN_PROGRESS |
+| **Phase 11** | Unit Testing and Software Quality | 12 | 6 | 0 | IN_PROGRESS |
 | **Phase 12** | Concurrency and Multithreading | 17 | 0 | 0 | NOT_STARTED |
 | **Phase 13** | SQL and Relational Database Fundamentals | 16 | 0 | 0 | NOT_STARTED |
 | **Phase 14** | JDBC and Java Database Connectivity | 12 | 0 | 0 | NOT_STARTED |
@@ -56,4 +56,4 @@
 | **Phase 22** | Performance, Scalability, and Reliability | 8 | 0 | 0 | NOT_STARTED |
 | **Phase 23** | Professional Engineering Habits | 7 | 0 | 0 | NOT_STARTED |
 | **Supplemental** | Advanced Tracks & Specializations | 19 | 0 | 0 | NOT_STARTED |
-| **Total** | **All Modules** | **312** | **140** | **0** | **IN_PROGRESS** |
+| **Total** | **All Modules** | **312** | **141** | **0** | **IN_PROGRESS** |
